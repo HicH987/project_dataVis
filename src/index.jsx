@@ -12,8 +12,9 @@ const root = ReactDOM.createRoot(rootEl);
 root.render(
   <React.StrictMode>
     <Header />
-    <Map />
-
-    <Form />
+    <div className="main-app">
+      <Map />
+      <Form />
+    </div>
   </React.StrictMode>
 );

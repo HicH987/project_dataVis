@@ -41,7 +41,6 @@ export default function Form() {
     <div className="form">
       <div className="input-radio">
         <fieldset className="field">
-          
           <legend>Specialties</legend>
           {/* Radio Button 1 */}
           <input
@@ -66,39 +65,39 @@ export default function Form() {
           {/* <br /> */}
         </fieldset>
       </div>
-      <div>
-        <LocalizationProvider dateAdapter={AdapterDayjs}>
-          <DatePicker
-            className="date-picker"
-            // disableFuture
-            name="date"
-            label="Responsive"
-            openTo="year"
-            minDate={year.min}
-            maxDate={year.max}
-            views={["year", "month", "day"]}
-            value={formData.date}
-            onChange={(date) =>
-              handleChange({
-                target: { value: date, name: "date" },
-              })
-            }
-            renderInput={(params) => <TextField {...params} />}
-          />
+      <LocalizationProvider className="date-picker" dateAdapter={AdapterDayjs}>
+        <DatePicker
+          // className="date-picker"
+          // disableFuture
+          name="date"
+          label="Responsive"
+          openTo="year"
+          minDate={year.min}
+          maxDate={year.max}
+          views={["year", "month", "day"]}
+          value={formData.date}
+          onChange={(date) =>
+            handleChange({
+              target: { value: date, name: "date" },
+            })
+          }
+          renderInput={(params) => <TextField {...params} sx={{ mb: 2 }}/>}
+        />
+      </LocalizationProvider>
+      <LocalizationProvider className="time-picker" dateAdapter={AdapterDayjs}>
+        <TimePicker
+          // className="time-picker"
+          ampm={false}
+          value={formData.time}
+          onChange={(date) =>
+            handleChange({
+              target: { value: date, name: "time" },
+            })
+          }
+          renderInput={(params) => <TextField {...params} sx={{ mb: 2 }} />}
+        />
+      </LocalizationProvider>
 
-          <TimePicker
-            className="time-picker"
-            ampm={false}
-            value={formData.time}
-            onChange={(date) =>
-              handleChange({
-                target: { value: date, name: "time" },
-              })
-            }
-            renderInput={(params) => <TextField {...params} />}
-          />
-        </LocalizationProvider>
-      </div>
       <button className="btn-submit" onClick={handleSubmit}>
         Submit
       </button>
