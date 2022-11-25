@@ -36,7 +36,6 @@ export default function Map() {
     var zoom = d3.zoom().scaleExtent([1, Infinity]).on("zoom", (event) => {
       svg.selectAll("path").attr("transform", event.transform);
     });
-    adjust
     svg.call(zoom);
   }, []);
 
