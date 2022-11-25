@@ -39,65 +39,65 @@ export default function Form() {
   //----------------------------------------------------------------
   return (
     <div className="form">
-      <div className="input-radio">
-        <fieldset className="field">
+      <div className="inputs">
+        <fieldset className="radio-field">
           <legend>Specialties</legend>
-          {/* Radio Button 1 */}
-          <input
-            id="IV"
-            type="radio"
-            name="specialty"
-            value="IV"
-            checked={formData.specialty === "IV"}
-            onChange={handleChange}
-          />
-          <label htmlFor="IV">IV</label>
-          {/* <br /> */}
-          <input
-            id="IL"
-            type="radio"
-            name="specialty"
-            value="IL"
-            checked={formData.specialty === "IL"}
-            onChange={handleChange}
-          />
-          <label htmlFor="IL">IL</label>
-          {/* <br /> */}
+          <div className="radio-input">
+            <input
+              id="IV"
+              type="radio"
+              name="specialty"
+              value="IV"
+              checked={formData.specialty === "IV"}
+              onChange={handleChange}
+            />
+            <label htmlFor="IV">IV</label>
+          </div>
+          <div className="radio-input">
+            <input
+              id="IL"
+              type="radio"
+              name="specialty"
+              value="IL"
+              checked={formData.specialty === "IL"}
+              onChange={handleChange}
+            />
+            <label htmlFor="IL">IL</label>
+          </div>
         </fieldset>
-      </div>
-      <LocalizationProvider className="date-picker" dateAdapter={AdapterDayjs}>
-        <DatePicker
-          // className="date-picker"
-          // disableFuture
-          name="date"
-          label="Responsive"
-          openTo="year"
-          minDate={year.min}
-          maxDate={year.max}
-          views={["year", "month", "day"]}
-          value={formData.date}
-          onChange={(date) =>
-            handleChange({
-              target: { value: date, name: "date" },
-            })
-          }
-          renderInput={(params) => <TextField {...params} sx={{ mb: 2 }}/>}
-        />
-      </LocalizationProvider>
-      <LocalizationProvider className="time-picker" dateAdapter={AdapterDayjs}>
-        <TimePicker
-          // className="time-picker"
-          ampm={false}
-          value={formData.time}
-          onChange={(date) =>
-            handleChange({
-              target: { value: date, name: "time" },
-            })
-          }
-          renderInput={(params) => <TextField {...params} sx={{ mb: 2 }} />}
-        />
-      </LocalizationProvider>
 
+        <LocalizationProvider dateAdapter={AdapterDayjs}>
+          <DatePicker
+            name="date"
+            label="Date"
+            openTo="year"
+            minDate={year.min}
+            maxDate={year.max}
+            views={["year", "month", "day"]}
+            value={formData.date}
+            onChange={(date) =>
+              handleChange({
+                target: { value: date, name: "date" },
+              })
+            }
+            renderInput={(params) => <TextField {...params} sx={{}} />}
+          />
+        </LocalizationProvider>
+
+        <LocalizationProvider dateAdapter={AdapterDayjs}>
+          <TimePicker
+            label="Time"
+            ampm={false}
+            value={formData.time}
+            onChange={(date) =>
+              handleChange({
+                target: { value: date, name: "time" },
+              })
+            }
+            renderInput={(params) => <TextField {...params} sx={{}} />}
+          />
+        </LocalizationProvider>
+      </div>
       <button className="btn-submit" onClick={handleSubmit}>
         Submit
       </button>
