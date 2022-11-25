@@ -1,0 +1,92 @@
+[   
+    {
+      "module": "THJ",
+      "type": "TD",
+      "enseignant": "Dahmani",
+      "jour": "dimanche",
+      "creneau": "8h-9h30",
+      "salle": "118",
+      "niveau": "M2",
+      "spécialité": "MIV"
+    },
+    {
+      "module": "DataVis",
+      "type": "Cours",
+      "enseignant": "Larabi",
+      "jour": "dimanche",
+      "creneau": "9h40-11h10",
+      "salle": "135D",
+      "niveau": "M2",
+      "spécialité": "MIV"
+    },
+    {
+      "module": "SEM",
+      "type": "Cours",
+      "enseignant": "Ourahmoun",
+      "jour": "dimanche",
+      "creneau": "11h20-12h50",
+      "salle": "117D",
+      "niveau": "M2",
+      "spécialité": "MIV"
+    },
+    {
+      "module": "SEM",
+      "type": "TP",
+      "enseignant": "Ourahmoun",
+      "jour": "dimanche",
+      "creneau": "13H-14H30",
+      "salle": "C4",
+      "niveau": "M2",
+      "spécialité": "MIV"
+    },
+    {
+      "module": "DatavVis",
+      "type": "TP",
+      "enseignant": "",
+      "jour": "dimanche",
+      "creneau": "14h40-16h10",
+      "salle": "130",
+      "niveau": "M2",
+      "spécialité": "MIV"
+    },
+    {
+      "module": "ProgRes",
+      "type": "Cours",
+      "enseignant": "Neggar",
+      "jour": "Lundi",
+      "creneau": "8h-9h30",
+      "salle": "SC",
+      "niveau": "M2",
+      "spécialité": "MIV"
+    },
+    {
+      "module": "Atelier",
+      "type": "Cours",
+      "enseignant": "Larabi",
+      "jour": "Lundi",
+      "creneau": "9h40-11h10",
+      "salle": "C5",
+      "niveau": "M2",
+      "spécialité": "MIV"
+    },
+    {
+      "module": "SI",
+      "type": "TP",
+      "enseignant": "Dahmane",
+      "jour": "Lundi",
+      "creneau": "11h20-12h50",
+      "salle": "C4",
+      "niveau": "M2",
+      "spécialité": "MIV"
+    },
+    {
+      "module": "GP",
+      "type": "Cours",
+      "enseignant": "",
+      "jour": "Lundi",
+      "creneau": "13H-14H30",
+      "salle": "103D",
+      "niveau": "M2",
+      "spécialité": "MIV"
+    }
+   ]

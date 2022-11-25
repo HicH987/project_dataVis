@@ -1,0 +1,32 @@
+{
+  "name": "react-cours-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/material": "^5.10.15",
+    "@mui/x-date-pickers": "^5.0.9",
+    "axios": "^0.27.2",
+    "d3": "^7.6.1",
+    "dayjs": "^1.11.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "sass": "^1.54.3",
+    "vite": "^3.0.0"
+  }
+}

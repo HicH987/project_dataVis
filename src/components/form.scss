@@ -1,0 +1,13 @@
+.form{
+  border: 1px #000 solid;
+}
+
+.field{
+  width:110px
+}
+.field > * {
+  display:inline;
+}
+input[type="radio"]{
+  margin: 0 10px 0 10px;
+}
