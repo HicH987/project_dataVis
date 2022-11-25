@@ -1,13 +1,26 @@
+import "./map.scss";
 import * as d3 from "d3";
+
 import React, { useRef, useEffect } from "react";
 import { useMapTools } from "../hooks/useMapTools";
 
-const width = 600;
-const height = 600;
+const convertToNum = (listStr) => {
+  const w = parseFloat(listStr[0]);
+  const h = parseFloat(listStr[1]);
+  return [w, h];
+};
+const initCanvasDim = (width, height) => {
+  if (typeof width === "string") var [w, h] = convertToNum([width, height]);
+
+  margin = { top: 10, right: 20, bottom: 10, left: 20 };
+  innerWidth = w - (margin.left + margin.right);
+  innerHeight = h - (margin.bottom + margin.top);
+};
+
 // G groupe (of main SVG) dimensions
-const margin = { top: 10, right: 30, bottom: 10, left: 30 };
-const innerWidth = width - (margin.left + margin.right);
-const innerHeight = height - (margin.bottom + margin.top);
+let margin;
+let innerWidth;
+let innerHeight;
 
 export default function Map() {
   const { mapData } = useMapTools("../../data/elhamma.geojson");
@@ -16,23 +29,19 @@ export default function Map() {
   const ref = useRef();
 
   useEffect(() => {
-    const svg = d3
-      .select(ref.current)
-      .attr("width", width)
-      .attr("height", height)
-      .style("border", "2px solid black")
-      .style("margin-right", "10px");
+    const svg = d3.select(ref.current).attr("class", "main-svg");
 
-    var zoom = d3.zoom().on("zoom", (event) => {
+    initCanvasDim(svg.style("width"), svg.style("height"));
+
+    var zoom = d3.zoom().scaleExtent([1, Infinity]).on("zoom", (event) => {
       svg.selectAll("path").attr("transform", event.transform);
     });
-
+    adjust
     svg.call(zoom);
   }, []);
 
   useEffect(() => {
     draw();
-    // }, [mapData]);
   }, [mapData]);
 
   const draw = () => {
@@ -88,12 +97,10 @@ export default function Map() {
 */
     }
   };
+
   return (
     <div className="map">
       <svg ref={ref}></svg>
     </div>
   );
-  // } else {
-  //   return <h1>Loading...</h1>;
-  // }
 }
