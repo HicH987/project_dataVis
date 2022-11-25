@@ -3,7 +3,7 @@ import React, { useRef, useEffect } from "react";
 import { useMapTools } from "../hooks/useMapTools";
 
 const width = 600;
-const height = 600; 
+const height = 600;
 // G groupe (of main SVG) dimensions
 const margin = { top: 10, right: 30, bottom: 10, left: 30 };
 const innerWidth = width - (margin.left + margin.right);
@@ -22,11 +22,17 @@ export default function Map() {
       .attr("height", height)
       .style("border", "2px solid black")
       .style("margin-right", "10px");
+
+    var zoom = d3.zoom().on("zoom", (event) => {
+      svg.selectAll("path").attr("transform", event.transform);
+    });
+
+    svg.call(zoom);
   }, []);
- 
+
   useEffect(() => {
     draw();
-  // }, [mapData]); 
+    // }, [mapData]);
   }, [mapData]);
 
   const draw = () => {
@@ -60,11 +66,11 @@ export default function Map() {
         })
         .style("stroke-width", "1")
         .style("stroke", "black");
-
-      g.append("g")
+      /*
+        g.append("g")
         .selectAll("text")
         .data(mapData.data.features)
-        .enter() 
+        .enter()
         .append("text")
         .text((d) => {
           if (d.properties.name != null) return d.properties.name;
@@ -78,9 +84,9 @@ export default function Map() {
         .style(
           "text-shadow",
           "0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black"
-        );
+          );
+*/
     }
-
   };
   return (
     <div className="map">
