@@ -6,28 +6,36 @@ export const zoomed = (event) => {
 };
 
 // -------------------BUTTON-HANDLERS---------------------------------
-export function btnZoomIn() {
+export function btnZoomIn(zoom) {
   d3.select("svg").transition().call(zoom.scaleBy, 2);
 }
 
-export function btnZoomOut() {
+export function btnZoomOut(zoom) {
   d3.select("svg").transition().call(zoom.scaleBy, 0.5);
 }
 
-export function btnResetZoom() {
+export function btnResetZoom(zoom) {
   d3.select("svg").transition().call(zoom.scaleTo, 1);
 }
 
-export function btnCenter() {
+export function btnCenter(zoom) {
   d3.select("svg")
     .transition()
     .call(zoom.translateTo, 0.5 * innerWidth, 0.5 * innerHeight);
 }
 
-export function btnLeft() {
+export function btnRight(zoom) {
   d3.select("svg").transition().call(zoom.translateBy, -50, 0);
 }
 
-export function btnRight() {
+export function btnLeft(zoom) {
   d3.select("svg").transition().call(zoom.translateBy, 50, 0);
+}
+
+export function btnDown(zoom) {
+  d3.select("svg").transition().call(zoom.translateBy, 0, -50);
+}
+
+export function btnUp(zoom) {
+  d3.select("svg").transition().call(zoom.translateBy, 0, 50);
 }

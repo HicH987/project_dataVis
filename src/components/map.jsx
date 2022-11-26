@@ -4,12 +4,20 @@ import React from "react";
 import { useRef, useEffect } from "react";
 import { useMapTools } from "../hooks/useMapTools";
 import * as handlers from "../handlers/mapHandler";
+import {
+  AiOutlineCaretDown,
+  AiOutlineCaretLeft,
+  AiOutlineCaretUp,
+  AiOutlineCaretRight,
+  AiOutlineMinus,
+  AiOutlinePlus,
+} from "react-icons/ai";
 
 // G groupe (of main SVG) dimensions
 let margin;
 let width, height;
 let innerWidth, innerHeight;
-
+let zoom;
 const convertToNum = (listStr) => {
   const w = parseFloat(listStr[0]);
   const h = parseFloat(listStr[1]);
@@ -25,17 +33,15 @@ const initCanvas = (ref) => {
   const svg = d3.select(ref.current).attr("class", "main-svg");
   [width, height] = convertToNum([svg.style("width"), svg.style("height")]);
   initCanvasDim(width, height);
-
-  svg.call(
-    d3
-      .zoom()
-      .scaleExtent([0.1, 10])
-      .translateExtent([
-        [0, 0],
-        [width, height],
-      ])
-      .on("zoom", handlers.zoomed)
-  );
+  zoom = d3
+    .zoom()
+    .scaleExtent([1, 10])
+    .translateExtent([
+      [0, 0],
+      [width, height],
+    ])
+    .on("zoom", handlers.zoomed);
+  svg.call(zoom);
 };
 const renderMap = (ref, mapData) => {
   const svg = d3.select(ref.current);
@@ -101,8 +107,26 @@ export default function Map() {
   return (
     <div className="map" id="wrapper">
       <svg ref={ref}></svg>
-
-      {/* <button onClick={panLeft}>panLeft</button> */}
+      <dir className="btns">
+        <button className="btn-plus" onClick={() => handlers.btnZoomIn(zoom)}>
+          <AiOutlinePlus />
+        </button>
+        <button className="btn-minus" onClick={() => handlers.btnZoomOut(zoom)}>
+          <AiOutlineMinus />
+        </button>
+        <button className="btn-left" onClick={() => handlers.btnLeft(zoom)}>
+          <AiOutlineCaretLeft />
+        </button>
+        <button className="btn-right" onClick={() => handlers.btnRight(zoom)}>
+          <AiOutlineCaretRight />
+        </button>
+        <button className="btn-up" onClick={() => handlers.btnUp(zoom)}>
+          <AiOutlineCaretUp />
+        </button>
+        <button className="btn-down" onClick={() => handlers.btnDown(zoom)}>
+          <AiOutlineCaretDown />
+        </button>
+      </dir>
     </div>
   );
 }
