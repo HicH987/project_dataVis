@@ -18,3 +18,15 @@ root.render(
     </div>
   </React.StrictMode>
 );
+
+import * as d3 from "d3";
+
+// d3.json("../data/schedule.json").then((json) => {
+//   console.log("schedule:\n",json);
+// });
+d3.json("../data/sch.json").then((json) => {
+  console.log("schedule:\n",json);
+
+  console.log(json.IV.M1.S1.Dim[0]);
+  // console.log(json.speciamot);
+});

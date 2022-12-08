@@ -7,6 +7,14 @@ import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import "./form.scss";
 
+const days = ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"];
+const output = {
+  spec: null,
+  day: null,
+  hour: null,
+  min: null,
+};
+
 export default function Form() {
   const year = {
     min: dayjs("2021-01-01"),
@@ -15,6 +23,7 @@ export default function Form() {
   //*---------------------STATES---------------------------------
   const [formData, setFormData] = React.useState({
     specialty: "IV",
+    lvl: "M1",
     date: dayjs(),
     time: dayjs(),
   });
@@ -32,9 +41,18 @@ export default function Form() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    console.log(formData.specialty);
-    console.log(formData.date.format("DD/MM/YYYY"));
-    console.log(formData.time.get("hour"), formData.time.get("minute"));
+    let idx_day = formData.date.get("day");
+
+    output.spec = formData.specialty;
+    output.day = days[idx_day];
+    output.hour = formData.time.get("hour");
+    output.min = formData.time.get("minute");
+
+    console.log(output.spec);
+    console.log(output.day);
+    console.log(output.hour + ":" + output.min);
+
+    // console.log(formData.date.format("DD/MM/YYYY"));
   }
   //----------------------------------------------------------------
   return (
@@ -63,6 +81,31 @@ export default function Form() {
               onChange={handleChange}
             />
             <label htmlFor="IL">IL</label>
+          </div>
+        </fieldset>
+        <fieldset className="radio-field">
+          <legend>Level</legend>
+          <div className="radio-input">
+            <input
+              id="M1"
+              type="radio"
+              name="lvl"
+              value="M1"
+              checked={formData.lvl === "M1"}
+              onChange={handleChange}
+            />
+            <label htmlFor="M1">M1</label>
+          </div>
+          <div className="radio-input">
+            <input
+              id="M2"
+              type="radio"
+              name="lvl"
+              value="M2"
+              checked={formData.lvl === "M2"}
+              onChange={handleChange}
+            />
+            <label htmlFor="M2">M2</label>
           </div>
         </fieldset>
 
