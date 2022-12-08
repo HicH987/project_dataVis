@@ -7,53 +7,32 @@ import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import "./form.scss";
 
-const days = ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"];
-const output = {
-  spec: null,
-  day: null,
-  hour: null,
-  min: null,
+const year = {
+  min: dayjs("2021-01-01"),
+  max: dayjs("2022-12-31"),
 };
 
-export default function Form() {
-  const year = {
-    min: dayjs("2021-01-01"),
-    max: dayjs("2022-12-31"),
-  };
+export default function Form({ passData }) {
   //*---------------------STATES---------------------------------
-  const [formData, setFormData] = React.useState({
+  const [data, setData] = React.useState({
     specialty: "IV",
     lvl: "M1",
     date: dayjs(),
     time: dayjs(),
   });
+
   //*---------------------FUNCTIONS---------------------------------
   function handleChange(event) {
     const { name, value, type, checked } = event.target;
 
-    setFormData((prevFormData) => {
+    setData((prevData) => {
       return {
-        ...prevFormData,
+        ...prevData,
         [name]: type === "checkbox" ? checked : value,
       };
     });
   }
 
-  function handleSubmit(event) {
-    event.preventDefault();
-    let idx_day = formData.date.get("day");
-
-    output.spec = formData.specialty;
-    output.day = days[idx_day];
-    output.hour = formData.time.get("hour");
-    output.min = formData.time.get("minute");
-
-    console.log(output.spec);
-    console.log(output.day);
-    console.log(output.hour + ":" + output.min);
-
-    // console.log(formData.date.format("DD/MM/YYYY"));
-  }
   //----------------------------------------------------------------
   return (
     <div className="form">
@@ -66,7 +45,7 @@ export default function Form() {
               type="radio"
               name="specialty"
               value="IV"
-              checked={formData.specialty === "IV"}
+              checked={data.specialty === "IV"}
               onChange={handleChange}
             />
             <label htmlFor="IV">IV</label>
@@ -77,7 +56,7 @@ export default function Form() {
               type="radio"
               name="specialty"
               value="IL"
-              checked={formData.specialty === "IL"}
+              checked={data.specialty === "IL"}
               onChange={handleChange}
             />
             <label htmlFor="IL">IL</label>
@@ -91,7 +70,7 @@ export default function Form() {
               type="radio"
               name="lvl"
               value="M1"
-              checked={formData.lvl === "M1"}
+              checked={data.lvl === "M1"}
               onChange={handleChange}
             />
             <label htmlFor="M1">M1</label>
@@ -102,7 +81,7 @@ export default function Form() {
               type="radio"
               name="lvl"
               value="M2"
-              checked={formData.lvl === "M2"}
+              checked={data.lvl === "M2"}
               onChange={handleChange}
             />
             <label htmlFor="M2">M2</label>
@@ -117,7 +96,7 @@ export default function Form() {
             minDate={year.min}
             maxDate={year.max}
             views={["year", "month", "day"]}
-            value={formData.date}
+            value={data.date}
             onChange={(date) =>
               handleChange({
                 target: { value: date, name: "date" },
@@ -131,7 +110,7 @@ export default function Form() {
           <TimePicker
             label="Time"
             ampm={false}
-            value={formData.time}
+            value={data.time}
             onChange={(date) =>
               handleChange({
                 target: { value: date, name: "time" },
@@ -141,7 +120,7 @@ export default function Form() {
           />
         </LocalizationProvider>
       </div>
-      <button className="btn-submit" onClick={handleSubmit}>
+      <button className="btn-submit" onClick={() => passData(data)}>
         Submit
       </button>
     </div>
