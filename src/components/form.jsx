@@ -1,39 +1,14 @@
 import React from "react";
 import dayjs from "dayjs";
+import Picker from "./date-picker/picker";
 import { IoToday, IoTime } from "react-icons/io5";
 import "./form.scss";
-import { useRef } from "react";
-import Picker from "./picker";
-
-const days = ["Dim", "Lun", "Mar", "Mer", "Jeu", "Sam"];
-const times = ["08:00", "09:40", "11:20", "13:00", "14:40", "16:10"];
-const year = {
-  min: dayjs("2021-01-01"),
-  max: dayjs("2022-12-31"),
-};
-
-const closeOpenMenu = (e, menu, show, setShow) => {
-  if (menu.current && show && !menu.current.contains(e.target)) {
-    setShow(false);
-  }
-};
 
 export default function Form({ passData }) {
-  const dayMenu = useRef(null);
-  const [day, setDay] = React.useState("Dim");
-  const [showDay, setShowDayPicker] = React.useState(false);
-  document.addEventListener("mousedown", (e) =>
-    closeOpenMenu(e, dayMenu, showDay, setShowDayPicker)
-  );
-
-  const timeMenu = useRef(null);
-  const [time, setTime] = React.useState("08:00");
-  const [showTime, setShowTimePicker] = React.useState(false);
-  document.addEventListener("mousedown", (e) =>
-    closeOpenMenu(e, timeMenu, showTime, setShowTimePicker)
-  );
-
   //*---------------------STATES---------------------------------
+  const [day, setDay] = React.useState("Dim");
+  const [time, setTime] = React.useState("08:00");
+
   const [data, setData] = React.useState({
     specialty: "IV",
     lvl: "M1",
@@ -134,93 +109,22 @@ export default function Form({ passData }) {
           </div>
         </fieldset>
 
-        <div className="day">
-          {showDay ? (
-            <div className="day-picker" ref={dayMenu}>
-              <h3>Weekdays</h3>
-              <ul className="days-lst">
-                {days.map((d) => (
-                  <li
-                    key={d}
-                    style={
-                      d === day
-                        ? { color: "#fff", backgroundColor: "#1565c0" }
-                        : {}
-                    }
-                    onClick={() => {
-                      setShowDayPicker(false);
-                      return setDay(d);
-                    }}
-                  >
-                    {d}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ) : (
-            <></>
-          )}
-          <fieldset className="radio-field day-set">
-            <legend>Day</legend>
-            <div className="day-fieldset">
-              <span className="day-label">{day}</span>
-              <button
-                className="day-btn"
-                onClick={() => setShowDayPicker(true)}
-              >
-                <IoToday />
-              </button>
-            </div>
-          </fieldset>
-        </div>
-
-        <div className="day time">
-          {showTime ? (
-            <div className="day-picker" ref={timeMenu}>
-              <h3>Time</h3>
-              <ul className="days-lst">
-                {times.map((t) => (
-                  <li
-                    key={t}
-                    style={
-                      t === time
-                        ? { color: "#fff", backgroundColor: "#1565c0" }
-                        : {}
-                    }
-                    onClick={() => {
-                      setShowTimePicker(false);
-                      return setTime(t);
-                    }}
-                  >
-                    {t}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ) : (
-            <></>
-          )}
-          <fieldset className="radio-field day-set">
-            <legend>Time</legend>
-            <div className="day-fieldset">
-              <span className="day-label">{time}</span>
-              <button
-                className="day-btn"
-                onClick={() => setShowTimePicker(true)}
-              >
-                <IoTime />
-              </button>
-            </div>
-          </fieldset>
-        </div>
-      {/* <Picker
-        dates={days}
-        date={day}
-        setDate={setDay}
-        label={"qsdqsd"}
-        title={"qsdqsd"}
-        iconBtn={<IoTime />}
-        /> */}
+        <Picker
+          type={"days"}
+          date={day}
+          setDate={setDay}
+          fieldsetLabel={"Day"}
+          title={"Weekdays"}
+          iconBtn={<IoToday />}
+        />
+        <Picker
+          type={"times"}
+          date={time}
+          setDate={setTime}
+          fieldsetLabel={"Time"}
+          title={"Day's Times"}
+          iconBtn={<IoTime />}
+        />
         </div>
       <button className="btn-submit" onClick={() => passData(data)}>
         Submit

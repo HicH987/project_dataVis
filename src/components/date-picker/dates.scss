@@ -1,0 +1,21 @@
+.date-el {
+  border-radius: 15px;
+  padding: 5px;
+  display: inline;
+  user-select: none;
+  cursor: pointer;
+}
+
+.dates-el {
+  position: relative;
+  right: 15px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 50px);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+}
+
+.dates-el li:hover {
+  background-color: #f6f6f6;
+}
