@@ -1,6 +1,20 @@
 import React from "react";
 import "./dates.scss";
 
+export default function Dates({ date, setDate, dates, setShowPicker }) {
+  const datesEl = dates.map((d) => (
+    <Date
+      key={d}
+      d={d}
+      date={date}
+      setDate={setDate}
+      setShowPicker={setShowPicker}
+    />
+  ));
+  return <ul className="dates-el">{datesEl}</ul>;
+}
+
+
 const Date = ({ d, date, setDate, setShowPicker }) => (
   <li
     className="date-el"
@@ -15,15 +29,3 @@ const Date = ({ d, date, setDate, setShowPicker }) => (
   </li>
 );
 
-export default function Dates({ date, setDate, dates, setShowPicker }) {
-  const datesEl = dates.map((d) => (
-    <Date
-      key={d}
-      d={d}
-      date={date}
-      setDate={setDate}
-      setShowPicker={setShowPicker}
-    />
-  ));
-  return <ul className="dates-el">{datesEl}</ul>;
-}

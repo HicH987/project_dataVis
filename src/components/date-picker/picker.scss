@@ -21,11 +21,11 @@
   padding-inline: 5px;
 }
 
-.day {
+.picker {
   position: relative;
 }
 
-.day-picker {
+.date-picker {
   border-radius: 3px;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   width: 300px;
@@ -40,16 +40,16 @@
   text-align: center;
 }
 
-.day-fieldset {
-  display: flex;
-  justify-content: space-between;
+.date-fieldset {
+// styling "date-fieldset" don't work here
+// but it work in '''form.scss'''
 }
 
-.day-label {
+.date-label {
   position: relative;
   top: 5px;
 }
-.day-btn {
+.date-btn {
   position: relative;
   bottom: 5px;
   left: 10px;
@@ -66,6 +66,6 @@
   border-radius: 25px;
   cursor: pointer;
 }
-.day-btn:hover {
+.date-btn:hover {
   background-color: #f6f6f6;
 }

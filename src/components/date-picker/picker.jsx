@@ -22,12 +22,11 @@ export default function Picker(props) {
 
   //----------------------------------------------------------------
   return (
-    <div className="day">
+    <div className="picker">
       {showDate ? (
-        <div className="day-picker" ref={menu}>
+        <div className="date-picker" ref={menu}>
           <h3>{props.title}</h3>
           <Dates
-            className="days-lst"
             date={props.date}
             setDate={props.setDate}
             dates={typeDate[props.type]}
@@ -40,9 +39,9 @@ export default function Picker(props) {
 
       <fieldset className="radio-field">
         <legend>{props.fieldsetLabel}</legend>
-        <div className="day-fieldset">
-          <span className="day-label">{props.date}</span>
-          <button className="day-btn" onClick={() => setShowPicker(true)}>
+        <div className="date-fieldset">
+          <span className="date-label">{props.date}</span>
+          <button className="date-btn" onClick={() => setShowPicker(true)}>
             {props.iconBtn}
           </button>
         </div>

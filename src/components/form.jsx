@@ -1,20 +1,17 @@
 import React from "react";
-import dayjs from "dayjs";
+
 import Picker from "./date-picker/picker";
 import { IoToday, IoTime } from "react-icons/io5";
 import "./form.scss";
 
 export default function Form({ passData }) {
   //*---------------------STATES---------------------------------
-  const [day, setDay] = React.useState("Dim");
-  const [time, setTime] = React.useState("08:00");
-
   const [data, setData] = React.useState({
     specialty: "IV",
     lvl: "M1",
     semester: "S1",
-    date: dayjs(),
-    time: dayjs(),
+    day: "Dim",
+    time: "08:00",
   });
 
   //*---------------------FUNCTIONS---------------------------------
@@ -29,6 +26,24 @@ export default function Form({ passData }) {
     });
   }
 
+  // React.useEffect(() => {console.log(data.time); }, [data.time]);
+
+  function setDay(day) {
+    setData((prevData) => {
+      return {
+        ...prevData,
+        day: day,
+      };
+    });
+  }
+  function setTime(time) {
+    setData((prevData) => {
+      return {
+        ...prevData,
+        time: time,
+      };
+    });
+  }
   //----------------------------------------------------------------
   return (
     <div className="form">
@@ -111,7 +126,7 @@ export default function Form({ passData }) {
 
         <Picker
           type={"days"}
-          date={day}
+          date={data.day}
           setDate={setDay}
           fieldsetLabel={"Day"}
           title={"Weekdays"}
@@ -119,13 +134,13 @@ export default function Form({ passData }) {
         />
         <Picker
           type={"times"}
-          date={time}
+          date={data.time}
           setDate={setTime}
           fieldsetLabel={"Time"}
           title={"Day's Times"}
           iconBtn={<IoTime />}
         />
-        </div>
+      </div>
       <button className="btn-submit" onClick={() => passData(data)}>
         Submit
       </button>

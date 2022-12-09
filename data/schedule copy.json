@@ -1,0 +1,1699 @@
+{
+  "IV": {
+    "M1": {
+      "S1": {
+        "Sam": {},
+        "Dim": {
+          "08:00": {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "08:00 - 09:30",
+                "Subject": "Anglais",
+                "bat": "LABO LANG",
+                "loc": "10",
+                "prof": "BOUDEFASSA"
+              },
+              "G2": {
+                "Time": "08:00 - 09:30",
+                "Subject": "ABDD",
+                "bat": "BLOC C",
+                "loc": "TP.C3A",
+                "prof": "KESSI"
+              }
+            }
+          },
+          "09:40": {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "09:40 - 11:10",
+                "Subject": "Anglais",
+                "bat": "LABO LANG",
+                "loc": "10",
+                "prof": "BOUDEFASSA"
+              }
+            }
+          },
+          "11:20": {
+            "cours": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Resolution de problems",
+              "bat": "BLOC D",
+              "loc": "D6",
+              "prof": "LARABI"
+            },
+            "groups": {}
+          },
+          "13:00": {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "08:00 - 09:30",
+                "Subject": "Anglais",
+                "bat": "LABO LANG",
+                "loc": "10",
+                "prof": "BOUDEFASSA"
+              },
+              "G2": {
+                "Time": "08:00 - 09:30",
+                "Subject": "ABDD",
+                "bat": "BLOC C",
+                "loc": "TP.C3A",
+                "prof": "KESSI"
+              }
+            }
+          },
+          "14:40": {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "08:00 - 09:30",
+                "Subject": "Anglais",
+                "bat": "LABO LANG",
+                "loc": "10",
+                "prof": "BOUDEFASSA"
+              },
+              "G2": {
+                "Time": "08:00 - 09:30",
+                "Subject": "ABDD",
+                "bat": "BLOC C",
+                "loc": "TP.C3A",
+                "prof": "KESSI"
+              }
+            }
+          },
+          "16:10": {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "08:00 - 09:30",
+                "Subject": "Anglais",
+                "bat": "LABO LANG",
+                "loc": "10",
+                "prof": "BOUDEFASSA"
+              },
+              "G2": {
+                "Time": "08:00 - 09:30",
+                "Subject": "ABDD",
+                "bat": "BLOC C",
+                "loc": "TP.C3A",
+                "prof": "KESSI"
+              }
+            }
+          }
+        },
+        "Lun": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "08:00 - 09:30",
+                "Subject": "Syst",
+                "bat": "BLOC C",
+                "loc": "TP.C4",
+                "prof": "BENCHAIBA"
+              },
+              "G2": {
+                "Time": "08:00 - 09:30",
+                "Subject": "TAI",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "SETITRA"
+              }
+            }
+          },
+          {
+            "cours": {
+              "Time": "09:40 - 11:10",
+              "Subject": "ABDD",
+              "bat": "BLOC D",
+              "loc": "D6",
+              "prof": "DJIROUNE"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "11:20 - 12:50",
+                "Subject": "TAI",
+                "bat": "300-400",
+                "loc": "405",
+                "prof": "SETITRA"
+              },
+              "G2": {
+                "Time": "11:20 - 12:50",
+                "Subject": "Syst",
+                "bat": "100-200",
+                "loc": "166",
+                "prof": "BENCHAIBA"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "13:00 - 14:30",
+                "Subject": "TAI",
+                "bat": "BLOC C",
+                "loc": "TP.C8",
+                "prof": "SETITRA"
+              },
+              "G2": {
+                "Time": "13:00 - 14:30",
+                "Subject": "Syst",
+                "bat": "Faculté Informatique",
+                "loc": "TP127",
+                "prof": "BENCHAIBA"
+              }
+            }
+          }
+        ],
+        "Mar": [
+          {
+            "cours": {
+              "Time": "08:00 - 09:30",
+              "Subject": "Syst",
+              "bat": "BLOC E",
+              "loc": "E6",
+              "prof": "BENCHAIBA"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Multimedia",
+              "bat": "BLOC E",
+              "loc": "E6",
+              "prof": "LARABI"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "11:20 - 12:50",
+                "Subject": "Syst",
+                "bat": "100-200",
+                "loc": "249",
+                "prof": "BENCHAIBA"
+              },
+              "G2": {
+                "Time": "11:20 - 12:50",
+                "Subject": "Resolution de problems",
+                "bat": "100-200",
+                "loc": "TP122",
+                "prof": "SEBAI"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "13:00 - 14:30",
+                "Subject": "ABDD",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "KESSI"
+              },
+              "G2": {
+                "Time": "13:00 - 14:30",
+                "Subject": "Algo",
+                "bat": "BLOC C",
+                "loc": "TP.C4",
+                "prof": "MESSAOUDI"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "14:40 - 16:10",
+                "Subject": "Algo",
+                "bat": "BLOC C",
+                "loc": "TP.C4",
+                "prof": "MESSAOUDI"
+              }
+            }
+          }
+        ],
+        "Mer": [
+          {
+            "cours": {
+              "Time": "08:00 - 09:30",
+              "Subject": "Algo",
+              "bat": "BLOC R",
+              "loc": "R4",
+              "prof": "DRIAS"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "09:40 - 11:10",
+                "Subject": "Algo",
+                "bat": "300-400",
+                "loc": "406",
+                "prof": "MESSAOUDI"
+              },
+              "G2": {
+                "Time": "09:40 - 11:10",
+                "Subject": "Multimedia",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "SEBAI"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "11:20 - 12:50",
+                "Subject": "Multimedia",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "SEBAI"
+              },
+              "G2": {
+                "Time": "11:20 - 12:50",
+                "Subject": "Algo",
+                "bat": "300-400",
+                "loc": "387",
+                "prof": "MESSAOUDI"
+              }
+            }
+          }
+        ],
+        "Jeu": []
+      },
+      "S2": {
+        "Sam": [],
+        "Dim": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "08:00 - 09:30",
+                "Subject": "Computer Vision",
+                "bat": "BLOC C",
+                "loc": "TP.C4",
+                "prof": "LARABI"
+              },
+              "G2": {
+                "Time": "08:00 - 09:30",
+                "Subject": "IARN",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "SETITRA"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "09:40 - 11:10",
+                "Subject": "Computer Vision",
+                "bat": "BLOC C",
+                "loc": "TP.C4",
+                "prof": "LARABI"
+              }
+            }
+          },
+          {
+            "cours": {
+              "Time": "11:20 - 12:50",
+              "Subject": "Computer Vision",
+              "bat": "BLOC D",
+              "loc": "D6",
+              "prof": "LARABI"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {
+              "Time": "13:00 - 14:30",
+              "Subject": "IARN",
+              "bat": "BLOC D",
+              "loc": "D6",
+              "prof": "SETITRA"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "14:40 - 16:10",
+                "Subject": "IARN",
+                "bat": "Faculté Informatique",
+                "loc": "TP129",
+                "prof": "SETITRA"
+              },
+              "G2": {
+                "Time": "14:40 - 16:10",
+                "Subject": "Analyse de donnees",
+                "bat": "BLOC D",
+                "loc": "D5",
+                "prof": "PROF AD"
+              }
+            }
+          }
+        ],
+        "Lun": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "08:00 - 09:30",
+                "Subject": "Analyse de donnees",
+                "bat": "BLOC C",
+                "loc": "TP.C4",
+                "prof": "PROF AD"
+              },
+              "G2": {
+                "Time": "08:00 - 09:30",
+                "Subject": "Fouille de donnees",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "PROF FD"
+              }
+            }
+          },
+          {
+            "cours": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Analyse de donnees",
+              "bat": "BLOC D",
+              "loc": "D6",
+              "prof": "PROF AD"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "11:20 - 12:50",
+                "Subject": "Compilation",
+                "bat": "300-400",
+                "loc": "405",
+                "prof": "PROF COMPIL"
+              },
+              "G2": {
+                "Time": "11:20 - 12:50",
+                "Subject": "JEUX VIDEO",
+                "bat": "BLOC C",
+                "loc": "TP.C3A",
+                "prof": "PROF Jeu Video"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "13:00 - 14:30",
+                "Subject": "JEUX VIDEO",
+                "bat": "BLOC C",
+                "loc": "TP.C8",
+                "prof": "PROF Jeu Video"
+              },
+              "G2": {
+                "Time": "13:00 - 14:30",
+                "Subject": "Compilation",
+                "bat": "Faculté Informatique",
+                "loc": "TP127",
+                "prof": "PROF COMPIL"
+              }
+            }
+          }
+        ],
+        "Mar": [
+          {
+            "cours": {
+              "Time": "08:00 - 09:30",
+              "Subject": "Compilation",
+              "bat": "BLOC E",
+              "loc": "E6",
+              "prof": "PROF COMPIL"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {
+              "Time": "09:40 - 11:10",
+              "Subject": "JEUX VIDEO",
+              "bat": "BLOC E",
+              "loc": "E6",
+              "prof": "PROF Jeu Video"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "11:20 - 12:50",
+                "Subject": "Fouille de donnees",
+                "bat": "Faculté Informatique",
+                "loc": "TP122",
+                "prof": "PROF FD"
+              },
+              "G2": {
+                "Time": "11:20 - 12:50",
+                "Subject": "Compilation",
+                "bat": "100-200",
+                "loc": "249",
+                "prof": "PROF COMPIL"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "13:00 - 14:30",
+                "Subject": "Compilation",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "PROF COMPIL"
+              },
+              "G2": {
+                "Time": "13:00 - 14:30",
+                "Subject": "JEUX VIDEO",
+                "bat": "BLOC C",
+                "loc": "TP.C4",
+                "prof": "PROF Jeu Video"
+              }
+            }
+          }
+        ],
+        "Mer": [
+          {
+            "cours": {
+              "Time": "08:00 - 09:30",
+              "Subject": "Fouille de donnees",
+              "bat": "BLOC R",
+              "loc": "R4",
+              "prof": "PROF FD"
+            },
+            "groups": {}
+          }
+        ],
+        "Jeu": []
+      }
+    },
+    "M2": {
+      "S1": {
+        "Sam": [],
+        "Dim": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "08:00 - 09:30",
+                "Subject": "System d'Exploitation Mobile",
+                "bat": "100-200",
+                "loc": "162",
+                "prof": "OURAHMOUNE"
+              },
+              "G2": {
+                "Time": "08:00 - 09:30",
+                "Subject": "TH JEU",
+                "bat": "100-200",
+                "loc": "118",
+                "prof": "DAHMANI"
+              }
+            }
+          },
+          {
+            "cours": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Visualisation de DonnÃ©es",
+              "bat": "100-200",
+              "loc": "135D",
+              "prof": "LARABI"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {
+              "Time": "11:20 - 12:50",
+              "Subject": "System d'Exploitation Mobile",
+              "bat": "100-200",
+              "loc": "117D",
+              "prof": "OURAHMOUNE"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "13:00 - 14:30",
+                "Subject": "Visualisation de Donnees",
+                "bat": "Faculté Informatique",
+                "loc": "TP128",
+                "prof": "Chargé de TP"
+              },
+              "G2": {
+                "Time": "13:00 - 14:30",
+                "Subject": "System d'Exploitation Mobile",
+                "bat": "BLOC C",
+                "loc": "TP.C4",
+                "prof": "OURAHMOUNE"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "14:40 - 16:10",
+                "Subject": "Visualisation de Donnees",
+                "bat": "Faculté Informatique",
+                "loc": "TP130",
+                "prof": "Chargé de TP"
+              }
+            }
+          }
+        ],
+        "Lun": [
+          {
+            "cours": {
+              "Time": "08:00 - 09:30",
+              "Subject": "PROG RES",
+              "bat": "SC",
+              "loc": "SC",
+              "prof": "EL NAGGER"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "09:40 - 11:10",
+                "Subject": "Connaissances et Raisonnement",
+                "bat": "BLOC C",
+                "loc": "TP.C4",
+                "prof": "KHELLAF"
+              },
+              "G2": {
+                "Time": "09:40 - 11:10",
+                "Subject": "Atelier Creatif",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "LARABI"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "11:20 - 12:50",
+                "Subject": "Atelier Creatif",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "LARABI"
+              },
+              "G2": {
+                "Time": "11:20 - 12:50",
+                "Subject": "Synthese d'Image",
+                "bat": "BLOC C",
+                "loc": "TP.C4",
+                "prof": "Dahmane"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "13:00 - 14:30",
+                "Subject": "Synthese d'Image",
+                "bat": "Faculté Informatique",
+                "loc": "TP132",
+                "prof": "Dahmane"
+              }
+            }
+          }
+        ],
+        "Mar": [
+          {
+            "cours": {
+              "Time": "08:00 - 09:30",
+              "Subject": "GP-",
+              "bat": "100-200",
+              "loc": "103D",
+              "prof": "HACHEMI"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Synthese d'Image",
+              "bat": "100-200",
+              "loc": "103D",
+              "prof": "Dahmane"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "11:20 - 12:50",
+                "Subject": "System d'Exploitation Mobile",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "OURAHMOUNE"
+              },
+              "G2": {
+                "Time": "11:20 - 12:50",
+                "Subject": "GP-",
+                "bat": "100-200",
+                "loc": "TP127",
+                "prof": "BENSALAH"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "13:00 - 14:30",
+                "Subject": "PROG RES",
+                "bat": "BLOC C",
+                "loc": "TP.C6",
+                "prof": "no name"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "14:40 - 16:10",
+                "Subject": "GP-",
+                "bat": "BLOC C",
+                "loc": "TP.C7",
+                "prof": "BENSALAH"
+              },
+              "G2": {
+                "Time": "14:40 - 16:10",
+                "Subject": "PROG RES",
+                "bat": "BLOC C",
+                "loc": "TP.C6",
+                "prof": "no name"
+              }
+            }
+          }
+        ],
+        "Mer": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "08:00 - 09:30",
+                "Subject": "TH JEU",
+                "bat": "300-400",
+                "loc": "402",
+                "prof": "DAHMANI"
+              },
+              "G2": {
+                "Time": "08:00 - 09:30",
+                "Subject": "System d'Exploitation Mobile",
+                "bat": "300-400",
+                "loc": "338",
+                "prof": "OURAHMOUNE"
+              }
+            }
+          },
+          {
+            "cours": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Connaissances et Raisonnement",
+              "bat": "BLOC R",
+              "loc": "R4",
+              "prof": "KHELLAF"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {
+              "Time": "11:20 - 12:50",
+              "Subject": "TH JEU",
+              "bat": "BLOC D",
+              "loc": "D5",
+              "prof": "DAHMANI"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "13:00 - 14:30",
+                "Subject": "TH JEU",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "Chargé de TP"
+              },
+              "G2": {
+                "Time": "13:00 - 14:30",
+                "Subject": "Connaissances et Raisonnement",
+                "bat": "BLOC C",
+                "loc": "TP.C6",
+                "prof": "belhadi hiba"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "14:40 - 16:10",
+                "Subject": "TH JEU",
+                "bat": "BLOC C",
+                "loc": "TP.C3A",
+                "prof": "Chargé de TP"
+              }
+            }
+          }
+        ],
+        "Jeu": []
+      },
+      "S2": {}
+    }
+  },
+
+  "IL": {
+    "M1": {
+      "S1": {
+        "Sam": [],
+        "Dim": [
+          {
+            "cours": {
+              "Time": "08:00 - 09:30",
+              "Subject": "ASGBD",
+              "bat": "BLOC R",
+              "loc": "R8",
+              "prof": "ALIMAZIGHI"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {
+              "Time": "09:40 - 11:10",
+              "Subject": "GP-",
+              "bat": "100-200",
+              "loc": "149T",
+              "prof": "KHEMISSA"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G3": {
+                "Time": "11:20 - 12:50",
+                "Subject": "ASGBD",
+                "bat": "BLOC C",
+                "loc": "TP.C8",
+                "prof": "KESSI"
+              },
+              "G4": {
+                "Time": "11:20 - 12:50",
+                "Subject": "SYST",
+                "bat": "Faculté Informatique",
+                "loc": "TP132",
+                "prof": "DJOUADI"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "13:00 - 14:30",
+                "Subject": "SYST",
+                "bat": "Faculté Informatique",
+                "loc": "TP132",
+                "prof": "DJOUADI"
+              },
+              "G3": {
+                "Time": "13:00 - 14:30",
+                "Subject": "GP",
+                "bat": "Faculté Informatique",
+                "loc": "TP131",
+                "prof": "KHEMISSA"
+              },
+              "G4": {
+                "Time": "13:00 - 14:30",
+                "Subject": "ASGBD",
+                "bat": "BLOC C",
+                "loc": "TP.C8",
+                "prof": "KESSI"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "14:40 - 16:10",
+                "Subject": "ASGBD",
+                "bat": "BLOC C",
+                "loc": "TP.C8",
+                "prof": "KESSI"
+              },
+              "G3": {
+                "Time": "14:40 - 16:10",
+                "Subject": "SYST",
+                "bat": "Faculté Informatique",
+                "loc": "TP126",
+                "prof": "DJOUADI"
+              }
+            }
+          }
+        ],
+        "Lun": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "08:00 - 09:30",
+                "Subject": "SYST",
+                "bat": "300-400",
+                "loc": "410",
+                "prof": "BOUYAKOUB"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "09:40 - 11:100",
+                "Subject": "SYST",
+                "bat": "300-400",
+                "loc": "455",
+                "prof": "BOUYAKOUB"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "11:20 - 12:50",
+                "Subject": "COMPLEXITE",
+                "bat": "Faculté Informatique",
+                "loc": "TP130",
+                "prof": "HEDJAZI-DELLAL"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "13:00 - 14:30",
+                "Subject": "ASGBD",
+                "bat": "Faculté Informatique",
+                "loc": "TP130",
+                "prof": "Chargé de TP"
+              }
+            }
+          }
+        ],
+        "Mar": [
+          {
+            "cours": {},
+            "groups": {
+              "G3": {
+                "Time": "08:00 - 09:30",
+                "Subject": "COMPLEXITE",
+                "bat": "300-400",
+                "loc": "406",
+                "prof": "HEDJAZI-DELLAL"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "09:40 - 11:10",
+                "Subject": "GP-",
+                "bat": "Faculté Informatique",
+                "loc": "TP130",
+                "prof": "KHEMISSA"
+              },
+              "G4": {
+                "Time": "09:40 - 11:10",
+                "Subject": "COMPLEXITE",
+                "bat": "Faculté Informatique",
+                "loc": "TP129",
+                "prof": "HEDJAZI-DELLAL"
+              }
+            }
+          },
+          {
+            "cours": {
+              "Time": "11:20 - 12:50",
+              "Subject": "MEPS",
+              "bat": "300-400",
+              "loc": "420T",
+              "prof": "AISSANI"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "13:00 - 14:30",
+                "Subject": "SYST",
+                "bat": "Faculté Informatique",
+                "loc": "TP132",
+                "prof": "Chargé de TP"
+              },
+              "G2": {
+                "Time": "13:00 - 14:30",
+                "Subject": "GP-",
+                "bat": "Faculté Informatique",
+                "loc": "TP132",
+                "prof": "KHEMISSA"
+              },
+              "G3": {
+                "Time": "13:00 - 14:30",
+                "Subject": "COMPLEXITE",
+                "bat": "BLOC C",
+                "loc": "TP.C3B",
+                "prof": "HEDJAZI-DELLAL"
+              },
+              "G4": {
+                "Time": "13:00 - 14:30",
+                "Subject": "WEB AV",
+                "bat": "Faculté Informatique",
+                "loc": "TP129",
+                "prof": "MIHOUB"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "14:40 - 16:10",
+                "Subject": "WEB AV",
+                "bat": "Faculté Informatique",
+                "loc": "TP129",
+                "prof": "MIHOUB"
+              },
+              "G2": {
+                "Time": "14:40 - 16:10",
+                "Subject": "COMPLEXITE",
+                "bat": "BLOC C",
+                "loc": "TP.C3B",
+                "prof": "HEDJAZI-DELLAL"
+              },
+              "G4": {
+                "Time": "14:40 - 16:10",
+                "Subject": "GP-",
+                "bat": "Faculté Informatique",
+                "loc": "TP128",
+                "prof": "KHEMISSA"
+              }
+            }
+          }
+        ],
+        "Mer": [
+          {
+            "cours": {
+              "Time": "08:00 - 09:30",
+              "Subject": "Algo",
+              "bat": "BLOC R",
+              "loc": "R4",
+              "prof": "DRIAS"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "09:40 - 11:10",
+                "Subject": "Algo",
+                "bat": "300-400",
+                "loc": "406",
+                "prof": "MESSAOUDI"
+              },
+              "G2": {
+                "Time": "09:40 - 11:10",
+                "Subject": "Multimedia",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "SEBAI"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "11:20 - 12:50",
+                "Subject": "Multimedia",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "SEBAI"
+              },
+              "G2": {
+                "Time": "11:20 - 12:50",
+                "Subject": "Algo",
+                "bat": "300-400",
+                "loc": "387",
+                "prof": "MESSAOUDI"
+              }
+            }
+          }
+        ],
+        "Jeu": []
+      },
+      "S2": {
+        "Sam": [],
+        "Dim": [
+          {
+            "cours": {
+              "Time": "08:00 - 09:30",
+              "Subject": "BDAV",
+              "bat": "BLOC R",
+              "loc": "R8",
+              "prof": "PROF COURS BDAV"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {
+              "Time": "09:40 - 11:10",
+              "Subject": "COMPIL2",
+              "bat": "100-200",
+              "loc": "149T",
+              "prof": "PROF COURS COMPIL2"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G3": {
+                "Time": "11:20 - 12:50",
+                "Subject": "BDAV",
+                "bat": "BLOC C",
+                "loc": "TP.C8",
+                "prof": "PROF TP BDAV"
+              },
+              "G4": {
+                "Time": "11:20 - 12:50",
+                "Subject": "COMPIL2",
+                "bat": "Faculté Informatique",
+                "loc": "TP132",
+                "prof": "PROF TP COMPIL2"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "13:00 - 14:30",
+                "Subject": "COMPIL2",
+                "bat": "Faculté Informatique",
+                "loc": "TP132",
+                "prof": "PROF TP COMPIL2"
+              },
+              "G3": {
+                "Time": "13:00 - 14:30",
+                "Subject": "IA1",
+                "bat": "Faculté Informatique",
+                "loc": "TP131",
+                "prof": "PROF TP IA1"
+              },
+              "G4": {
+                "Time": "13:00 - 14:30",
+                "Subject": "BDAV",
+                "bat": "BLOC C",
+                "loc": "TP.C8",
+                "prof": "PROF TP BDAV"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "14:40 - 16:10",
+                "Subject": "BDAV",
+                "bat": "BLOC C",
+                "loc": "TP.C8",
+                "prof": "PROF TP BDAV"
+              },
+              "G3": {
+                "Time": "14:40 - 16:10",
+                "Subject": "COMPIL2",
+                "bat": "Faculté Informatique",
+                "loc": "TP126",
+                "prof": "PROF TP COMPIL2"
+              }
+            }
+          }
+        ],
+        "Lun": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "08:00 - 09:30",
+                "Subject": "COMPIL2",
+                "bat": "300-400",
+                "loc": "410",
+                "prof": "PROF TD COMPIL2"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "09:40 - 11:100",
+                "Subject": "SECU",
+                "bat": "300-400",
+                "loc": "455",
+                "prof": "PROF TD SECU"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "11:20 - 12:50",
+                "Subject": "COMPIL2",
+                "bat": "Faculté Informatique",
+                "loc": "TP130",
+                "prof": "PROF TP COMPIL2"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "13:00 - 14:30",
+                "Subject": "BDAV",
+                "bat": "Faculté Informatique",
+                "loc": "TP130",
+                "prof": "PROF TP BDAV"
+              }
+            }
+          }
+        ],
+        "Mar": [
+          {
+            "cours": {},
+            "groups": {
+              "G3": {
+                "Time": "08:00 - 09:30",
+                "Subject": "SECU",
+                "bat": "300-400",
+                "loc": "406",
+                "prof": "PROF TD SECU"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "09:40 - 11:10",
+                "Subject": "IA1",
+                "bat": "Faculté Informatique",
+                "loc": "TP130",
+                "prof": "PROF TP IA1"
+              },
+              "G4": {
+                "Time": "09:40 - 11:10",
+                "Subject": "MODAL",
+                "bat": "Faculté Informatique",
+                "loc": "TP129",
+                "prof": "PROF TP MODAL"
+              }
+            }
+          },
+          {
+            "cours": {
+              "Time": "11:20 - 12:50",
+              "Subject": "S.MULTIMEDIA",
+              "bat": "300-400",
+              "loc": "420T",
+              "prof": "PROF COURS MULTIMEDIA"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "13:00 - 14:30",
+                "Subject": "MODAL",
+                "bat": "Faculté Informatique",
+                "loc": "TP132",
+                "prof": "PROF TP MODAL"
+              },
+              "G2": {
+                "Time": "13:00 - 14:30",
+                "Subject": "IA1",
+                "bat": "Faculté Informatique",
+                "loc": "TP132",
+                "prof": "PROF TP IA1"
+              },
+              "G3": {
+                "Time": "13:00 - 14:30",
+                "Subject": "SECU",
+                "bat": "BLOC C",
+                "loc": "TP.C3B",
+                "prof": "PROF TD SECU"
+              },
+              "G4": {
+                "Time": "13:00 - 14:30",
+                "Subject": "COMPIL2",
+                "bat": "Faculté Informatique",
+                "loc": "TP129",
+                "prof": "PROF TD COMPIL2"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "14:40 - 16:10",
+                "Subject": "IA1",
+                "bat": "BLOC C",
+                "loc": "TP.C3B",
+                "prof": "PROF TP IA1"
+              },
+              "G3": {
+                "Time": "14:40 - 16:10",
+                "Subject": "COMPIL2",
+                "bat": "BLOC C",
+                "loc": "TP.C3B",
+                "prof": "PROF TD COMPIL2"
+              },
+              "G4": {
+                "Time": "14:40 - 16:10",
+                "Subject": "SECU",
+                "bat": "Faculté Informatique",
+                "loc": "TP128",
+                "prof": "PROF TD SECU"
+              }
+            }
+          }
+        ],
+        "Mer": [
+          {
+            "cours": {
+              "Time": "08:00 - 09:30",
+              "Subject": "SECU",
+              "bat": "BLOC R",
+              "loc": "R4",
+              "prof": "PROF COURS SECU"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "09:40 - 11:10",
+                "Subject": "SECU",
+                "bat": "300-400",
+                "loc": "406",
+                "prof": "PROF TD SECU"
+              },
+              "G3": {
+                "Time": "09:40 - 11:10",
+                "Subject": "MODAL",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "PROF TP MODAL"
+              }
+            }
+          },
+          {
+            "cours": {
+              "Time": "11:20 - 12:50",
+              "Subject": "MODAL",
+              "bat": "BLOC R",
+              "loc": "R4",
+              "prof": "PROF COURS MODAL"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "13:00 - 14:30",
+                "Subject": "COMPIL2",
+                "bat": "300-400",
+                "loc": "406",
+                "prof": "PROF TD COMPIL2"
+              }
+            }
+          }
+        ],
+        "Jeu": [
+          {
+            "cours": {
+              "Time": "08:00 - 09:30",
+              "Subject": "IA1",
+              "bat": "BLOC R",
+              "loc": "R4",
+              "prof": "PROF COURS IA1"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {
+              "Time": "09:40 - 11:10",
+              "Subject": "Anglais",
+              "bat": "BLOC R",
+              "loc": "R4",
+              "prof": "PROF COURS ANGLAIS"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "11:20 - 12:50",
+                "Subject": "MODAL",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "PROF TP MODAL"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "M2": {
+      "S1": {
+        "Sam": [],
+        "Dim": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "08:00 - 09:30",
+                "Subject": "MPDL",
+                "bat": "300-400",
+                "loc": "363",
+                "prof": "HACHEMI"
+              },
+              "G2": {
+                "Time": "08:00 - 09:30",
+                "Subject": "ENT DON",
+                "bat": "BLOC C",
+                "loc": "TP.C7",
+                "prof": "SELMOUNE"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "09:40 - 11:10",
+                "Subject": "ASS QUAL",
+                "bat": "BLOC C",
+                "loc": "TP.C3A",
+                "prof": "CHABOUNI"
+              }
+            }
+          },
+          {
+            "cours": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ENT DON",
+              "bat": "BLOC E",
+              "loc": "E1",
+              "prof": "SELMOUNE"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "13:00 - 14:30",
+                "Subject": "MPDL",
+                "bat": "300-400",
+                "loc": "430D",
+                "prof": "HACHEMI"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "14:40 - 16:10",
+                "Subject": "ASS QUAL",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "CHABOUNI"
+              }
+            }
+          }
+        ],
+        "Lun": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "08:00 - 09:30",
+                "Subject": "REP CON",
+                "bat": "300-400",
+                "loc": "446",
+                "prof": "ISLI"
+              },
+              "G2": {
+                "Time": "08:00 - 09:30",
+                "Subject": "ASS QUAL",
+                "bat": "300-400",
+                "loc": "375",
+                "prof": "CHABOUNI"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "09:40 - 11:10",
+                "Subject": "ANGLAIS",
+                "bat": "LABO LANG",
+                "loc": "6",
+                "prof": "BOUDEFASSA"
+              }
+            }
+          },
+          {
+            "cours": {
+              "Time": "11:20 - 12:50",
+              "Subject": "REP CON",
+              "bat": "BLOC C",
+              "loc": "C1",
+              "prof": "ISLI"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "13:00 - 14:30",
+                "Subject": "ASS QUAL",
+                "bat": "300-400",
+                "loc": "412",
+                "prof": "CHABOUNI"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "14:40 - 16:10",
+                "Subject": "CPT AVANC",
+                "bat": "BLOC C",
+                "loc": "TP.C5",
+                "prof": "Saadi"
+              }
+            }
+          }
+        ],
+        "Mar": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "08:00 - 09:30",
+                "Subject": "MPDL",
+                "bat": "BLOC C",
+                "loc": "TP.C3A",
+                "prof": "ABBACI"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "09:40 - 11:10",
+                "Subject": "MPDL",
+                "bat": "Faculté Informatique",
+                "loc": "TP131",
+                "prof": "HACHEMI"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "11:20 - 12:50",
+                "Subject": "ANGLAIS",
+                "bat": "LABO LANG",
+                "loc": "12",
+                "prof": "BOUDEFASSA"
+              },
+              "G2": {
+                "Time": "11:20 - 12:50",
+                "Subject": "MPDL",
+                "bat": "Faculté Informatique",
+                "loc": "TP132",
+                "prof": "HACHEMI"
+              }
+            }
+          },
+          {
+            "cours": {
+              "Time": "13:00 - 14:30",
+              "Subject": "SIC",
+              "loc": "125T",
+              "bat": "100-200",
+              "prof": "MAHDAOUI"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {
+              "Time": "14:40 - 16:10",
+              "Subject": "MPDL",
+              "bat": "100-200",
+              "loc": "135D",
+              "prof": "HACHEMI"
+            },
+            "groups": {}
+          }
+        ],
+        "Mer": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "08:00 - 09:30",
+                "Subject": "SIC",
+                "bat": "Faculté Informatique",
+                "loc": "TP131",
+                "prof": "MAHDAOUI"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "Time": "09:40 - 11:10",
+                "Subject": "ENT DON",
+                "bat": "Faculté Informatique",
+                "loc": "TP126",
+                "prof": "SELMOUNE"
+              },
+              "G2": {
+                "Time": "09:40 - 11:10",
+                "Subject": "CPT AVANC",
+                "bat": "BLOC C",
+                "loc": "TP.C3B",
+                "prof": "CHABOUNI"
+              }
+            }
+          },
+          {
+            "cours": {
+              "Time": "11:20 - 12:50",
+              "Subject": "ASS QUAL",
+              "bat": "BLOC C",
+              "loc": "C7",
+              "prof": "haddouche epse che"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {
+              "Time": "13:00 - 14:30",
+              "Subject": "CPT AVANC",
+              "bat": "100-200",
+              "loc": "143T",
+              "prof": "Saadi"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "Time": "14:40 - 16:10",
+                "Subject": "SIC",
+                "bat": "Faculté Informatique",
+                "loc": "TP130",
+                "prof": "MAHDAOUI"
+              }
+            }
+          }
+        ],
+        "Jeu": []
+      },
+      "S2": {}
+    }
+  }
+}
