@@ -73,3 +73,74 @@ input[type="radio"] {
   border: #000 solid 3px;
   background-color: #ffffff;
 }
+
+.day {
+  position: relative;
+}
+
+.day-picker {
+  border-radius: 3px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  height: 150px;
+
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  z-index: 100;
+  background-color: #fff;
+
+  text-align: center;
+}
+
+.day-fieldset {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day-label {
+  position: relative;
+  top: 5px;
+}
+.day-btn {
+  position: relative;
+  bottom: 5px;
+  left: 10px;
+
+  border: none;
+  background-color: #fff;
+
+  color: #757575;
+  width: 40px;
+  height: 40px;
+  padding: 10px 6px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.day-btn:hover {
+  background-color: #f6f6f6;
+}
+
+.days-lst {
+  position: relative;
+  right: 15px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 50px);
+  // grid-template-rows: repeat(2, 60px);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+}
+
+.days-lst li {
+  border-radius: 15px;
+  padding: 5px;
+  display: inline;
+  user-select: none;
+  cursor: pointer;
+}
+.days-lst li:hover{
+  background-color: #f6f6f6;
+}

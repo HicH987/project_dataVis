@@ -1,22 +1,43 @@
 import React from "react";
 import dayjs from "dayjs";
-import TextField from "@mui/material/TextField";
-import { TimePicker } from "@mui/x-date-pickers/TimePicker";
-import { DatePicker } from "@mui/x-date-pickers/DatePicker";
-import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
-import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
+import { IoToday, IoTime } from "react-icons/io5";
 import "./form.scss";
+import { useRef } from "react";
+import Picker from "./picker";
 
+const days = ["Dim", "Lun", "Mar", "Mer", "Jeu", "Sam"];
+const times = ["08:00", "09:40", "11:20", "13:00", "14:40", "16:10"];
 const year = {
   min: dayjs("2021-01-01"),
   max: dayjs("2022-12-31"),
 };
 
+const closeOpenMenu = (e, menu, show, setShow) => {
+  if (menu.current && show && !menu.current.contains(e.target)) {
+    setShow(false);
+  }
+};
+
 export default function Form({ passData }) {
+  const dayMenu = useRef(null);
+  const [day, setDay] = React.useState("Dim");
+  const [showDay, setShowDayPicker] = React.useState(false);
+  document.addEventListener("mousedown", (e) =>
+    closeOpenMenu(e, dayMenu, showDay, setShowDayPicker)
+  );
+
+  const timeMenu = useRef(null);
+  const [time, setTime] = React.useState("08:00");
+  const [showTime, setShowTimePicker] = React.useState(false);
+  document.addEventListener("mousedown", (e) =>
+    closeOpenMenu(e, timeMenu, showTime, setShowTimePicker)
+  );
+
   //*---------------------STATES---------------------------------
   const [data, setData] = React.useState({
     specialty: "IV",
     lvl: "M1",
+    semester: "S1",
     date: dayjs(),
     time: dayjs(),
   });
@@ -87,39 +108,120 @@ export default function Form({ passData }) {
             <label htmlFor="M2">M2</label>
           </div>
         </fieldset>
+        <fieldset className="radio-field">
+          <legend>Semester</legend>
+          <div className="radio-input">
+            <input
+              id="S1"
+              type="radio"
+              name="semester"
+              value="S1"
+              checked={data.semester === "S1"}
+              onChange={handleChange}
+            />
+            <label htmlFor="S1">S1</label>
+          </div>
+          <div className="radio-input">
+            <input
+              id="S2"
+              type="radio"
+              name="semester"
+              value="S2"
+              checked={data.semester === "S2"}
+              onChange={handleChange}
+            />
+            <label htmlFor="S2">S2</label>
+          </div>
+        </fieldset>
 
-        <LocalizationProvider dateAdapter={AdapterDayjs}>
-          <DatePicker
-            name="date"
-            label="Date"
-            openTo="year"
-            minDate={year.min}
-            maxDate={year.max}
-            views={["year", "month", "day"]}
-            value={data.date}
-            onChange={(date) =>
-              handleChange({
-                target: { value: date, name: "date" },
-              })
-            }
-            renderInput={(params) => <TextField {...params} sx={{}} />}
-          />
-        </LocalizationProvider>
+        <div className="day">
+          {showDay ? (
+            <div className="day-picker" ref={dayMenu}>
+              <h3>Weekdays</h3>
+              <ul className="days-lst">
+                {days.map((d) => (
+                  <li
+                    key={d}
+                    style={
+                      d === day
+                        ? { color: "#fff", backgroundColor: "#1565c0" }
+                        : {}
+                    }
+                    onClick={() => {
+                      setShowDayPicker(false);
+                      return setDay(d);
+                    }}
+                  >
+                    {d}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : (
+            <></>
+          )}
+          <fieldset className="radio-field day-set">
+            <legend>Day</legend>
+            <div className="day-fieldset">
+              <span className="day-label">{day}</span>
+              <button
+                className="day-btn"
+                onClick={() => setShowDayPicker(true)}
+              >
+                <IoToday />
+              </button>
+            </div>
+          </fieldset>
+        </div>
 
-        <LocalizationProvider dateAdapter={AdapterDayjs}>
-          <TimePicker
-            label="Time"
-            ampm={false}
-            value={data.time}
-            onChange={(date) =>
-              handleChange({
-                target: { value: date, name: "time" },
-              })
-            }
-            renderInput={(params) => <TextField {...params} sx={{}} />}
-          />
-        </LocalizationProvider>
-      </div>
+        <div className="day time">
+          {showTime ? (
+            <div className="day-picker" ref={timeMenu}>
+              <h3>Time</h3>
+              <ul className="days-lst">
+                {times.map((t) => (
+                  <li
+                    key={t}
+                    style={
+                      t === time
+                        ? { color: "#fff", backgroundColor: "#1565c0" }
+                        : {}
+                    }
+                    onClick={() => {
+                      setShowTimePicker(false);
+                      return setTime(t);
+                    }}
+                  >
+                    {t}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : (
+            <></>
+          )}
+          <fieldset className="radio-field day-set">
+            <legend>Time</legend>
+            <div className="day-fieldset">
+              <span className="day-label">{time}</span>
+              <button
+                className="day-btn"
+                onClick={() => setShowTimePicker(true)}
+              >
+                <IoTime />
+              </button>
+            </div>
+          </fieldset>
+        </div>
+      {/* <Picker
+        dates={days}
+        date={day}
+        setDate={setDay}
+        label={"qsdqsd"}
+        title={"qsdqsd"}
+        iconBtn={<IoTime />}
+        /> */}
+        </div>
       <button className="btn-submit" onClick={() => passData(data)}>
         Submit
       </button>

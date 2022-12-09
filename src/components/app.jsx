@@ -12,10 +12,16 @@ export default function App() {
   });
 
   React.useEffect(() => {
-    if (formData.full){
-        console.log(formData);
-    } 
+    if (formData.full) {
+      d3.json("../data/schedule.json").then((json) => {
+        let week = json[formData.spec][formData.lvl][formData.sem];
+        console.log("week:\n", week);
+        let day = week[formData.day]
+        console.log("day:\n", day);
         
+      });
+      console.log(formData);
+    }
   }, [formData]);
 
   function passData(data) {
@@ -24,12 +30,13 @@ export default function App() {
     setFormData((prevFormData) => {
       return {
         ...prevFormData,
+        full: true,
         spec: data.specialty,
         lvl: data.lvl,
+        sem: data.semester,
         day: days[idx_day],
         hour: data.time.get("hour"),
         min: data.time.get("minute"),
-        full: true,
       };
     });
   }
