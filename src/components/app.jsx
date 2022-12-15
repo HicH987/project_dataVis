@@ -14,6 +14,7 @@ export default function App() {
   const [formData, setFormData] = React.useState({
     full: false,
   });
+  const [scheduleData, setScheduleData] = React.useState(null);
 
   React.useEffect(() => {
     if (formData.full) {
@@ -51,7 +52,7 @@ export default function App() {
           return current;
         });
         */
-        
+
         var currentEvent = day.filter(
           (d) =>
             (!isEmpty(d.cours) &&
@@ -63,6 +64,7 @@ export default function App() {
         )[0];
 
         console.log(getObj(currentEvent));
+        setScheduleData(currentEvent)
       });
 
       // console.log(formData);
@@ -85,7 +87,7 @@ export default function App() {
 
   return (
     <div className="main-app">
-      <Map />
+      <Map scheduleData={scheduleData} />
       <Form passData={passData} />
     </div>
   );

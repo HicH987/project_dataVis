@@ -111,17 +111,21 @@ export default function Form({ passData }) {
             />
             <label htmlFor="S1">S1</label>
           </div>
-          <div className="radio-input">
-            <input
-              id="S2"
-              type="radio"
-              name="semester"
-              value="S2"
-              checked={data.semester === "S2"}
-              onChange={handleChange}
-            />
-            <label htmlFor="S2">S2</label>
-          </div>
+          {data.lvl === "M1" ? (
+            <div className="radio-input">
+              <input
+                id="S2"
+                type="radio"
+                name="semester"
+                value="S2"
+                checked={data.semester === "S2"}
+                onChange={handleChange}
+              />
+              <label htmlFor="S2">S2</label>
+            </div>
+          ) : (
+            <></>
+          )}
         </fieldset>
 
         <Picker
