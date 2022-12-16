@@ -3,6 +3,7 @@ import * as d3 from "d3";
 // -------------------ONZOOM-HANDLERS---------------------------------
 export const zoomed = (event) => {
   d3.select("svg").selectAll("path").attr("transform", event.transform);
+  d3.select("svg").selectAll("text").attr("transform", event.transform);
 };
 
 // -------------------BUTTON-HANDLERS---------------------------------

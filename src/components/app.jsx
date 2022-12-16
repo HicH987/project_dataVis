@@ -14,44 +14,16 @@ export default function App() {
   const [formData, setFormData] = React.useState({
     full: false,
   });
-  const [scheduleData, setScheduleData] = React.useState(null);
+  const [courData, setCourData] = React.useState(null);
+  const [groupsData, setGroupsData] = React.useState(null);
 
   React.useEffect(() => {
     if (formData.full) {
       d3.json("../data/schedule.json").then((json) => {
         let week = json[formData.spec][formData.lvl][formData.sem];
-        // console.log("week:\n", week);
         let day = week[formData.day];
-        // console.log("day:\n", day);
 
-        /*
-        day.forEach((d) => {
-          if (!isEmpty(d.cours)) console.log(d.cours.Time.substring(0, 5));
-
-          if (!isEmpty(d.groups.G1))
-            console.log(d.groups.G1.Time.substring(0, 5));
-          if (!isEmpty(d.groups.G2))
-            console.log(d.groups.G2.Time.substring(0, 5));
-        });
-        */
-        /*
-        var current = {};
-        var currentDay = day.map((d) => {
-          if (!isEmpty(d.cours) && formData.time === d.cours.Time.substring(0, 5))
-            current.cours = d.cours;
-          if (
-            !isEmpty(d.groups.G1) &&
-            formData.time === d.groups.G1.Time.substring(0, 5)
-          )
-            current.G1 = d.groups.G1;
-          if (
-            !isEmpty(d.groups.G2) &&
-            formData.time === d.groups.G2.Time.substring(0, 5)
-          )
-            current.G2 = d.groups.G2;
-          return current;
-        });
-        */
+        console.log("day", day);
 
         var currentEvent = day.filter(
           (d) =>
@@ -60,14 +32,19 @@ export default function App() {
             (!isEmpty(d.groups.G1) &&
               formData.time === d.groups.G1.Time.substring(0, 5)) ||
             (!isEmpty(d.groups.G2) &&
-              formData.time === d.groups.G2.Time.substring(0, 5))
+              formData.time === d.groups.G2.Time.substring(0, 5)) ||
+            (!isEmpty(d.groups.G3) &&
+              formData.time === d.groups.G3.Time.substring(0, 5)) ||
+            (!isEmpty(d.groups.G4) &&
+              formData.time === d.groups.G4.Time.substring(0, 5))
         )[0];
 
-        console.log(getObj(currentEvent));
-        setScheduleData(currentEvent)
-      });
+        if (!isEmpty(currentEvent.cours)) setCourData(currentEvent.cours);
+        else setGroupsData(currentEvent.groups);
 
-      // console.log(formData);
+        // console.log(getObj(currentEvent));
+        console.log(currentEvent);
+      });
     }
   }, [formData]);
 
@@ -87,7 +64,7 @@ export default function App() {
 
   return (
     <div className="main-app">
-      <Map scheduleData={scheduleData} />
+      <Map groupsData={groupsData} courData={courData}/>
       <Form passData={passData} />
     </div>
   );

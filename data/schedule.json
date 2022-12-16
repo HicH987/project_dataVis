@@ -9,16 +9,18 @@
             "groups": {
               "G1": {
                 "Time": "08:00 - 09:30",
-                "Subject": "Anglais",
+                "sub": "Anglais",
                 "bat": "LABO LANG",
-                "loc": "10",
+                "loc": "TD.10",
+                "floor": "floor1",
                 "prof": "BOUDEFASSA"
               },
               "G2": {
                 "Time": "08:00 - 09:30",
-                "Subject": "ABDD",
+                "sub": "ABDD",
                 "bat": "BLOC C",
-                "loc": "TP.C3A",
+                "loc": "TP.C3",
+                "floor": "floor2",
                 "prof": "KESSI"
               }
             }
@@ -28,9 +30,10 @@
             "groups": {
               "G2": {
                 "Time": "09:40 - 11:10",
-                "Subject": "Anglais",
+                "sub": "Anglais",
                 "bat": "LABO LANG",
-                "loc": "10",
+                "loc": "TD.10",
+                "floor": "floor1",
                 "prof": "BOUDEFASSA"
               }
             }
@@ -38,9 +41,10 @@
           {
             "cours": {
               "Time": "11:20 - 12:50",
-              "Subject": "Resolution de problems",
+              "sub": "Resolution de problems",
               "bat": "BLOC D",
               "loc": "D6",
+              "floor": "floor1",
               "prof": "LARABI"
             },
             "groups": {}
@@ -48,9 +52,10 @@
           {
             "cours": {
               "Time": "13:00 - 14:30",
-              "Subject": "TAI",
+              "sub": "TAI",
               "bat": "BLOC D",
               "loc": "D6",
+              "floor": "floor1",
               "prof": "SETITRA"
             },
             "groups": {}
@@ -60,16 +65,18 @@
             "groups": {
               "G1": {
                 "Time": "14:40 - 16:10",
-                "Subject": "Resolution de problems",
-                "bat": "faculte informatique",
-                "loc": "TP129",
+                "sub": "Resolution de problems",
+                "bat": "faculte info",
+                "loc": "TP.129",
+                "floor": "floor1",
                 "prof": "SEBAI"
               },
               "G2": {
                 "Time": "14:40 - 16:10",
-                "Subject": "TAI",
+                "sub": "TAI",
                 "bat": "BLOC D",
-                "loc": "D5",
+                "loc": "TD.D5",
+                "floor": "floor1",
                 "prof": "SETITRA"
               }
             }
@@ -81,16 +88,18 @@
             "groups": {
               "G1": {
                 "Time": "08:00 - 09:30",
-                "Subject": "Syst",
+                "sub": "Syst",
                 "bat": "BLOC C",
                 "loc": "TP.C4",
+                "floor": "floor2",
                 "prof": "BENCHAIBA"
               },
               "G2": {
                 "Time": "08:00 - 09:30",
-                "Subject": "TAI",
+                "sub": "TAI",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "SETITRA"
               }
             }
@@ -98,9 +107,10 @@
           {
             "cours": {
               "Time": "09:40 - 11:10",
-              "Subject": "ABDD",
+              "sub": "ABDD",
               "bat": "BLOC D",
               "loc": "D6",
+              "floor": "floor1",
               "prof": "DJIROUNE"
             },
             "groups": {}
@@ -110,16 +120,18 @@
             "groups": {
               "G1": {
                 "Time": "11:20 - 12:50",
-                "Subject": "TAI",
+                "sub": "TAI",
                 "bat": "300-400",
-                "loc": "405",
+                "loc": "TD.405",
+                "floor": "floor2",
                 "prof": "SETITRA"
               },
               "G2": {
                 "Time": "11:20 - 12:50",
-                "Subject": "Syst",
+                "sub": "Syst",
                 "bat": "100-200",
-                "loc": "166",
+                "loc": "TD.166",
+                "floor": "floor1",
                 "prof": "BENCHAIBA"
               }
             }
@@ -129,16 +141,18 @@
             "groups": {
               "G1": {
                 "Time": "13:00 - 14:30",
-                "Subject": "TAI",
+                "sub": "TAI",
                 "bat": "BLOC C",
                 "loc": "TP.C8",
+                "floor": "floor2",
                 "prof": "SETITRA"
               },
               "G2": {
                 "Time": "13:00 - 14:30",
-                "Subject": "Syst",
-                "bat": "faculte informatique",
-                "loc": "TP127",
+                "sub": "Syst",
+                "bat": "faculte info",
+                "loc": "TP.127",
+                "floor": "floor1",
                 "prof": "BENCHAIBA"
               }
             }
@@ -148,9 +162,10 @@
           {
             "cours": {
               "Time": "08:00 - 09:30",
-              "Subject": "Syst",
-              "bat": "BLOC E",
+              "sub": "Syst",
+              "bat": "BLOC ER",
               "loc": "E6",
+              "floor": "floor1",
               "prof": "BENCHAIBA"
             },
             "groups": {}
@@ -158,9 +173,10 @@
           {
             "cours": {
               "Time": "09:40 - 11:10",
-              "Subject": "Multimedia",
-              "bat": "BLOC E",
+              "sub": "Multimedia",
+              "bat": "BLOC ER",
               "loc": "E6",
+              "floor": "floor1",
               "prof": "LARABI"
             },
             "groups": {}
@@ -170,16 +186,18 @@
             "groups": {
               "G1": {
                 "Time": "11:20 - 12:50",
-                "Subject": "Syst",
+                "sub": "Syst",
                 "bat": "100-200",
-                "loc": "249",
+                "loc": "TD.249",
+                "floor": "floor2",
                 "prof": "BENCHAIBA"
               },
               "G2": {
                 "Time": "11:20 - 12:50",
-                "Subject": "Resolution de problems",
-                "bat": "100-200",
-                "loc": "TP122",
+                "sub": "Resolution de problems",
+                "bat": "faculte info",
+                "loc": "TP.122",
+                "floor": "floor1",
                 "prof": "SEBAI"
               }
             }
@@ -189,16 +207,18 @@
             "groups": {
               "G1": {
                 "Time": "13:00 - 14:30",
-                "Subject": "ABDD",
+                "sub": "ABDD",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "KESSI"
               },
               "G2": {
                 "Time": "13:00 - 14:30",
-                "Subject": "Algo",
+                "sub": "Algo",
                 "bat": "BLOC C",
                 "loc": "TP.C4",
+                "floor": "floor2",
                 "prof": "MESSAOUDI"
               }
             }
@@ -208,9 +228,10 @@
             "groups": {
               "G1": {
                 "Time": "14:40 - 16:10",
-                "Subject": "Algo",
+                "sub": "Algo",
                 "bat": "BLOC C",
                 "loc": "TP.C4",
+                "floor": "floor2",
                 "prof": "MESSAOUDI"
               }
             }
@@ -220,9 +241,10 @@
           {
             "cours": {
               "Time": "08:00 - 09:30",
-              "Subject": "Algo",
-              "bat": "BLOC R",
+              "sub": "Algo",
+              "bat": "BLOC ER",
               "loc": "R4",
+              "floor": "floor2",
               "prof": "DRIAS"
             },
             "groups": {}
@@ -232,16 +254,18 @@
             "groups": {
               "G1": {
                 "Time": "09:40 - 11:10",
-                "Subject": "Algo",
+                "sub": "Algo",
                 "bat": "300-400",
-                "loc": "406",
+                "loc": "TD.406",
+                "floor": "floor2",
                 "prof": "MESSAOUDI"
               },
               "G2": {
                 "Time": "09:40 - 11:10",
-                "Subject": "Multimedia",
+                "sub": "Multimedia",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "SEBAI"
               }
             }
@@ -251,16 +275,18 @@
             "groups": {
               "G1": {
                 "Time": "11:20 - 12:50",
-                "Subject": "Multimedia",
+                "sub": "Multimedia",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "SEBAI"
               },
               "G2": {
                 "Time": "11:20 - 12:50",
-                "Subject": "Algo",
+                "sub": "Algo",
                 "bat": "300-400",
-                "loc": "387",
+                "loc": "TD.387",
+                "floor": "floor1",
                 "prof": "MESSAOUDI"
               }
             }
@@ -276,16 +302,18 @@
             "groups": {
               "G1": {
                 "Time": "08:00 - 09:30",
-                "Subject": "Computer Vision",
+                "sub": "Computer Vision",
                 "bat": "BLOC C",
                 "loc": "TP.C4",
+                "floor": "floor2",
                 "prof": "LARABI"
               },
               "G2": {
                 "Time": "08:00 - 09:30",
-                "Subject": "IARN",
+                "sub": "IARN",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "SETITRA"
               }
             }
@@ -295,9 +323,10 @@
             "groups": {
               "G2": {
                 "Time": "09:40 - 11:10",
-                "Subject": "Computer Vision",
+                "sub": "Computer Vision",
                 "bat": "BLOC C",
                 "loc": "TP.C4",
+                "floor": "floor2",
                 "prof": "LARABI"
               }
             }
@@ -305,9 +334,10 @@
           {
             "cours": {
               "Time": "11:20 - 12:50",
-              "Subject": "Computer Vision",
+              "sub": "Computer Vision",
               "bat": "BLOC D",
               "loc": "D6",
+              "floor": "floor1",
               "prof": "LARABI"
             },
             "groups": {}
@@ -315,9 +345,10 @@
           {
             "cours": {
               "Time": "13:00 - 14:30",
-              "Subject": "IARN",
+              "sub": "IARN",
               "bat": "BLOC D",
               "loc": "D6",
+              "floor": "floor1",
               "prof": "SETITRA"
             },
             "groups": {}
@@ -327,16 +358,18 @@
             "groups": {
               "G1": {
                 "Time": "14:40 - 16:10",
-                "Subject": "IARN",
-                "bat": "faculte informatique",
-                "loc": "TP129",
+                "sub": "IARN",
+                "bat": "faculte info",
+                "loc": "TP.129",
+                "floor": "floor1",
                 "prof": "SETITRA"
               },
               "G2": {
                 "Time": "14:40 - 16:10",
-                "Subject": "Analyse de donnees",
+                "sub": "Analyse de donnees",
                 "bat": "BLOC D",
-                "loc": "D5",
+                "loc": "TD.D5",
+                "floor": "floor1",
                 "prof": "PROF AD"
               }
             }
@@ -348,16 +381,18 @@
             "groups": {
               "G1": {
                 "Time": "08:00 - 09:30",
-                "Subject": "Analyse de donnees",
+                "sub": "Analyse de donnees",
                 "bat": "BLOC C",
                 "loc": "TP.C4",
+                "floor": "floor2",
                 "prof": "PROF AD"
               },
               "G2": {
                 "Time": "08:00 - 09:30",
-                "Subject": "Fouille de donnees",
+                "sub": "Fouille de donnees",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "PROF FD"
               }
             }
@@ -365,9 +400,10 @@
           {
             "cours": {
               "Time": "09:40 - 11:10",
-              "Subject": "Analyse de donnees",
+              "sub": "Analyse de donnees",
               "bat": "BLOC D",
               "loc": "D6",
+              "floor": "floor1",
               "prof": "PROF AD"
             },
             "groups": {}
@@ -377,16 +413,18 @@
             "groups": {
               "G1": {
                 "Time": "11:20 - 12:50",
-                "Subject": "Compilation",
+                "sub": "Compilation",
                 "bat": "300-400",
-                "loc": "405",
+                "loc": "TD.405",
+                "floor": "floor2",
                 "prof": "PROF COMPIL"
               },
               "G2": {
                 "Time": "11:20 - 12:50",
-                "Subject": "JEUX VIDEO",
+                "sub": "JEUX VIDEO",
                 "bat": "BLOC C",
-                "loc": "TP.C3A",
+                "loc": "TP.C3",
+                "floor": "floor2",
                 "prof": "PROF Jeu Video"
               }
             }
@@ -396,16 +434,18 @@
             "groups": {
               "G1": {
                 "Time": "13:00 - 14:30",
-                "Subject": "JEUX VIDEO",
+                "sub": "JEUX VIDEO",
                 "bat": "BLOC C",
                 "loc": "TP.C8",
+                "floor": "floor2",
                 "prof": "PROF Jeu Video"
               },
               "G2": {
                 "Time": "13:00 - 14:30",
-                "Subject": "Compilation",
-                "bat": "faculte informatique",
-                "loc": "TP127",
+                "sub": "Compilation",
+                "bat": "faculte info",
+                "loc": "TP.127",
+                "floor": "floor1",
                 "prof": "PROF COMPIL"
               }
             }
@@ -415,9 +455,10 @@
           {
             "cours": {
               "Time": "08:00 - 09:30",
-              "Subject": "Compilation",
-              "bat": "BLOC E",
+              "sub": "Compilation",
+              "bat": "BLOC ER",
               "loc": "E6",
+              "floor": "floor1",
               "prof": "PROF COMPIL"
             },
             "groups": {}
@@ -425,9 +466,10 @@
           {
             "cours": {
               "Time": "09:40 - 11:10",
-              "Subject": "JEUX VIDEO",
-              "bat": "BLOC E",
+              "sub": "JEUX VIDEO",
+              "bat": "BLOC ER",
               "loc": "E6",
+              "floor": "floor1",
               "prof": "PROF Jeu Video"
             },
             "groups": {}
@@ -437,16 +479,18 @@
             "groups": {
               "G1": {
                 "Time": "11:20 - 12:50",
-                "Subject": "Fouille de donnees",
-                "bat": "faculte informatique",
-                "loc": "TP122",
+                "sub": "Fouille de donnees",
+                "bat": "faculte info",
+                "loc": "TP.122",
+                "floor": "floor1",
                 "prof": "PROF FD"
               },
               "G2": {
                 "Time": "11:20 - 12:50",
-                "Subject": "Compilation",
+                "sub": "Compilation",
                 "bat": "100-200",
-                "loc": "249",
+                "loc": "TD.249",
+                "floor": "floor2",
                 "prof": "PROF COMPIL"
               }
             }
@@ -456,16 +500,18 @@
             "groups": {
               "G1": {
                 "Time": "13:00 - 14:30",
-                "Subject": "Compilation",
+                "sub": "Compilation",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "PROF COMPIL"
               },
               "G2": {
                 "Time": "13:00 - 14:30",
-                "Subject": "JEUX VIDEO",
+                "sub": "JEUX VIDEO",
                 "bat": "BLOC C",
                 "loc": "TP.C4",
+                "floor": "floor2",
                 "prof": "PROF Jeu Video"
               }
             }
@@ -475,9 +521,10 @@
           {
             "cours": {
               "Time": "08:00 - 09:30",
-              "Subject": "Fouille de donnees",
-              "bat": "BLOC R",
+              "sub": "Fouille de donnees",
+              "bat": "BLOC ER",
               "loc": "R4",
+              "floor": "floor2",
               "prof": "PROF FD"
             },
             "groups": {}
@@ -495,16 +542,18 @@
             "groups": {
               "G1": {
                 "Time": "08:00 - 09:30",
-                "Subject": "System d'Exploitation Mobile",
+                "sub": "System d'Exploitation Mobile",
                 "bat": "100-200",
-                "loc": "162",
+                "loc": "TD.162",
+                "floor": "floor1",
                 "prof": "OURAHMOUNE"
               },
               "G2": {
                 "Time": "08:00 - 09:30",
-                "Subject": "TH JEU",
+                "sub": "TH JEU",
                 "bat": "100-200",
-                "loc": "118",
+                "loc": "TD.118",
+                "floor": "floor1",
                 "prof": "DAHMANI"
               }
             }
@@ -512,9 +561,10 @@
           {
             "cours": {
               "Time": "09:40 - 11:10",
-              "Subject": "Visualisation de DonnÃ©es",
+              "sub": "Visualisation de Donnees",
               "bat": "100-200",
-              "loc": "135D",
+              "loc": "135",
+              "floor": "floor1",
               "prof": "LARABI"
             },
             "groups": {}
@@ -522,9 +572,10 @@
           {
             "cours": {
               "Time": "11:20 - 12:50",
-              "Subject": "System d'Exploitation Mobile",
+              "sub": "System d'Exploitation Mobile",
               "bat": "100-200",
-              "loc": "117D",
+              "loc": "117",
+              "floor": "floor1",
               "prof": "OURAHMOUNE"
             },
             "groups": {}
@@ -534,16 +585,18 @@
             "groups": {
               "G1": {
                 "Time": "13:00 - 14:30",
-                "Subject": "Visualisation de Donnees",
-                "bat": "faculte informatique",
-                "loc": "TP128",
-                "prof": "Chargé de TP"
+                "sub": "Visualisation de Donnees",
+                "bat": "faculte info",
+                "loc": "TP.128",
+                "floor": "floor1",
+                "prof": "PROF TP VD"
               },
               "G2": {
                 "Time": "13:00 - 14:30",
-                "Subject": "System d'Exploitation Mobile",
+                "sub": "System d'Exploitation Mobile",
                 "bat": "BLOC C",
                 "loc": "TP.C4",
+                "floor": "floor1",
                 "prof": "OURAHMOUNE"
               }
             }
@@ -553,10 +606,11 @@
             "groups": {
               "G2": {
                 "Time": "14:40 - 16:10",
-                "Subject": "Visualisation de Donnees",
-                "bat": "faculte informatique",
-                "loc": "TP130",
-                "prof": "Chargé de TP"
+                "sub": "Visualisation de Donnees",
+                "bat": "faculte info",
+                "loc": "TP.130",
+                "floor": "floor1",
+                "prof": "PROF TP VD"
               }
             }
           }
@@ -565,9 +619,10 @@
           {
             "cours": {
               "Time": "08:00 - 09:30",
-              "Subject": "PROG RES",
+              "sub": "PROG RES",
               "bat": "SC",
               "loc": "SC",
+              "floor": "floor1",
               "prof": "EL NAGGER"
             },
             "groups": {}
@@ -577,16 +632,18 @@
             "groups": {
               "G1": {
                 "Time": "09:40 - 11:10",
-                "Subject": "Connaissances et Raisonnement",
+                "sub": "Connaissances et Raisonnement",
                 "bat": "BLOC C",
                 "loc": "TP.C4",
+                "floor": "floor2",
                 "prof": "KHELLAF"
               },
               "G2": {
                 "Time": "09:40 - 11:10",
-                "Subject": "Atelier Creatif",
+                "sub": "Atelier Creatif",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "LARABI"
               }
             }
@@ -596,16 +653,18 @@
             "groups": {
               "G1": {
                 "Time": "11:20 - 12:50",
-                "Subject": "Atelier Creatif",
+                "sub": "Atelier Creatif",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "LARABI"
               },
               "G2": {
                 "Time": "11:20 - 12:50",
-                "Subject": "Synthese d'Image",
+                "sub": "Synthese d'Image",
                 "bat": "BLOC C",
                 "loc": "TP.C4",
+                "floor": "floor2",
                 "prof": "Dahmane"
               }
             }
@@ -615,9 +674,10 @@
             "groups": {
               "G1": {
                 "Time": "13:00 - 14:30",
-                "Subject": "Synthese d'Image",
-                "bat": "faculte informatique",
-                "loc": "TP132",
+                "sub": "Synthese d'Image",
+                "bat": "faculte info",
+                "loc": "TP.132",
+                "floor": "floor1",
                 "prof": "Dahmane"
               }
             }
@@ -627,9 +687,10 @@
           {
             "cours": {
               "Time": "08:00 - 09:30",
-              "Subject": "GP-",
+              "sub": "GP",
               "bat": "100-200",
-              "loc": "103D",
+              "loc": "TP.103",
+              "floor": "floor1",
               "prof": "HACHEMI"
             },
             "groups": {}
@@ -637,9 +698,10 @@
           {
             "cours": {
               "Time": "09:40 - 11:10",
-              "Subject": "Synthese d'Image",
+              "sub": "Synthese d'Image",
               "bat": "100-200",
-              "loc": "103D",
+              "loc": "TP.103",
+              "floor": "floor1",
               "prof": "Dahmane"
             },
             "groups": {}
@@ -649,16 +711,18 @@
             "groups": {
               "G1": {
                 "Time": "11:20 - 12:50",
-                "Subject": "System d'Exploitation Mobile",
+                "sub": "System d'Exploitation Mobile",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "OURAHMOUNE"
               },
               "G2": {
                 "Time": "11:20 - 12:50",
-                "Subject": "GP-",
+                "sub": "GP",
                 "bat": "100-200",
-                "loc": "TP127",
+                "loc": "TP.127",
+                "floor": "floor1",
                 "prof": "BENSALAH"
               }
             }
@@ -668,9 +732,10 @@
             "groups": {
               "G1": {
                 "Time": "13:00 - 14:30",
-                "Subject": "PROG RES",
+                "sub": "PROG RES",
                 "bat": "BLOC C",
                 "loc": "TP.C6",
+                "floor": "floor2",
                 "prof": "no name"
               }
             }
@@ -680,16 +745,18 @@
             "groups": {
               "G1": {
                 "Time": "14:40 - 16:10",
-                "Subject": "GP-",
+                "sub": "GP",
                 "bat": "BLOC C",
                 "loc": "TP.C7",
+                "floor": "floor2",
                 "prof": "BENSALAH"
               },
               "G2": {
                 "Time": "14:40 - 16:10",
-                "Subject": "PROG RES",
+                "sub": "PROG RES",
                 "bat": "BLOC C",
                 "loc": "TP.C6",
+                "floor": "floor2",
                 "prof": "no name"
               }
             }
@@ -701,16 +768,18 @@
             "groups": {
               "G1": {
                 "Time": "08:00 - 09:30",
-                "Subject": "TH JEU",
+                "sub": "TH JEU",
                 "bat": "300-400",
-                "loc": "402",
+                "loc": "TD.402",
+                "floor": "floor2",
                 "prof": "DAHMANI"
               },
               "G2": {
                 "Time": "08:00 - 09:30",
-                "Subject": "System d'Exploitation Mobile",
+                "sub": "System d'Exploitation Mobile",
                 "bat": "300-400",
-                "loc": "338",
+                "loc": "TD.338",
+                "floor": "floor1",
                 "prof": "OURAHMOUNE"
               }
             }
@@ -718,9 +787,10 @@
           {
             "cours": {
               "Time": "09:40 - 11:10",
-              "Subject": "Connaissances et Raisonnement",
-              "bat": "BLOC R",
+              "sub": "Connaissances et Raisonnement",
+              "bat": "BLOC ER",
               "loc": "R4",
+              "floor": "floor2",
               "prof": "KHELLAF"
             },
             "groups": {}
@@ -728,9 +798,10 @@
           {
             "cours": {
               "Time": "11:20 - 12:50",
-              "Subject": "TH JEU",
+              "sub": "TH JEU",
               "bat": "BLOC D",
               "loc": "D5",
+              "floor": "floor1",
               "prof": "DAHMANI"
             },
             "groups": {}
@@ -740,16 +811,18 @@
             "groups": {
               "G1": {
                 "Time": "13:00 - 14:30",
-                "Subject": "TH JEU",
+                "sub": "TH JEU",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "Chargé de TP"
               },
               "G2": {
                 "Time": "13:00 - 14:30",
-                "Subject": "Connaissances et Raisonnement",
+                "sub": "Connaissances et Raisonnement",
                 "bat": "BLOC C",
                 "loc": "TP.C6",
+                "floor": "floor2",
                 "prof": "belhadi hiba"
               }
             }
@@ -759,9 +832,10 @@
             "groups": {
               "G2": {
                 "Time": "14:40 - 16:10",
-                "Subject": "TH JEU",
+                "sub": "TH JEU",
                 "bat": "BLOC C",
-                "loc": "TP.C3A",
+                "loc": "TP.C3",
+                "floor": "floor2",
                 "prof": "Chargé de TP"
               }
             }
@@ -781,9 +855,10 @@
           {
             "cours": {
               "Time": "08:00 - 09:30",
-              "Subject": "ASGBD",
-              "bat": "BLOC R",
+              "sub": "ASGBD",
+              "bat": "BLOC ER",
               "loc": "R8",
+              "floor": "floor2",
               "prof": "ALIMAZIGHI"
             },
             "groups": {}
@@ -791,9 +866,10 @@
           {
             "cours": {
               "Time": "09:40 - 11:10",
-              "Subject": "GP-",
+              "sub": "GP",
               "bat": "100-200",
-              "loc": "149T",
+              "loc": "149",
+              "floor": "floor1",
               "prof": "KHEMISSA"
             },
             "groups": {}
@@ -803,16 +879,18 @@
             "groups": {
               "G3": {
                 "Time": "11:20 - 12:50",
-                "Subject": "ASGBD",
+                "sub": "ASGBD",
                 "bat": "BLOC C",
                 "loc": "TP.C8",
+                "floor": "floor2",
                 "prof": "KESSI"
               },
               "G4": {
                 "Time": "11:20 - 12:50",
-                "Subject": "SYST",
-                "bat": "faculte informatique",
-                "loc": "TP132",
+                "sub": "SYST",
+                "bat": "faculte info",
+                "loc": "TP.132",
+                "floor": "floor1",
                 "prof": "DJOUADI"
               }
             }
@@ -822,23 +900,26 @@
             "groups": {
               "G2": {
                 "Time": "13:00 - 14:30",
-                "Subject": "SYST",
-                "bat": "faculte informatique",
-                "loc": "TP132",
+                "sub": "SYST",
+                "bat": "faculte info",
+                "loc": "TP.132",
+                "floor": "floor1",
                 "prof": "DJOUADI"
               },
               "G3": {
                 "Time": "13:00 - 14:30",
-                "Subject": "GP",
-                "bat": "faculte informatique",
-                "loc": "TP131",
+                "sub": "GP",
+                "bat": "faculte info",
+                "loc": "TP.131",
+                "floor": "floor1",
                 "prof": "KHEMISSA"
               },
               "G4": {
                 "Time": "13:00 - 14:30",
-                "Subject": "ASGBD",
+                "sub": "ASGBD",
                 "bat": "BLOC C",
                 "loc": "TP.C8",
+                "floor": "floor2",
                 "prof": "KESSI"
               }
             }
@@ -848,16 +929,18 @@
             "groups": {
               "G2": {
                 "Time": "14:40 - 16:10",
-                "Subject": "ASGBD",
+                "sub": "ASGBD",
                 "bat": "BLOC C",
                 "loc": "TP.C8",
+                "floor": "floor2",
                 "prof": "KESSI"
               },
               "G3": {
                 "Time": "14:40 - 16:10",
-                "Subject": "SYST",
-                "bat": "faculte informatique",
-                "loc": "TP126",
+                "sub": "SYST",
+                "bat": "faculte info",
+                "loc": "TP.126",
+                "floor": "floor1",
                 "prof": "DJOUADI"
               }
             }
@@ -869,9 +952,10 @@
             "groups": {
               "G1": {
                 "Time": "08:00 - 09:30",
-                "Subject": "SYST",
+                "sub": "SYST",
                 "bat": "300-400",
-                "loc": "410",
+                "loc": "TD.410",
+                "floor": "floor2",
                 "prof": "BOUYAKOUB"
               }
             }
@@ -881,9 +965,10 @@
             "groups": {
               "G1": {
                 "Time": "09:40 - 11:100",
-                "Subject": "SYST",
+                "sub": "SYST",
                 "bat": "300-400",
-                "loc": "455",
+                "loc": "TD.455",
+                "floor": "floor2",
                 "prof": "BOUYAKOUB"
               }
             }
@@ -893,9 +978,10 @@
             "groups": {
               "G1": {
                 "Time": "11:20 - 12:50",
-                "Subject": "COMPLEXITE",
-                "bat": "faculte informatique",
-                "loc": "TP130",
+                "sub": "COMPLEXITE",
+                "bat": "faculte info",
+                "loc": "TP.130",
+                "floor": "floor1",
                 "prof": "HEDJAZI-DELLAL"
               }
             }
@@ -905,10 +991,11 @@
             "groups": {
               "G1": {
                 "Time": "13:00 - 14:30",
-                "Subject": "ASGBD",
-                "bat": "faculte informatique",
-                "loc": "TP130",
-                "prof": "Chargé de TP"
+                "sub": "ASGBD",
+                "bat": "faculte info",
+                "loc": "TP.130",
+                "floor": "floor1",
+                "prof": "KESSI"
               }
             }
           }
@@ -919,9 +1006,10 @@
             "groups": {
               "G3": {
                 "Time": "08:00 - 09:30",
-                "Subject": "COMPLEXITE",
+                "sub": "COMPLEXITE",
                 "bat": "300-400",
-                "loc": "406",
+                "loc": "TD.406",
+                "floor": "floor2",
                 "prof": "HEDJAZI-DELLAL"
               }
             }
@@ -931,16 +1019,18 @@
             "groups": {
               "G1": {
                 "Time": "09:40 - 11:10",
-                "Subject": "GP-",
-                "bat": "faculte informatique",
-                "loc": "TP130",
+                "sub": "GP",
+                "bat": "faculte info",
+                "loc": "TP.130",
+                "floor": "floor1",
                 "prof": "KHEMISSA"
               },
               "G4": {
                 "Time": "09:40 - 11:10",
-                "Subject": "COMPLEXITE",
-                "bat": "faculte informatique",
-                "loc": "TP129",
+                "sub": "COMPLEXITE",
+                "bat": "faculte info",
+                "loc": "TP.129",
+                "floor": "floor1",
                 "prof": "HEDJAZI-DELLAL"
               }
             }
@@ -948,9 +1038,10 @@
           {
             "cours": {
               "Time": "11:20 - 12:50",
-              "Subject": "MEPS",
+              "sub": "MEPS",
               "bat": "300-400",
-              "loc": "420T",
+              "loc": "TD.420",
+              "floor": "floor2",
               "prof": "AISSANI"
             },
             "groups": {}
@@ -960,30 +1051,34 @@
             "groups": {
               "G1": {
                 "Time": "13:00 - 14:30",
-                "Subject": "SYST",
-                "bat": "faculte informatique",
-                "loc": "TP132",
+                "sub": "SYST",
+                "bat": "faculte info",
+                "loc": "TP.132",
+                "floor": "floor1",
                 "prof": "Chargé de TP"
               },
               "G2": {
                 "Time": "13:00 - 14:30",
-                "Subject": "GP-",
-                "bat": "faculte informatique",
-                "loc": "TP132",
+                "sub": "GP",
+                "bat": "faculte info",
+                "loc": "TP.131",
+                "floor": "floor1",
                 "prof": "KHEMISSA"
               },
               "G3": {
                 "Time": "13:00 - 14:30",
-                "Subject": "COMPLEXITE",
+                "sub": "COMPLEXITE",
                 "bat": "BLOC C",
-                "loc": "TP.C3B",
+                "loc": "TP.C4",
+                "floor": "floor2",
                 "prof": "HEDJAZI-DELLAL"
               },
               "G4": {
                 "Time": "13:00 - 14:30",
-                "Subject": "WEB AV",
-                "bat": "faculte informatique",
-                "loc": "TP129",
+                "sub": "WEB AV",
+                "bat": "faculte info",
+                "loc": "TP.129",
+                "floor": "floor1",
                 "prof": "MIHOUB"
               }
             }
@@ -993,23 +1088,26 @@
             "groups": {
               "G1": {
                 "Time": "14:40 - 16:10",
-                "Subject": "WEB AV",
-                "bat": "faculte informatique",
-                "loc": "TP129",
+                "sub": "WEB AV",
+                "bat": "faculte info",
+                "loc": "TP.129",
+                "floor": "floor1",
                 "prof": "MIHOUB"
               },
               "G2": {
                 "Time": "14:40 - 16:10",
-                "Subject": "COMPLEXITE",
+                "sub": "COMPLEXITE",
                 "bat": "BLOC C",
-                "loc": "TP.C3B",
+                "loc": "TP.C4",
+                "floor": "floor2",
                 "prof": "HEDJAZI-DELLAL"
               },
               "G4": {
                 "Time": "14:40 - 16:10",
-                "Subject": "GP-",
-                "bat": "faculte informatique",
-                "loc": "TP128",
+                "sub": "GP",
+                "bat": "faculte info",
+                "loc": "TP.128",
+                "floor": "floor1",
                 "prof": "KHEMISSA"
               }
             }
@@ -1019,9 +1117,10 @@
           {
             "cours": {
               "Time": "08:00 - 09:30",
-              "Subject": "Algo",
-              "bat": "BLOC R",
+              "sub": "Algo",
+              "bat": "BLOC ER",
               "loc": "R4",
+              "floor": "floor2",
               "prof": "DRIAS"
             },
             "groups": {}
@@ -1031,16 +1130,18 @@
             "groups": {
               "G1": {
                 "Time": "09:40 - 11:10",
-                "Subject": "Algo",
+                "sub": "Algo",
                 "bat": "300-400",
-                "loc": "406",
+                "loc": "TD.406",
+                "floor": "floor2",
                 "prof": "MESSAOUDI"
               },
               "G2": {
                 "Time": "09:40 - 11:10",
-                "Subject": "Multimedia",
+                "sub": "Multimedia",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "SEBAI"
               }
             }
@@ -1050,16 +1151,18 @@
             "groups": {
               "G1": {
                 "Time": "11:20 - 12:50",
-                "Subject": "Multimedia",
+                "sub": "Multimedia",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "SEBAI"
               },
               "G2": {
                 "Time": "11:20 - 12:50",
-                "Subject": "Algo",
+                "sub": "Algo",
                 "bat": "300-400",
-                "loc": "387",
+                "loc": "TD.387",
+                "floor": "floor1",
                 "prof": "MESSAOUDI"
               }
             }
@@ -1073,9 +1176,10 @@
           {
             "cours": {
               "Time": "08:00 - 09:30",
-              "Subject": "BDAV",
-              "bat": "BLOC R",
+              "sub": "BDAV",
+              "bat": "BLOC ER",
               "loc": "R8",
+              "floor": "floor2",
               "prof": "PROF COURS BDAV"
             },
             "groups": {}
@@ -1083,9 +1187,10 @@
           {
             "cours": {
               "Time": "09:40 - 11:10",
-              "Subject": "COMPIL2",
+              "sub": "COMPIL2",
               "bat": "100-200",
-              "loc": "149T",
+              "loc": "TD.149",
+              "floor": "floor1",
               "prof": "PROF COURS COMPIL2"
             },
             "groups": {}
@@ -1095,16 +1200,18 @@
             "groups": {
               "G3": {
                 "Time": "11:20 - 12:50",
-                "Subject": "BDAV",
+                "sub": "BDAV",
                 "bat": "BLOC C",
                 "loc": "TP.C8",
+                "floor": "floor2",
                 "prof": "PROF TP BDAV"
               },
               "G4": {
                 "Time": "11:20 - 12:50",
-                "Subject": "COMPIL2",
-                "bat": "faculte informatique",
-                "loc": "TP132",
+                "sub": "COMPIL2",
+                "bat": "faculte info",
+                "loc": "TP.132",
+                "floor": "floor1",
                 "prof": "PROF TP COMPIL2"
               }
             }
@@ -1114,23 +1221,26 @@
             "groups": {
               "G2": {
                 "Time": "13:00 - 14:30",
-                "Subject": "COMPIL2",
-                "bat": "faculte informatique",
-                "loc": "TP132",
+                "sub": "COMPIL2",
+                "bat": "faculte info",
+                "loc": "TP.132",
+                "floor": "floor1",
                 "prof": "PROF TP COMPIL2"
               },
               "G3": {
                 "Time": "13:00 - 14:30",
-                "Subject": "IA1",
-                "bat": "faculte informatique",
-                "loc": "TP131",
+                "sub": "IA1",
+                "bat": "faculte info",
+                "loc": "TP.131",
+                "floor": "floor1",
                 "prof": "PROF TP IA1"
               },
               "G4": {
                 "Time": "13:00 - 14:30",
-                "Subject": "BDAV",
+                "sub": "BDAV",
                 "bat": "BLOC C",
                 "loc": "TP.C8",
+                "floor": "floor2",
                 "prof": "PROF TP BDAV"
               }
             }
@@ -1140,16 +1250,18 @@
             "groups": {
               "G2": {
                 "Time": "14:40 - 16:10",
-                "Subject": "BDAV",
+                "sub": "BDAV",
                 "bat": "BLOC C",
                 "loc": "TP.C8",
+                "floor": "floor2",
                 "prof": "PROF TP BDAV"
               },
               "G3": {
                 "Time": "14:40 - 16:10",
-                "Subject": "COMPIL2",
-                "bat": "faculte informatique",
-                "loc": "TP126",
+                "sub": "COMPIL2",
+                "bat": "faculte info",
+                "loc": "TP.126",
+                "floor": "floor1",
                 "prof": "PROF TP COMPIL2"
               }
             }
@@ -1161,9 +1273,10 @@
             "groups": {
               "G1": {
                 "Time": "08:00 - 09:30",
-                "Subject": "COMPIL2",
+                "sub": "COMPIL2",
                 "bat": "300-400",
-                "loc": "410",
+                "loc": "TD.410",
+                "floor": "floor2",
                 "prof": "PROF TD COMPIL2"
               }
             }
@@ -1173,9 +1286,10 @@
             "groups": {
               "G1": {
                 "Time": "09:40 - 11:100",
-                "Subject": "SECU",
+                "sub": "SECU",
                 "bat": "300-400",
-                "loc": "455",
+                "loc": "TD.455",
+                "floor": "floor2",
                 "prof": "PROF TD SECU"
               }
             }
@@ -1185,9 +1299,10 @@
             "groups": {
               "G1": {
                 "Time": "11:20 - 12:50",
-                "Subject": "COMPIL2",
-                "bat": "faculte informatique",
-                "loc": "TP130",
+                "sub": "COMPIL2",
+                "bat": "faculte info",
+                "loc": "TP.130",
+                "floor": "floor1",
                 "prof": "PROF TP COMPIL2"
               }
             }
@@ -1197,9 +1312,10 @@
             "groups": {
               "G1": {
                 "Time": "13:00 - 14:30",
-                "Subject": "BDAV",
-                "bat": "faculte informatique",
-                "loc": "TP130",
+                "sub": "BDAV",
+                "bat": "faculte info",
+                "loc": "TP.130",
+                "floor": "floor1",
                 "prof": "PROF TP BDAV"
               }
             }
@@ -1211,9 +1327,10 @@
             "groups": {
               "G3": {
                 "Time": "08:00 - 09:30",
-                "Subject": "SECU",
+                "sub": "SECU",
                 "bat": "300-400",
-                "loc": "406",
+                "loc": "TD.406",
+                "floor": "floor2",
                 "prof": "PROF TD SECU"
               }
             }
@@ -1223,16 +1340,18 @@
             "groups": {
               "G1": {
                 "Time": "09:40 - 11:10",
-                "Subject": "IA1",
-                "bat": "faculte informatique",
-                "loc": "TP130",
+                "sub": "IA1",
+                "bat": "faculte info",
+                "loc": "TP.130",
+                "floor": "floor1",
                 "prof": "PROF TP IA1"
               },
               "G4": {
                 "Time": "09:40 - 11:10",
-                "Subject": "MODAL",
-                "bat": "faculte informatique",
-                "loc": "TP129",
+                "sub": "MODAL",
+                "bat": "faculte info",
+                "loc": "TP.129",
+                "floor": "floor1",
                 "prof": "PROF TP MODAL"
               }
             }
@@ -1240,9 +1359,10 @@
           {
             "cours": {
               "Time": "11:20 - 12:50",
-              "Subject": "S.MULTIMEDIA",
+              "sub": "S.MULTIMEDIA",
               "bat": "300-400",
-              "loc": "420T",
+              "loc": "TD.420",
+              "floor": "floor2",
               "prof": "PROF COURS MULTIMEDIA"
             },
             "groups": {}
@@ -1252,30 +1372,34 @@
             "groups": {
               "G1": {
                 "Time": "13:00 - 14:30",
-                "Subject": "MODAL",
-                "bat": "faculte informatique",
-                "loc": "TP132",
+                "sub": "MODAL",
+                "bat": "faculte info",
+                "loc": "TP.132",
+                "floor": "floor1",
                 "prof": "PROF TP MODAL"
               },
               "G2": {
                 "Time": "13:00 - 14:30",
-                "Subject": "IA1",
-                "bat": "faculte informatique",
-                "loc": "TP132",
+                "sub": "IA1",
+                "bat": "faculte info",
+                "loc": "TP.132",
+                "floor": "floor1",
                 "prof": "PROF TP IA1"
               },
               "G3": {
                 "Time": "13:00 - 14:30",
-                "Subject": "SECU",
+                "sub": "SECU",
                 "bat": "BLOC C",
-                "loc": "TP.C3B",
+                "loc": "TP.C4",
+                "floor": "floor2",
                 "prof": "PROF TD SECU"
               },
               "G4": {
                 "Time": "13:00 - 14:30",
-                "Subject": "COMPIL2",
-                "bat": "faculte informatique",
-                "loc": "TP129",
+                "sub": "COMPIL2",
+                "bat": "faculte info",
+                "loc": "TP.129",
+                "floor": "floor1",
                 "prof": "PROF TD COMPIL2"
               }
             }
@@ -1285,23 +1409,26 @@
             "groups": {
               "G2": {
                 "Time": "14:40 - 16:10",
-                "Subject": "IA1",
+                "sub": "IA1",
                 "bat": "BLOC C",
-                "loc": "TP.C3B",
+                "loc": "TP.C4",
+                "floor": "floor2",
                 "prof": "PROF TP IA1"
               },
               "G3": {
                 "Time": "14:40 - 16:10",
-                "Subject": "COMPIL2",
+                "sub": "COMPIL2",
                 "bat": "BLOC C",
-                "loc": "TP.C3B",
+                "loc": "TP.C4",
+                "floor": "floor2",
                 "prof": "PROF TD COMPIL2"
               },
               "G4": {
                 "Time": "14:40 - 16:10",
-                "Subject": "SECU",
-                "bat": "faculte informatique",
-                "loc": "TP128",
+                "sub": "SECU",
+                "bat": "faculte info",
+                "loc": "TP.128",
+                "floor": "floor1",
                 "prof": "PROF TD SECU"
               }
             }
@@ -1311,9 +1438,10 @@
           {
             "cours": {
               "Time": "08:00 - 09:30",
-              "Subject": "SECU",
-              "bat": "BLOC R",
+              "sub": "SECU",
+              "bat": "BLOC ER",
               "loc": "R4",
+              "floor": "floor2",
               "prof": "PROF COURS SECU"
             },
             "groups": {}
@@ -1323,16 +1451,18 @@
             "groups": {
               "G2": {
                 "Time": "09:40 - 11:10",
-                "Subject": "SECU",
+                "sub": "SECU",
                 "bat": "300-400",
-                "loc": "406",
+                "loc": "TD.406",
+                "floor": "floor2",
                 "prof": "PROF TD SECU"
               },
               "G3": {
                 "Time": "09:40 - 11:10",
-                "Subject": "MODAL",
+                "sub": "MODAL",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "PROF TP MODAL"
               }
             }
@@ -1340,9 +1470,10 @@
           {
             "cours": {
               "Time": "11:20 - 12:50",
-              "Subject": "MODAL",
-              "bat": "BLOC R",
+              "sub": "MODAL",
+              "bat": "BLOC ER",
               "loc": "R4",
+              "floor": "floor2",
               "prof": "PROF COURS MODAL"
             },
             "groups": {}
@@ -1352,9 +1483,10 @@
             "groups": {
               "G2": {
                 "Time": "13:00 - 14:30",
-                "Subject": "COMPIL2",
+                "sub": "COMPIL2",
                 "bat": "300-400",
-                "loc": "406",
+                "loc": "TD.406",
+                "floor": "floor2",
                 "prof": "PROF TD COMPIL2"
               }
             }
@@ -1364,9 +1496,10 @@
           {
             "cours": {
               "Time": "08:00 - 09:30",
-              "Subject": "IA1",
-              "bat": "BLOC R",
+              "sub": "IA1",
+              "bat": "BLOC ER",
               "loc": "R4",
+              "floor": "floor2",
               "prof": "PROF COURS IA1"
             },
             "groups": {}
@@ -1374,9 +1507,10 @@
           {
             "cours": {
               "Time": "09:40 - 11:10",
-              "Subject": "Anglais",
-              "bat": "BLOC R",
+              "sub": "Anglais",
+              "bat": "BLOC ER",
               "loc": "R4",
+              "floor": "floor2",
               "prof": "PROF COURS ANGLAIS"
             },
             "groups": {}
@@ -1386,9 +1520,10 @@
             "groups": {
               "G2": {
                 "Time": "11:20 - 12:50",
-                "Subject": "MODAL",
+                "sub": "MODAL",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "PROF TP MODAL"
               }
             }
@@ -1405,16 +1540,18 @@
             "groups": {
               "G1": {
                 "Time": "08:00 - 09:30",
-                "Subject": "MPDL",
+                "sub": "MPDL",
                 "bat": "300-400",
-                "loc": "363",
+                "loc": "TD.363",
+                "floor": "floor1",
                 "prof": "HACHEMI"
               },
               "G2": {
                 "Time": "08:00 - 09:30",
-                "Subject": "ENT DON",
+                "sub": "ENT DON",
                 "bat": "BLOC C",
                 "loc": "TP.C7",
+                "floor": "floor2",
                 "prof": "SELMOUNE"
               }
             }
@@ -1424,9 +1561,10 @@
             "groups": {
               "G1": {
                 "Time": "09:40 - 11:10",
-                "Subject": "ASS QUAL",
+                "sub": "ASS QUAL",
                 "bat": "BLOC C",
-                "loc": "TP.C3A",
+                "loc": "TP.C3",
+                "floor": "floor2",
                 "prof": "CHABOUNI"
               }
             }
@@ -1434,9 +1572,10 @@
           {
             "cours": {
               "Time": "11:20 - 12:50",
-              "Subject": "ENT DON",
-              "bat": "BLOC E",
+              "sub": "ENT DON",
+              "bat": "BLOC ER",
               "loc": "E1",
+              "floor": "floor1",
               "prof": "SELMOUNE"
             },
             "groups": {}
@@ -1446,9 +1585,10 @@
             "groups": {
               "G2": {
                 "Time": "13:00 - 14:30",
-                "Subject": "MPDL",
+                "sub": "MPDL",
                 "bat": "300-400",
-                "loc": "430D",
+                "loc": "TD.430",
+                "floor": "floor2",
                 "prof": "HACHEMI"
               }
             }
@@ -1458,9 +1598,10 @@
             "groups": {
               "G2": {
                 "Time": "14:40 - 16:10",
-                "Subject": "ASS QUAL",
+                "sub": "ASS QUAL",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "CHABOUNI"
               }
             }
@@ -1472,16 +1613,18 @@
             "groups": {
               "G1": {
                 "Time": "08:00 - 09:30",
-                "Subject": "REP CON",
+                "sub": "REP CON",
                 "bat": "300-400",
-                "loc": "446",
+                "loc": "TD.446",
+                "floor": "floor2",
                 "prof": "ISLI"
               },
               "G2": {
                 "Time": "08:00 - 09:30",
-                "Subject": "ASS QUAL",
+                "sub": "ASS QUAL",
                 "bat": "300-400",
-                "loc": "375",
+                "loc": "TD.375",
+                "floor": "floor1",
                 "prof": "CHABOUNI"
               }
             }
@@ -1491,9 +1634,10 @@
             "groups": {
               "G2": {
                 "Time": "09:40 - 11:10",
-                "Subject": "ANGLAIS",
+                "sub": "ANGLAIS",
                 "bat": "LABO LANG",
-                "loc": "6",
+                "loc": "TD.6",
+                "floor": "floor1",
                 "prof": "BOUDEFASSA"
               }
             }
@@ -1501,9 +1645,10 @@
           {
             "cours": {
               "Time": "11:20 - 12:50",
-              "Subject": "REP CON",
+              "sub": "REP CON",
               "bat": "BLOC C",
               "loc": "C1",
+              "floor": "floor2",
               "prof": "ISLI"
             },
             "groups": {}
@@ -1513,9 +1658,10 @@
             "groups": {
               "G1": {
                 "Time": "13:00 - 14:30",
-                "Subject": "ASS QUAL",
+                "sub": "ASS QUAL",
                 "bat": "300-400",
-                "loc": "412",
+                "loc": "TD.412",
+                "floor": "floor2",
                 "prof": "CHABOUNI"
               }
             }
@@ -1525,9 +1671,10 @@
             "groups": {
               "G1": {
                 "Time": "14:40 - 16:10",
-                "Subject": "CPT AVANC",
+                "sub": "CPT AVANC",
                 "bat": "BLOC C",
                 "loc": "TP.C5",
+                "floor": "floor2",
                 "prof": "Saadi"
               }
             }
@@ -1539,9 +1686,10 @@
             "groups": {
               "G1": {
                 "Time": "08:00 - 09:30",
-                "Subject": "MPDL",
+                "sub": "MPDL",
                 "bat": "BLOC C",
-                "loc": "TP.C3A",
+                "loc": "TP.C3",
+                "floor": "floor2",
                 "prof": "ABBACI"
               }
             }
@@ -1551,9 +1699,10 @@
             "groups": {
               "G2": {
                 "Time": "09:40 - 11:10",
-                "Subject": "MPDL",
-                "bat": "faculte informatique",
-                "loc": "TP131",
+                "sub": "MPDL",
+                "bat": "faculte info",
+                "loc": "TP.131",
+                "floor": "floor1",
                 "prof": "HACHEMI"
               }
             }
@@ -1563,16 +1712,18 @@
             "groups": {
               "G1": {
                 "Time": "11:20 - 12:50",
-                "Subject": "ANGLAIS",
+                "sub": "ANGLAIS",
                 "bat": "LABO LANG",
-                "loc": "12",
+                "loc": "TD.12",
+                "floor": "floor1",
                 "prof": "BOUDEFASSA"
               },
               "G2": {
                 "Time": "11:20 - 12:50",
-                "Subject": "MPDL",
-                "bat": "faculte informatique",
-                "loc": "TP132",
+                "sub": "MPDL",
+                "bat": "faculte info",
+                "loc": "TP.132",
+                "floor": "floor1",
                 "prof": "HACHEMI"
               }
             }
@@ -1580,9 +1731,10 @@
           {
             "cours": {
               "Time": "13:00 - 14:30",
-              "Subject": "SIC",
-              "loc": "125T",
+              "sub": "SIC",
               "bat": "100-200",
+              "loc": "125",
+              "floor": "floor1",
               "prof": "MAHDAOUI"
             },
             "groups": {}
@@ -1590,9 +1742,10 @@
           {
             "cours": {
               "Time": "14:40 - 16:10",
-              "Subject": "MPDL",
+              "sub": "MPDL",
               "bat": "100-200",
-              "loc": "135D",
+              "loc": "135",
+              "floor": "floor1",
               "prof": "HACHEMI"
             },
             "groups": {}
@@ -1604,9 +1757,10 @@
             "groups": {
               "G1": {
                 "Time": "08:00 - 09:30",
-                "Subject": "SIC",
-                "bat": "faculte informatique",
-                "loc": "TP131",
+                "sub": "SIC",
+                "bat": "faculte info",
+                "loc": "TP.131",
+                "floor": "floor1",
                 "prof": "MAHDAOUI"
               }
             }
@@ -1616,16 +1770,18 @@
             "groups": {
               "G1": {
                 "Time": "09:40 - 11:10",
-                "Subject": "ENT DON",
-                "bat": "faculte informatique",
-                "loc": "TP126",
+                "sub": "ENT DON",
+                "bat": "faculte info",
+                "loc": "TP.126",
+                "floor": "floor1",
                 "prof": "SELMOUNE"
               },
               "G2": {
                 "Time": "09:40 - 11:10",
-                "Subject": "CPT AVANC",
+                "sub": "CPT AVANC",
                 "bat": "BLOC C",
-                "loc": "TP.C3B",
+                "loc": "TP.C4",
+                "floor": "floor2",
                 "prof": "CHABOUNI"
               }
             }
@@ -1633,9 +1789,10 @@
           {
             "cours": {
               "Time": "11:20 - 12:50",
-              "Subject": "ASS QUAL",
+              "sub": "ASS QUAL",
               "bat": "BLOC C",
               "loc": "C7",
+              "floor": "floor2",
               "prof": "haddouche epse che"
             },
             "groups": {}
@@ -1643,9 +1800,10 @@
           {
             "cours": {
               "Time": "13:00 - 14:30",
-              "Subject": "CPT AVANC",
+              "sub": "CPT AVANC",
               "bat": "100-200",
-              "loc": "143T",
+              "loc": "143",
+              "floor": "floor1",
               "prof": "Saadi"
             },
             "groups": {}
@@ -1655,9 +1813,10 @@
             "groups": {
               "G2": {
                 "Time": "14:40 - 16:10",
-                "Subject": "SIC",
-                "bat": "faculte informatique",
-                "loc": "TP130",
+                "sub": "SIC",
+                "bat": "faculte info",
+                "loc": "TP.130",
+                "floor": "floor1",
                 "prof": "MAHDAOUI"
               }
             }
