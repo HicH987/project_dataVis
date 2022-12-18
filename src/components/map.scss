@@ -53,3 +53,137 @@ button {
   // border-radius: 50px;
   // border: none;
 }
+
+.tooltip{
+  background-color: rgb(251, 251, 251);
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+
+  text-align: center;
+}
+
+.item{
+  list-style: none;
+  padding: 2px;
+}
+
+.tooltip > li:first-child{
+  width: 198px;
+  height: 20px;
+  border-radius: 10px 10px 0 0;
+  background: #000;
+  color: #fff;
+}
+
+
+
+//.classtip{
+  // background-color: rgb(251, 251, 251);
+  // width: 200px;
+  // height: 70px;
+  // border-radius: 10px;
+
+  // text-align: center;
+//}
+.classtip> li{
+  padding: 2px;
+}
+
+
+// .tab{
+  // border-radius: 10px;
+  // text-align: center;
+  // padding: 2px;
+  // width: 100%;
+  // background-color: #ffffff;
+//   border-collapse: collapse;
+//   // border-width: 2px;
+//   // border-color: #0ebeff;
+//   // border-style: solid;
+//   color: #000000;
+// }
+
+// .tab, td
+// {
+//   border-radius: 10px;
+//   border-width: 2px;
+//   border-color: #0ebeff;
+//   border-style: solid;
+//   padding: 3px;
+// }
+
+
+table {
+  /*add border-spacing: 0     instead of     border-collapse: collapse*/
+  border-spacing: 0;
+  font-size: 1rem;
+  min-width: 300px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+/* Start psuedo child tags here, targeting each data elements relevant corners and sides */
+
+table tr td:first-of-type {
+   border-left: 1px solid #c3c3c3;
+}
+
+table tr td:last-of-type {
+   border-right: 1px solid #c3c3c3;
+}
+
+/* :not(:first-child):not(:last-child)
+This will get any potential data tables that are added 
+that are not sides or corners however, they are border 
+data tables on top or bottom */    
+
+table tr:first-of-type td:not(:first-child):not(:last-child){
+  border-top: 1px solid #c3c3c3;
+}
+
+
+table tr:last-of-type td:not(:first-child):not(:last-child){
+  border-bottom: 1px solid #c3c3c3;
+}
+
+table tr:first-of-type td:first-child {
+    border-top: 1px solid #c3c3c3;
+    border-top-left-radius: 10px;
+}
+
+table tr:first-of-type td:last-child {
+    border-top: 1px solid #c3c3c3;
+    border-top-right-radius: 10px;
+}
+
+table tr:last-of-type td:last-child {
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #c3c3c3;
+    border-bottom-right-radius: 10px;
+}
+
+table tr:last-of-type td:first-child {
+    border-left: 1px solid #c3c3c3;
+    border-bottom:  1px solid #c3c3c3;
+    border-bottom-left-radius: 10px;
+}
+
+/* End Psuedo tags here */
+
+table tr {
+  border-bottom: solid 1px #d1d1d1;
+}
+
+table tr:nth-child(odd) {
+  background-color: #000;
+  color: #fff;
+}
+
+table td {
+  padding: 5px 15px;
+}
+
+table td:first-of-type {
+  font-weight: 600;
+}

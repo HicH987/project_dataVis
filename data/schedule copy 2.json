@@ -937,8 +937,7 @@
                 "time": "11:20 - 12:50",
                 "sub": "ASGBD",
                 "bat": "BLOC C",
-                "loc": "C8",
-                "e": "TP",
+                "loc": "TP.C8",
                 "floor": "floor2",
                 "prof": "KESSI"
               },
@@ -946,8 +945,7 @@
                 "time": "11:20 - 12:50",
                 "sub": "SYST",
                 "bat": "faculte info",
-                "loc": "132",
-                "e": "TP",
+                "loc": "TP.132",
                 "floor": "floor1",
                 "prof": "DJOUADI"
               }
@@ -960,8 +958,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "SYST",
                 "bat": "faculte info",
-                "loc": "132",
-                "e": "TP",
+                "loc": "TP.132",
                 "floor": "floor1",
                 "prof": "DJOUADI"
               },
@@ -969,8 +966,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "GP",
                 "bat": "faculte info",
-                "loc": "131",
-                "e": "TP",
+                "loc": "TP.131",
                 "floor": "floor1",
                 "prof": "KHEMISSA"
               },
@@ -978,8 +974,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "ASGBD",
                 "bat": "BLOC C",
-                "loc": "C8",
-                "e": "TP",
+                "loc": "TP.C8",
                 "floor": "floor2",
                 "prof": "KESSI"
               }
@@ -992,8 +987,7 @@
                 "time": "14:40 - 16:10",
                 "sub": "ASGBD",
                 "bat": "BLOC C",
-                "loc": "C8",
-                "e": "TP",
+                "loc": "TP.C8",
                 "floor": "floor2",
                 "prof": "KESSI"
               },
@@ -1001,8 +995,7 @@
                 "time": "14:40 - 16:10",
                 "sub": "SYST",
                 "bat": "faculte info",
-                "loc": "126",
-                "e": "TP",
+                "loc": "TP.126",
                 "floor": "floor1",
                 "prof": "DJOUADI"
               }
@@ -1017,8 +1010,7 @@
                 "time": "08:00 - 09:30",
                 "sub": "SYST",
                 "bat": "300-400",
-                "loc": "410",
-                "e": "TD",
+                "loc": "TD.410",
                 "floor": "floor2",
                 "prof": "BOUYAKOUB"
               }
@@ -1031,8 +1023,7 @@
                 "time": "09:40 - 11:100",
                 "sub": "SYST",
                 "bat": "300-400",
-                "loc": "455",
-                "e": "TD",
+                "loc": "TD.455",
                 "floor": "floor2",
                 "prof": "BOUYAKOUB"
               }
@@ -1045,8 +1036,7 @@
                 "time": "11:20 - 12:50",
                 "sub": "COMPLEXITE",
                 "bat": "faculte info",
-                "loc": "130",
-                "e": "TP",
+                "loc": "TP.130",
                 "floor": "floor1",
                 "prof": "HEDJAZI-DELLAL"
               }
@@ -1059,8 +1049,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "ASGBD",
                 "bat": "faculte info",
-                "loc": "130",
-                "e": "TP",
+                "loc": "TP.130",
                 "floor": "floor1",
                 "prof": "KESSI"
               }
@@ -1075,8 +1064,7 @@
                 "time": "08:00 - 09:30",
                 "sub": "COMPLEXITE",
                 "bat": "300-400",
-                "loc": "406",
-                "e": "TD",
+                "loc": "TD.406",
                 "floor": "floor2",
                 "prof": "HEDJAZI-DELLAL"
               }
@@ -1089,8 +1077,7 @@
                 "time": "09:40 - 11:10",
                 "sub": "GP",
                 "bat": "faculte info",
-                "loc": "130",
-                "e": "TP",
+                "loc": "TP.130",
                 "floor": "floor1",
                 "prof": "KHEMISSA"
               },
@@ -1098,8 +1085,7 @@
                 "time": "09:40 - 11:10",
                 "sub": "COMPLEXITE",
                 "bat": "faculte info",
-                "loc": "129",
-                "e": "TP",
+                "loc": "TP.129",
                 "floor": "floor1",
                 "prof": "HEDJAZI-DELLAL"
               }
@@ -1110,8 +1096,7 @@
               "time": "11:20 - 12:50",
               "sub": "MEPS",
               "bat": "300-400",
-              "loc": "420",
-              "e": "TD",
+              "loc": "TD.420",
               "floor": "floor2",
               "prof": "AISSANI"
             },
@@ -1124,8 +1109,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "SYST",
                 "bat": "faculte info",
-                "loc": "132",
-                "e": "TP",
+                "loc": "TP.132",
                 "floor": "floor1",
                 "prof": "Chargé de TP"
               },
@@ -1133,8 +1117,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "GP",
                 "bat": "faculte info",
-                "loc": "131",
-                "e": "TP",
+                "loc": "TP.131",
                 "floor": "floor1",
                 "prof": "KHEMISSA"
               },
@@ -1142,8 +1125,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "COMPLEXITE",
                 "bat": "BLOC C",
-                "loc": "C4",
-                "e": "TP",
+                "loc": "TP.C4",
                 "floor": "floor2",
                 "prof": "HEDJAZI-DELLAL"
               },
@@ -1151,8 +1133,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "WEB AV",
                 "bat": "faculte info",
-                "loc": "129",
-                "e": "TP",
+                "loc": "TP.129",
                 "floor": "floor1",
                 "prof": "MIHOUB"
               }
@@ -1165,8 +1146,7 @@
                 "time": "14:40 - 16:10",
                 "sub": "WEB AV",
                 "bat": "faculte info",
-                "loc": "129",
-                "e": "TP",
+                "loc": "TP.129",
                 "floor": "floor1",
                 "prof": "MIHOUB"
               },
@@ -1174,8 +1154,7 @@
                 "time": "14:40 - 16:10",
                 "sub": "COMPLEXITE",
                 "bat": "BLOC C",
-                "loc": "C4",
-                "e": "TP",
+                "loc": "TP.C4",
                 "floor": "floor2",
                 "prof": "HEDJAZI-DELLAL"
               },
@@ -1183,8 +1162,7 @@
                 "time": "14:40 - 16:10",
                 "sub": "GP",
                 "bat": "faculte info",
-                "loc": "128",
-                "e": "TP",
+                "loc": "TP.128",
                 "floor": "floor1",
                 "prof": "KHEMISSA"
               }
@@ -1210,8 +1188,7 @@
                 "time": "09:40 - 11:10",
                 "sub": "Algo",
                 "bat": "300-400",
-                "loc": "406",
-                "e": "TD",
+                "loc": "TD.406",
                 "floor": "floor2",
                 "prof": "MESSAOUDI"
               },
@@ -1219,8 +1196,7 @@
                 "time": "09:40 - 11:10",
                 "sub": "Multimedia",
                 "bat": "BLOC C",
-                "loc": "C5",
-                "e": "TP",
+                "loc": "TP.C5",
                 "floor": "floor2",
                 "prof": "SEBAI"
               }
@@ -1233,8 +1209,7 @@
                 "time": "11:20 - 12:50",
                 "sub": "Multimedia",
                 "bat": "BLOC C",
-                "loc": "C5",
-                "e": "TP",
+                "loc": "TP.C5",
                 "floor": "floor2",
                 "prof": "SEBAI"
               },
@@ -1242,8 +1217,7 @@
                 "time": "11:20 - 12:50",
                 "sub": "Algo",
                 "bat": "300-400",
-                "loc": "387",
-                "e": "TD",
+                "loc": "TD.387",
                 "floor": "floor1",
                 "prof": "MESSAOUDI"
               }
@@ -1271,8 +1245,7 @@
               "time": "09:40 - 11:10",
               "sub": "COMPIL2",
               "bat": "100-200",
-              "loc": "149",
-              "e": "TD",
+              "loc": "TD.149",
               "floor": "floor1",
               "prof": "PROF COURS COMPIL2"
             },
@@ -1285,8 +1258,7 @@
                 "time": "11:20 - 12:50",
                 "sub": "BDAV",
                 "bat": "BLOC C",
-                "loc": "C8",
-                "e": "TP",
+                "loc": "TP.C8",
                 "floor": "floor2",
                 "prof": "PROF TP BDAV"
               },
@@ -1294,8 +1266,7 @@
                 "time": "11:20 - 12:50",
                 "sub": "COMPIL2",
                 "bat": "faculte info",
-                "loc": "132",
-                "e": "TP",
+                "loc": "TP.132",
                 "floor": "floor1",
                 "prof": "PROF TP COMPIL2"
               }
@@ -1308,8 +1279,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "COMPIL2",
                 "bat": "faculte info",
-                "loc": "132",
-                "e": "TP",
+                "loc": "TP.132",
                 "floor": "floor1",
                 "prof": "PROF TP COMPIL2"
               },
@@ -1317,8 +1287,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "IA1",
                 "bat": "faculte info",
-                "loc": "131",
-                "e": "TP",
+                "loc": "TP.131",
                 "floor": "floor1",
                 "prof": "PROF TP IA1"
               },
@@ -1326,8 +1295,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "BDAV",
                 "bat": "BLOC C",
-                "loc": "C8",
-                "e": "TP",
+                "loc": "TP.C8",
                 "floor": "floor2",
                 "prof": "PROF TP BDAV"
               }
@@ -1340,8 +1308,7 @@
                 "time": "14:40 - 16:10",
                 "sub": "BDAV",
                 "bat": "BLOC C",
-                "loc": "C8",
-                "e": "TP",
+                "loc": "TP.C8",
                 "floor": "floor2",
                 "prof": "PROF TP BDAV"
               },
@@ -1349,8 +1316,7 @@
                 "time": "14:40 - 16:10",
                 "sub": "COMPIL2",
                 "bat": "faculte info",
-                "loc": "126",
-                "e": "TP",
+                "loc": "TP.126",
                 "floor": "floor1",
                 "prof": "PROF TP COMPIL2"
               }
@@ -1365,8 +1331,7 @@
                 "time": "08:00 - 09:30",
                 "sub": "COMPIL2",
                 "bat": "300-400",
-                "loc": "410",
-                "e": "TD",
+                "loc": "TD.410",
                 "floor": "floor2",
                 "prof": "PROF TD COMPIL2"
               }
@@ -1379,8 +1344,7 @@
                 "time": "09:40 - 11:100",
                 "sub": "SECU",
                 "bat": "300-400",
-                "loc": "455",
-                "e": "TD",
+                "loc": "TD.455",
                 "floor": "floor2",
                 "prof": "PROF TD SECU"
               }
@@ -1393,8 +1357,7 @@
                 "time": "11:20 - 12:50",
                 "sub": "COMPIL2",
                 "bat": "faculte info",
-                "loc": "130",
-                "e": "TP",
+                "loc": "TP.130",
                 "floor": "floor1",
                 "prof": "PROF TP COMPIL2"
               }
@@ -1407,8 +1370,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "BDAV",
                 "bat": "faculte info",
-                "loc": "130",
-                "e": "TP",
+                "loc": "TP.130",
                 "floor": "floor1",
                 "prof": "PROF TP BDAV"
               }
@@ -1423,8 +1385,7 @@
                 "time": "08:00 - 09:30",
                 "sub": "SECU",
                 "bat": "300-400",
-                "loc": "406",
-                "e": "TD",
+                "loc": "TD.406",
                 "floor": "floor2",
                 "prof": "PROF TD SECU"
               }
@@ -1437,8 +1398,7 @@
                 "time": "09:40 - 11:10",
                 "sub": "IA1",
                 "bat": "faculte info",
-                "loc": "130",
-                "e": "TP",
+                "loc": "TP.130",
                 "floor": "floor1",
                 "prof": "PROF TP IA1"
               },
@@ -1446,8 +1406,7 @@
                 "time": "09:40 - 11:10",
                 "sub": "MODAL",
                 "bat": "faculte info",
-                "loc": "129",
-                "e": "TP",
+                "loc": "TP.129",
                 "floor": "floor1",
                 "prof": "PROF TP MODAL"
               }
@@ -1458,8 +1417,7 @@
               "time": "11:20 - 12:50",
               "sub": "S.MULTIMEDIA",
               "bat": "300-400",
-              "loc": "420",
-              "e": "TD",
+              "loc": "TD.420",
               "floor": "floor2",
               "prof": "PROF COURS MULTIMEDIA"
             },
@@ -1472,8 +1430,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "MODAL",
                 "bat": "faculte info",
-                "loc": "132",
-                "e": "TP",
+                "loc": "TP.132",
                 "floor": "floor1",
                 "prof": "PROF TP MODAL"
               },
@@ -1481,8 +1438,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "IA1",
                 "bat": "faculte info",
-                "loc": "132",
-                "e": "TP",
+                "loc": "TP.132",
                 "floor": "floor1",
                 "prof": "PROF TP IA1"
               },
@@ -1490,8 +1446,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "SECU",
                 "bat": "BLOC C",
-                "loc": "C4",
-                "e": "TP",
+                "loc": "TP.C4",
                 "floor": "floor2",
                 "prof": "PROF TD SECU"
               },
@@ -1499,8 +1454,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "COMPIL2",
                 "bat": "faculte info",
-                "loc": "129",
-                "e": "TP",
+                "loc": "TP.129",
                 "floor": "floor1",
                 "prof": "PROF TD COMPIL2"
               }
@@ -1513,8 +1467,7 @@
                 "time": "14:40 - 16:10",
                 "sub": "IA1",
                 "bat": "BLOC C",
-                "loc": "C4",
-                "e": "TP",
+                "loc": "TP.C4",
                 "floor": "floor2",
                 "prof": "PROF TP IA1"
               },
@@ -1522,8 +1475,7 @@
                 "time": "14:40 - 16:10",
                 "sub": "COMPIL2",
                 "bat": "BLOC C",
-                "loc": "C4",
-                "e": "TP",
+                "loc": "TP.C4",
                 "floor": "floor2",
                 "prof": "PROF TD COMPIL2"
               },
@@ -1531,8 +1483,7 @@
                 "time": "14:40 - 16:10",
                 "sub": "SECU",
                 "bat": "faculte info",
-                "loc": "128",
-                "e": "TP",
+                "loc": "TP.128",
                 "floor": "floor1",
                 "prof": "PROF TD SECU"
               }
@@ -1558,8 +1509,7 @@
                 "time": "09:40 - 11:10",
                 "sub": "SECU",
                 "bat": "300-400",
-                "loc": "406",
-                "e": "TD",
+                "loc": "TD.406",
                 "floor": "floor2",
                 "prof": "PROF TD SECU"
               },
@@ -1567,8 +1517,7 @@
                 "time": "09:40 - 11:10",
                 "sub": "MODAL",
                 "bat": "BLOC C",
-                "loc": "C5",
-                "e": "TP",
+                "loc": "TP.C5",
                 "floor": "floor2",
                 "prof": "PROF TP MODAL"
               }
@@ -1592,8 +1541,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "COMPIL2",
                 "bat": "300-400",
-                "loc": "406",
-                "e": "TD",
+                "loc": "TD.406",
                 "floor": "floor2",
                 "prof": "PROF TD COMPIL2"
               }
@@ -1630,8 +1578,7 @@
                 "time": "11:20 - 12:50",
                 "sub": "MODAL",
                 "bat": "BLOC C",
-                "loc": "C5",
-                "e": "TP",
+                "loc": "TP.C5",
                 "floor": "floor2",
                 "prof": "PROF TP MODAL"
               }
@@ -1651,8 +1598,7 @@
                 "time": "08:00 - 09:30",
                 "sub": "MPDL",
                 "bat": "300-400",
-                "loc": "363",
-                "e": "TD",
+                "loc": "TD.363",
                 "floor": "floor1",
                 "prof": "HACHEMI"
               },
@@ -1660,8 +1606,7 @@
                 "time": "08:00 - 09:30",
                 "sub": "ENT DON",
                 "bat": "BLOC C",
-                "loc": "C7",
-                "e": "TP",
+                "loc": "TP.C7",
                 "floor": "floor2",
                 "prof": "SELMOUNE"
               }
@@ -1674,8 +1619,7 @@
                 "time": "09:40 - 11:10",
                 "sub": "ASS QUAL",
                 "bat": "BLOC C",
-                "loc": "C3",
-                "e": "TP",
+                "loc": "TP.C3",
                 "floor": "floor2",
                 "prof": "CHABOUNI"
               }
@@ -1699,8 +1643,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "MPDL",
                 "bat": "300-400",
-                "loc": "430",
-                "e": "TD",
+                "loc": "TD.430",
                 "floor": "floor2",
                 "prof": "HACHEMI"
               }
@@ -1713,8 +1656,7 @@
                 "time": "14:40 - 16:10",
                 "sub": "ASS QUAL",
                 "bat": "BLOC C",
-                "loc": "C5",
-                "e": "TP",
+                "loc": "TP.C5",
                 "floor": "floor2",
                 "prof": "CHABOUNI"
               }
@@ -1729,8 +1671,7 @@
                 "time": "08:00 - 09:30",
                 "sub": "REP CON",
                 "bat": "300-400",
-                "loc": "446",
-                "e": "TD",
+                "loc": "TD.446",
                 "floor": "floor2",
                 "prof": "ISLI"
               },
@@ -1738,8 +1679,7 @@
                 "time": "08:00 - 09:30",
                 "sub": "ASS QUAL",
                 "bat": "300-400",
-                "loc": "375",
-                "e": "TD",
+                "loc": "TD.375",
                 "floor": "floor1",
                 "prof": "CHABOUNI"
               }
@@ -1752,8 +1692,7 @@
                 "time": "09:40 - 11:10",
                 "sub": "ANGLAIS",
                 "bat": "LABO LANG",
-                "loc": "6",
-                "e": "TD",
+                "loc": "TD.6",
                 "floor": "floor1",
                 "prof": "BOUDEFASSA"
               }
@@ -1777,8 +1716,7 @@
                 "time": "13:00 - 14:30",
                 "sub": "ASS QUAL",
                 "bat": "300-400",
-                "loc": "412",
-                "e": "TD",
+                "loc": "TD.412",
                 "floor": "floor2",
                 "prof": "CHABOUNI"
               }
@@ -1791,8 +1729,7 @@
                 "time": "14:40 - 16:10",
                 "sub": "CPT AVANC",
                 "bat": "BLOC C",
-                "loc": "C5",
-                "e": "TP",
+                "loc": "TP.C5",
                 "floor": "floor2",
                 "prof": "Saadi"
               }
@@ -1807,8 +1744,7 @@
                 "time": "08:00 - 09:30",
                 "sub": "MPDL",
                 "bat": "BLOC C",
-                "loc": "C3",
-                "e": "TP",
+                "loc": "TP.C3",
                 "floor": "floor2",
                 "prof": "ABBACI"
               }
@@ -1821,8 +1757,7 @@
                 "time": "09:40 - 11:10",
                 "sub": "MPDL",
                 "bat": "faculte info",
-                "loc": "131",
-                "e": "TP",
+                "loc": "TP.131",
                 "floor": "floor1",
                 "prof": "HACHEMI"
               }
@@ -1835,8 +1770,7 @@
                 "time": "11:20 - 12:50",
                 "sub": "ANGLAIS",
                 "bat": "LABO LANG",
-                "loc": "12",
-                "e": "TD",
+                "loc": "TD.12",
                 "floor": "floor1",
                 "prof": "BOUDEFASSA"
               },
@@ -1844,8 +1778,7 @@
                 "time": "11:20 - 12:50",
                 "sub": "MPDL",
                 "bat": "faculte info",
-                "loc": "132",
-                "e": "TP",
+                "loc": "TP.132",
                 "floor": "floor1",
                 "prof": "HACHEMI"
               }
@@ -1882,8 +1815,7 @@
                 "time": "08:00 - 09:30",
                 "sub": "SIC",
                 "bat": "faculte info",
-                "loc": "131",
-                "e": "TP",
+                "loc": "TP.131",
                 "floor": "floor1",
                 "prof": "MAHDAOUI"
               }
@@ -1896,8 +1828,7 @@
                 "time": "09:40 - 11:10",
                 "sub": "ENT DON",
                 "bat": "faculte info",
-                "loc": "126",
-                "e": "TP",
+                "loc": "TP.126",
                 "floor": "floor1",
                 "prof": "SELMOUNE"
               },
@@ -1905,8 +1836,7 @@
                 "time": "09:40 - 11:10",
                 "sub": "CPT AVANC",
                 "bat": "BLOC C",
-                "loc": "C4",
-                "e": "TP",
+                "loc": "TP.C4",
                 "floor": "floor2",
                 "prof": "CHABOUNI"
               }
@@ -1941,8 +1871,7 @@
                 "time": "14:40 - 16:10",
                 "sub": "SIC",
                 "bat": "faculte info",
-                "loc": "130",
-                "e": "TP",
+                "loc": "TP.130",
                 "floor": "floor1",
                 "prof": "MAHDAOUI"
               }

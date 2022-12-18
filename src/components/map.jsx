@@ -5,6 +5,7 @@ import { useRef, useEffect } from "react";
 import { useMapTools } from "../hooks/useMapTools";
 import * as handlers from "../handlers/mapHandler";
 import * as ai from "react-icons/ai";
+import { isEqual } from "lodash";
 
 // check if object is: "{}" OR "don't exist"
 const isEmpty = (obj) => !obj || Object.keys(obj).length === 0;
@@ -13,25 +14,32 @@ let margin;
 let width, height;
 let innerWidth, innerHeight;
 let zoom;
-let z;
-
 let fontSize = 8;
-let fSize = fontSize;
+let K;
+let oldCourData = {};
+let oldGroupsData = {};
+
+const tip_style = {
+  visibility: "hidden",
+  position: "absolute",
+  zindex: 10,
+};
+
 const zoomed = (event, refG) => {
   const g = d3.select(refG.current);
 
   d3.select("svg").selectAll("path").attr("transform", event.transform);
   d3.select("svg").selectAll("text").attr("transform", event.transform);
 
-  let zoomInOut = -1 * Math.sign(event.sourceEvent.deltaY);
+  let zoomK = event.transform.k;
+  K = event.transform.k;
 
-  if (zoomInOut === 1) fSize > 1 ? (fSize = fSize - 0.2) : (fSize = 1);
-  else if (zoomInOut === -1) {
-    if (fSize < fontSize) fSize = fSize + 0.1;
-    else fSize = fontSize;
-  }
+  let fSize = fontSize / (zoomK * 0.6);
 
-  g.selectAll(".bat").attr("font-size", `${fSize}pt`);
+  g.selectAll(".bat").attr(
+    "font-size",
+    fSize > fontSize ? `${fontSize}pt` : `${fSize}pt`
+  );
 };
 
 const convertToNum = (listStr) => {
@@ -51,15 +59,6 @@ const initCanvas = (refSvg, refG) => {
 
   [width, height] = convertToNum([svg.style("width"), svg.style("height")]);
   initCanvasDim(width, height);
-
-  z = d3
-    .zoom()
-    .scaleExtent([1, 50])
-    .translateExtent([
-      [0, 0],
-      [width, height],
-    ])
-    .on("zoom", handlers.zoomed);
 
   zoom = d3
     .zoom()
@@ -90,6 +89,13 @@ const pathMap = (mapData) => {
 const renderMap = (refG, mapData) => {
   const g = d3.select(refG.current);
 
+  try {
+    g.selectAll(".map").remove();
+    g.selectAll(".bat").remove();
+  } catch (err) {
+    console.log(err);
+  }
+
   if (!mapData.loading) {
     var path = pathMap(mapData);
 
@@ -98,6 +104,7 @@ const renderMap = (refG, mapData) => {
       .data(mapData.data.features)
       .enter()
       .append("path")
+      .attr("class", "map")
       .attr("d", path)
       .style("fill", (d) => {
         if (isEmpty(d.properties.fill)) return "#B5B09A";
@@ -105,7 +112,40 @@ const renderMap = (refG, mapData) => {
       })
       .style("stroke-width", "0.3")
       .style("stroke", "black")
-      .style("vector-effect", "non-scaling-stroke");
+      .style("vector-effect", "non-scaling-stroke")
+
+      .on("mouseover", function (_, d) {
+        if (Object.keys(d.properties).length > 2 && K > 3) {
+          let obj = Object.fromEntries(Object.entries(d.properties).sort());
+          let arr = Object.keys(obj).map((k) => ({
+            [k]: obj[k],
+          }));
+
+          d3.select(".tooltip")
+            .style("visibility", "visible")
+            .selectAll("li")
+            .data(arr)
+            .enter()
+            .append("li")
+            .attr("class", "item")
+            .html((d) => {
+              if (d.floor1)
+                return "↘️ Floor 1: <strong>" + d.floor1 + "</strong>";
+              if (d.floor2)
+                return "↖️ Floor 2: <strong>" + d.floor2 + "</strong>";
+              if (d.bat) return "🏢 Building: " + d.bat;
+            });
+        }
+      })
+      .on("mousemove", function () {
+        d3.select(".tooltip")
+          .style("top", event.pageY - 80 + "px")
+          .style("left", event.pageX + 80 + "px");
+      })
+      .on("mouseout", function () {
+        d3.select(".tooltip").selectAll(".item").remove();
+        d3.select(".tooltip").style("visibility", "hidden");
+      });
 
     g.append("g")
       .selectAll("text")
@@ -144,28 +184,23 @@ const groupsMapData = (mapData, groupsData) => {
     data.push(
       mapData.data.features.filter(
         (d) =>
-          d.properties.bat == value.bat &&
-          d.properties[value.floor] == value.loc.substring(3, 6)
+          value.bat === d.properties.bat &&
+          value.loc === d.properties[value.floor]
       )[0]
     );
   }
   return data;
 };
 
-const renderSchedule = (refG, mapData, props) => {
+const renderSchedule = (refG, mapData, courData, groupsData) => {
   const g = d3.select(refG.current);
+
   let path = pathMap(mapData);
 
   if (!mapData.loading) {
-    try {
-      g.selectAll(".toDlt").remove()
-    }
-    catch(err) {
-      console.log(err);
-    }
-    if (props.courData) {
-      var crMapData = courMapData(mapData, props.courData);
-      console.log("data", crMapData);
+    if (courData && !isEqual(courData, oldCourData)) {
+      g.selectAll(".toDlt").remove();
+      var crMapData = courMapData(mapData, courData);
 
       g.append("g")
         .selectAll("path")
@@ -176,11 +211,65 @@ const renderSchedule = (refG, mapData, props) => {
         .attr("d", path)
         .style("fill", (d) => (d.properties.floor1 ? "#0ebeff" : "#5e95e6"))
         .style("stroke-width", "0.1")
-        .style("stroke", "black");
+        .style("stroke", "black")
+        .on("mouseover", function (_, d) {
+          if (K > 3) {
+            console.log("courrr", courData);
+            d3
+              .select(".classtip")
+              .style("visibility", "visible")
+              .append("div")
+              .attr("class", "tip").html(`
+              <table class='tab'>
+              <tbody>
+                <tr>
+                  <td>Course</td>
+                  <td>${courData.sub}</td>
+                </tr>
+                <tr>
+                  <td>Prof</td>
+                  <td>${courData.prof}</td>
+                </tr>
+                <tr>
+                  <td>Time</td>
+                  <td>${courData.time}</td>
+                </tr>
+                <tr>
+                  <td>Day</td>
+                  <td>${courData.day}</td>
+                </tr>
+                <tr>
+                  <td>Building</td>
+                  <td>${courData.bat}</td>
+                </tr>
+                <tr>
+                  <td>Floor ${courData.floor.charAt(
+                    courData.floor.length - 1
+                  )} </td>
+                  <td>
+                    ${courData.loc}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+              `);
+          }
+        })
+        .on("mousemove", function () {
+          d3.select(".classtip")
+          .style("top", event.pageY - 100 + "px")
+          .style("left", event.pageX + 100 + "px");
+        })
+        .on("mouseout", function () {
+          d3.select(".classtip").selectAll(".tip").remove();
+          d3.select(".classtip").style("visibility", "hidden");
+        });
+
+      oldCourData = courData;
     }
-    if (props.groupsData) {
-      var grMapData = groupsMapData(mapData, props.groupsData);
-      console.log("grMapData", grMapData);
+    if (groupsData && !isEqual(groupsData, oldGroupsData)) {
+      g.selectAll(".toDlt").remove();
+      var grMapData = groupsMapData(mapData, groupsData);
 
       g.append("g")
         .selectAll("path")
@@ -190,8 +279,66 @@ const renderSchedule = (refG, mapData, props) => {
         .attr("class", "toDlt")
         .attr("d", path)
         .style("fill", (d) => (d.properties.floor1 ? "#0ebeff" : "#5e95e6"))
+        // .style("fill", (d) => ( "#5e95e6"))
         .style("stroke-width", "0.1")
-        .style("stroke", "black");
+        .style("stroke", "black")
+        .on("mouseover", function (_, d) {
+          if (K > 3) {
+            let arr = Object.keys(groupsData).map((k) => [groupsData[k]]);
+            let currentD = arr.filter(
+              (o) =>
+                o[0].bat === d.properties.bat &&
+                o[0].loc === d.properties[o[0].floor]
+            )[0][0];
+
+            d3.select(".classtip")
+              .style("visibility", "visible")
+              .append("div")
+              .attr("class", "tip")
+              .html(
+                `
+              <table>
+              <tbody>
+                <tr>
+                  <td>${currentD.e}</td>
+                  <td>${currentD.sub}</td>
+                </tr>
+                <tr>
+                  <td>Prof</td>
+                  <td>${currentD.prof}</td>
+                </tr>
+                <tr>
+                  <td>Time</td>
+                  <td>${currentD.time}</td>
+                </tr>
+
+                <tr>
+                  <td>Building</td>
+                  <td>${currentD.bat}</td>
+                </tr>
+                <tr>
+                  <td>Floor ${currentD.floor} </td>
+                  <td>
+                    ${currentD.loc}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+              `
+              );
+          }
+        })
+        .on("mousemove", function () {
+          d3.select(".classtip")
+            .style("top", event.pageY - 100 + "px")
+            .style("left", event.pageX + 100 + "px");
+        })
+        .on("mouseout", function () {
+          d3.select(".classtip").selectAll(".tip").remove();
+          d3.select(".classtip").style("visibility", "hidden");
+        });
+
+      oldGroupsData = groupsData;
     }
   }
 };
@@ -204,7 +351,10 @@ export default function Map(props) {
   useEffect(() => initCanvas(refSvg, refG), []);
   useEffect(() => renderMap(refG, mapData), [mapData]);
 
-  useEffect(() => renderSchedule(refG, mapData, props), [props]);
+  useEffect(
+    () => renderSchedule(refG, mapData, props.courData, props.groupsData),
+    [props.courData, props.groupsData]
+  );
 
   return (
     <div className="map" id="wrapper">
@@ -213,25 +363,27 @@ export default function Map(props) {
         <g ref={refG}></g>
       </svg>
       <dir className="btns">
-        <button className="btn-plus" onClick={() => handlers.btnZoomIn(z)}>
+        <button className="btn-plus" onClick={() => handlers.btnZoomIn(zoom)}>
           <ai.AiOutlinePlus />
         </button>
-        <button className="btn-minus" onClick={() => handlers.btnZoomOut(z)}>
+        <button className="btn-minus" onClick={() => handlers.btnZoomOut(zoom)}>
           <ai.AiOutlineMinus />
         </button>
-        <button className="btn-left" onClick={() => handlers.btnLeft(z)}>
+        <button className="btn-left" onClick={() => handlers.btnLeft(zoom)}>
           <ai.AiOutlineCaretLeft />
         </button>
-        <button className="btn-right" onClick={() => handlers.btnRight(z)}>
+        <button className="btn-right" onClick={() => handlers.btnRight(zoom)}>
           <ai.AiOutlineCaretRight />
         </button>
-        <button className="btn-up" onClick={() => handlers.btnUp(z)}>
+        <button className="btn-up" onClick={() => handlers.btnUp(zoom)}>
           <ai.AiOutlineCaretUp />
         </button>
-        <button className="btn-down" onClick={() => handlers.btnDown(z)}>
+        <button className="btn-down" onClick={() => handlers.btnDown(zoom)}>
           <ai.AiOutlineCaretDown />
         </button>
       </dir>
+      <div className="tooltip" style={tip_style}></div>
+      <div className="classtip" style={tip_style}></div>
     </div>
   );
 }

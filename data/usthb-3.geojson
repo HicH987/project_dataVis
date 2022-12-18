@@ -6312,7 +6312,7 @@
     {
       "type": "Feature",
       "properties": {
-        "floor2": "C3",
+        "floor2": "C4",
         "bat": "BLOC C",
         "layer": 1
       },
@@ -7223,8 +7223,8 @@
       "type": "Feature",
       "properties": {
         "bat": "300-400",
-        "floor1": 302,
-        "floor2": 402
+        "floor1": "302",
+        "floor2": "402"
       },
       "geometry": {
         "coordinates": [
@@ -7258,8 +7258,8 @@
       "type": "Feature",
       "properties": {
         "bat": "300-400",
-        "floor1": 306,
-        "floor2": 406
+        "floor1": "306",
+        "floor2": "406"
       },
       "geometry": {
         "coordinates": [
@@ -7293,8 +7293,8 @@
       "type": "Feature",
       "properties": {
         "bat": "300-400",
-        "floor1": 310,
-        "floor2": 410
+        "floor1": "310",
+        "floor2": "410"
       },
       "geometry": {
         "coordinates": [
@@ -7328,8 +7328,8 @@
       "type": "Feature",
       "properties": {
         "bat": "300-400",
-        "floor1": 314,
-        "floor2": 414
+        "floor1": "314",
+        "floor2": "414"
       },
       "geometry": {
         "coordinates": [
@@ -7363,8 +7363,8 @@
       "type": "Feature",
       "properties": {
         "bat": "300-400",
-        "floor1": 318,
-        "floor2": 418
+        "floor1": "318",
+        "floor2": "418"
       },
       "geometry": {
         "coordinates": [
@@ -7397,8 +7397,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 322,
-        "floor2": 422,
+        "floor1": "322",
+        "floor2": "422",
         "bat": "300-400"
       },
       "geometry": {
@@ -7432,8 +7432,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 326,
-        "floor2": 426,
+        "floor1": "326",
+        "floor2": "426",
         "bat": "300-400"
       },
       "geometry": {
@@ -7467,8 +7467,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 330,
-        "floor2": 430,
+        "floor1": "330",
+        "floor2": "430",
         "bat": "300-400"
       },
       "geometry": {
@@ -7502,8 +7502,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 334,
-        "floor2": 434,
+        "floor1": "334",
+        "floor2": "434",
         "bat": "300-400"
       },
       "geometry": {
@@ -7537,8 +7537,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 338,
-        "floor2": 438,
+        "floor1": "338",
+        "floor2": "438",
         "bat": "300-400"
       },
       "geometry": {
@@ -7572,8 +7572,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 342,
-        "floor2": 442,
+        "floor1": "342",
+        "floor2": "442",
         "bat": "300-400"
       },
       "geometry": {
@@ -7607,8 +7607,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 346,
-        "floor2": 446,
+        "floor1": "346",
+        "floor2": "446",
         "bat": "300-400"
       },
       "geometry": {
@@ -7642,8 +7642,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 350,
-        "floor2": 450,
+        "floor1": "350",
+        "floor2": "450",
         "bat": "300-400"
       },
       "geometry": {
@@ -7677,8 +7677,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 354,
-        "floor2": 454,
+        "floor1": "354",
+        "floor2": "454",
         "bat": "300-400"
       },
       "geometry": {
@@ -7712,8 +7712,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 358,
-        "floor2": 458,
+        "floor1": "358",
+        "floor2": "458",
         "bat": "300-400"
       },
       "geometry": {
@@ -7747,8 +7747,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 362,
-        "floor2": 462,
+        "floor1": "362",
+        "floor2": "462",
         "bat": "300-400"
       },
       "geometry": {
@@ -7782,8 +7782,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 366,
-        "floor2": 466,
+        "floor1": "366",
+        "floor2": "466",
         "bat": "300-400"
       },
       "geometry": {
@@ -7817,8 +7817,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 370,
-        "floor2": 470,
+        "floor1": "370",
+        "floor2": "470",
         "bat": "300-400"
       },
       "geometry": {
@@ -7852,8 +7852,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 374,
-        "floor2": 474,
+        "floor1": "374",
+        "floor2": "474",
         "bat": "300-400"
       },
       "geometry": {
@@ -7887,8 +7887,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 378,
-        "floor2": 478,
+        "floor1": "378",
+        "floor2": "478",
         "bat": "300-400"
       },
       "geometry": {
@@ -7922,8 +7922,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 382,
-        "floor2": 482,
+        "floor1": "382",
+        "floor2": "482",
         "bat": "300-400"
       },
       "geometry": {
@@ -7957,8 +7957,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 386,
-        "floor2": 486,
+        "floor1": "386",
+        "floor2": "486",
         "bat": "300-400"
       },
       "geometry": {
@@ -7992,8 +7992,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 390,
-        "floor2": 490,
+        "floor1": "390",
+        "floor2": "490",
         "bat": "300-400"
       },
       "geometry": {
@@ -8027,8 +8027,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 394,
-        "floor2": 494,
+        "floor1": "394",
+        "floor2": "494",
         "bat": "300-400"
       },
       "geometry": {
@@ -8062,8 +8062,8 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 398,
-        "floor2": 498,
+        "floor1": "398",
+        "floor2": "498",
         "bat": "300-400"
       },
       "geometry": {
@@ -8098,8 +8098,8 @@
       "type": "Feature",
       "properties": {
         "bat": "300-400",
-        "floor1": 300,
-        "floor2": 400
+        "floor1": "300",
+        "floor2": "400"
       },
       "geometry": {
         "coordinates": [
@@ -8133,8 +8133,8 @@
       "type": "Feature",
       "properties": {
         "bat": "300-400",
-        "floor1": 304,
-        "floor2": 404
+        "floor1": "304",
+        "floor2": "404"
       },
       "geometry": {
         "coordinates": [
@@ -8168,8 +8168,8 @@
       "type": "Feature",
       "properties": {
         "bat": "300-400",
-        "floor1": 308,
-        "floor2": 408
+        "floor1": "308",
+        "floor2": "408"
       },
       "geometry": {
         "coordinates": [
@@ -8202,9 +8202,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 312,
+        "floor1": "312",
         "bat": "300-400",
-        "floor2": 412
+        "floor2": "412"
       },
       "geometry": {
         "coordinates": [
@@ -8237,9 +8237,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 316,
+        "floor1": "316",
         "bat": "300-400",
-        "floor2": 416
+        "floor2": "416"
       },
       "geometry": {
         "coordinates": [
@@ -8272,9 +8272,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 320,
+        "floor1": "320",
         "bat": "300-400",
-        "floor2": 420
+        "floor2": "420"
       },
       "geometry": {
         "coordinates": [
@@ -8307,9 +8307,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 324,
+        "floor1": "324",
         "bat": "300-400",
-        "floor2": 424
+        "floor2": "424"
       },
       "geometry": {
         "coordinates": [
@@ -8342,9 +8342,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 328,
+        "floor1": "328",
         "bat": "300-400",
-        "floor2": 428
+        "floor2": "428"
       },
       "geometry": {
         "coordinates": [
@@ -8377,9 +8377,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 332,
+        "floor1": "332",
         "bat": "300-400",
-        "floor2": 432
+        "floor2": "432"
       },
       "geometry": {
         "coordinates": [
@@ -8412,9 +8412,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 336,
+        "floor1": "336",
         "bat": "300-400",
-        "floor2": 436
+        "floor2": "436"
       },
       "geometry": {
         "coordinates": [
@@ -8447,9 +8447,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 340,
+        "floor1": "340",
         "bat": "300-400",
-        "floor2": 440
+        "floor2": "440"
       },
       "geometry": {
         "coordinates": [
@@ -8482,9 +8482,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 344,
+        "floor1": "344",
         "bat": "300-400",
-        "floor2": 444
+        "floor2": "444"
       },
       "geometry": {
         "coordinates": [
@@ -8517,9 +8517,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 348,
+        "floor1": "348",
         "bat": "300-400",
-        "floor2": 448
+        "floor2": "448"
       },
       "geometry": {
         "coordinates": [
@@ -8552,9 +8552,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 352,
+        "floor1": "352",
         "bat": "300-400",
-        "floor2": 452
+        "floor2": "452"
       },
       "geometry": {
         "coordinates": [
@@ -8587,9 +8587,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 356,
+        "floor1": "356",
         "bat": "300-400",
-        "floor2": 456
+        "floor2": "456"
       },
       "geometry": {
         "coordinates": [
@@ -8622,9 +8622,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 360,
+        "floor1": "360",
         "bat": "300-400",
-        "floor2": 460
+        "floor2": "460"
       },
       "geometry": {
         "coordinates": [
@@ -8657,9 +8657,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 364,
+        "floor1": "364",
         "bat": "300-400",
-        "floor2": 464
+        "floor2": "464"
       },
       "geometry": {
         "coordinates": [
@@ -8692,9 +8692,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 368,
+        "floor1": "368",
         "bat": "300-400",
-        "floor2": 468
+        "floor2": "468"
       },
       "geometry": {
         "coordinates": [
@@ -8727,9 +8727,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 372,
+        "floor1": "372",
         "bat": "300-400",
-        "floor2": 472
+        "floor2": "472"
       },
       "geometry": {
         "coordinates": [
@@ -8762,9 +8762,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 376,
+        "floor1": "376",
         "bat": "300-400",
-        "floor2": 476
+        "floor2": "476"
       },
       "geometry": {
         "coordinates": [
@@ -8797,9 +8797,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 380,
+        "floor1": "380",
         "bat": "300-400",
-        "floor2": 480
+        "floor2": "480"
       },
       "geometry": {
         "coordinates": [
@@ -8832,9 +8832,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 384,
+        "floor1": "384",
         "bat": "300-400",
-        "floor2": 484
+        "floor2": "484"
       },
       "geometry": {
         "coordinates": [
@@ -8867,9 +8867,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 388,
+        "floor1": "388",
         "bat": "300-400",
-        "floor2": 488
+        "floor2": "488"
       },
       "geometry": {
         "coordinates": [
@@ -8902,9 +8902,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 392,
+        "floor1": "392",
         "bat": "300-400",
-        "floor2": 492
+        "floor2": "492"
       },
       "geometry": {
         "coordinates": [
@@ -8937,9 +8937,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 396,
+        "floor1": "396",
         "bat": "300-400",
-        "floor2": 496
+        "floor2": "496"
       },
       "geometry": {
         "coordinates": [
@@ -8972,9 +8972,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 102,
+        "floor1": "102",
         "bat": "100-200",
-        "floor2": 202
+        "floor2": "202"
       },
       "geometry": {
         "coordinates": [
@@ -9007,9 +9007,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 106,
+        "floor1": "106",
         "bat": "100-200",
-        "floor2": 206
+        "floor2": "206"
       },
       "geometry": {
         "coordinates": [
@@ -9042,9 +9042,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 110,
+        "floor1": "110",
         "bat": "100-200",
-        "floor2": 210
+        "floor2": "210"
       },
       "geometry": {
         "coordinates": [
@@ -9077,9 +9077,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 114,
+        "floor1": "114",
         "bat": "100-200",
-        "floor2": 214
+        "floor2": "214"
       },
       "geometry": {
         "coordinates": [
@@ -9112,9 +9112,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 118,
+        "floor1": "118",
         "bat": "100-200",
-        "floor2": 218
+        "floor2": "218"
       },
       "geometry": {
         "coordinates": [
@@ -9147,9 +9147,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 122,
+        "floor1": "122",
         "bat": "100-200",
-        "floor2": 222
+        "floor2": "222"
       },
       "geometry": {
         "coordinates": [
@@ -9182,9 +9182,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 126,
+        "floor1": "126",
         "bat": "100-200",
-        "floor2": 226
+        "floor2": "226"
       },
       "geometry": {
         "coordinates": [
@@ -9217,9 +9217,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 130,
+        "floor1": "130",
         "bat": "100-200",
-        "floor2": 230
+        "floor2": "230"
       },
       "geometry": {
         "coordinates": [
@@ -9252,9 +9252,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 134,
+        "floor1": "134",
         "bat": "100-200",
-        "floor2": 234
+        "floor2": "234"
       },
       "geometry": {
         "coordinates": [
@@ -9287,9 +9287,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 138,
+        "floor1": "138",
         "bat": "100-200",
-        "floor2": 238
+        "floor2": "238"
       },
       "geometry": {
         "coordinates": [
@@ -9322,9 +9322,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 142,
+        "floor1": "142",
         "bat": "100-200",
-        "floor2": 242
+        "floor2": "242"
       },
       "geometry": {
         "coordinates": [
@@ -9357,9 +9357,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 146,
+        "floor1": "146",
         "bat": "100-200",
-        "floor2": 246
+        "floor2": "246"
       },
       "geometry": {
         "coordinates": [
@@ -9392,9 +9392,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 150,
+        "floor1": "150",
         "bat": "100-200",
-        "floor2": 250
+        "floor2": "250"
       },
       "geometry": {
         "coordinates": [
@@ -9427,9 +9427,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 154,
+        "floor1": "154",
         "bat": "100-200",
-        "floor2": 254
+        "floor2": "254"
       },
       "geometry": {
         "coordinates": [
@@ -9462,9 +9462,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 158,
+        "floor1": "158",
         "bat": "100-200",
-        "floor2": 258
+        "floor2": "258"
       },
       "geometry": {
         "coordinates": [
@@ -9497,9 +9497,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 162,
+        "floor1": "162",
         "bat": "100-200",
-        "floor2": 262
+        "floor2": "262"
       },
       "geometry": {
         "coordinates": [
@@ -9532,9 +9532,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 166,
+        "floor1": "166",
         "bat": "100-200",
-        "floor2": 266
+        "floor2": "266"
       },
       "geometry": {
         "coordinates": [
@@ -9567,9 +9567,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 170,
+        "floor1": "170",
         "bat": "100-200",
-        "floor2": 270
+        "floor2": "270"
       },
       "geometry": {
         "coordinates": [
@@ -9602,9 +9602,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 174,
+        "floor1": "174",
         "bat": "100-200",
-        "floor2": 274
+        "floor2": "274"
       },
       "geometry": {
         "coordinates": [
@@ -9637,9 +9637,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 178,
+        "floor1": "178",
         "bat": "100-200",
-        "floor2": 278
+        "floor2": "278"
       },
       "geometry": {
         "coordinates": [
@@ -9672,9 +9672,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 182,
+        "floor1": "182",
         "bat": "100-200",
-        "floor2": 282
+        "floor2": "282"
       },
       "geometry": {
         "coordinates": [
@@ -9707,9 +9707,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 186,
+        "floor1": "186",
         "bat": "100-200",
-        "floor2": 286
+        "floor2": "286"
       },
       "geometry": {
         "coordinates": [
@@ -9742,9 +9742,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 190,
+        "floor1": "190",
         "bat": "100-200",
-        "floor2": 290
+        "floor2": "290"
       },
       "geometry": {
         "coordinates": [
@@ -9777,9 +9777,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 194,
+        "floor1": "194",
         "bat": "100-200",
-        "floor2": 294
+        "floor2": "294"
       },
       "geometry": {
         "coordinates": [
@@ -9812,9 +9812,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 198,
+        "floor1": "198",
         "bat": "100-200",
-        "floor2": 298
+        "floor2": "298"
       },
       "geometry": {
         "coordinates": [
@@ -9847,9 +9847,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 100,
+        "floor1": "100",
         "bat": "100-200",
-        "floor2": 200
+        "floor2": "200"
       },
       "geometry": {
         "coordinates": [
@@ -9882,9 +9882,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 104,
+        "floor1": "104",
         "bat": "100-200",
-        "floor2": 204
+        "floor2": "204"
       },
       "geometry": {
         "coordinates": [
@@ -9917,9 +9917,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 108,
+        "floor1": "108",
         "bat": "100-200",
-        "floor2": 208
+        "floor2": "208"
       },
       "geometry": {
         "coordinates": [
@@ -9952,9 +9952,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 112,
+        "floor1": "112",
         "bat": "100-200",
-        "floor2": 212
+        "floor2": "212"
       },
       "geometry": {
         "coordinates": [
@@ -9987,9 +9987,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 116,
+        "floor1": "116",
         "bat": "100-200",
-        "floor2": 216
+        "floor2": "216"
       },
       "geometry": {
         "coordinates": [
@@ -10022,9 +10022,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 120,
+        "floor1": "120",
         "bat": "100-200",
-        "floor2": 220
+        "floor2": "220"
       },
       "geometry": {
         "coordinates": [
@@ -10057,9 +10057,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 124,
+        "floor1": "124",
         "bat": "100-200",
-        "floor2": 224
+        "floor2": "224"
       },
       "geometry": {
         "coordinates": [
@@ -10092,9 +10092,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 128,
+        "floor1": "128",
         "bat": "100-200",
-        "floor2": 228
+        "floor2": "228"
       },
       "geometry": {
         "coordinates": [
@@ -10127,9 +10127,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 132,
+        "floor1": "132",
         "bat": "100-200",
-        "floor2": 232
+        "floor2": "232"
       },
       "geometry": {
         "coordinates": [
@@ -10162,9 +10162,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 136,
+        "floor1": "136",
         "bat": "100-200",
-        "floor2": 236
+        "floor2": "236"
       },
       "geometry": {
         "coordinates": [
@@ -10197,9 +10197,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 140,
+        "floor1": "140",
         "bat": "100-200",
-        "floor2": 240
+        "floor2": "240"
       },
       "geometry": {
         "coordinates": [
@@ -10232,9 +10232,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 144,
+        "floor1": "144",
         "bat": "100-200",
-        "floor2": 244
+        "floor2": "244"
       },
       "geometry": {
         "coordinates": [
@@ -10267,9 +10267,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 148,
+        "floor1": "148",
         "bat": "100-200",
-        "floor2": 248
+        "floor2": "248"
       },
       "geometry": {
         "coordinates": [
@@ -10302,9 +10302,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 152,
+        "floor1": "152",
         "bat": "100-200",
-        "floor2": 252
+        "floor2": "252"
       },
       "geometry": {
         "coordinates": [
@@ -10337,9 +10337,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 156,
+        "floor1": "156",
         "bat": "100-200",
-        "floor2": 256
+        "floor2": "256"
       },
       "geometry": {
         "coordinates": [
@@ -10372,9 +10372,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 160,
+        "floor1": "160",
         "bat": "100-200",
-        "floor2": 260
+        "floor2": "260"
       },
       "geometry": {
         "coordinates": [
@@ -10407,9 +10407,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 164,
+        "floor1": "164",
         "bat": "100-200",
-        "floor2": 264
+        "floor2": "264"
       },
       "geometry": {
         "coordinates": [
@@ -10442,9 +10442,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 168,
+        "floor1": "168",
         "bat": "100-200",
-        "floor2": 268
+        "floor2": "268"
       },
       "geometry": {
         "coordinates": [
@@ -10477,9 +10477,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 172,
+        "floor1": "172",
         "bat": "100-200",
-        "floor2": 272
+        "floor2": "272"
       },
       "geometry": {
         "coordinates": [
@@ -10512,9 +10512,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 176,
+        "floor1": "176",
         "bat": "100-200",
-        "floor2": 276
+        "floor2": "276"
       },
       "geometry": {
         "coordinates": [
@@ -10547,9 +10547,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 180,
+        "floor1": "180",
         "bat": "100-200",
-        "floor2": 280
+        "floor2": "280"
       },
       "geometry": {
         "coordinates": [
@@ -10582,9 +10582,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 184,
+        "floor1": "184",
         "bat": "100-200",
-        "floor2": 284
+        "floor2": "284"
       },
       "geometry": {
         "coordinates": [
@@ -10617,9 +10617,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 188,
+        "floor1": "188",
         "bat": "100-200",
-        "floor2": 288
+        "floor2": "288"
       },
       "geometry": {
         "coordinates": [
@@ -10652,9 +10652,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 192,
+        "floor1": "192",
         "bat": "100-200",
-        "floor2": 292
+        "floor2": "292"
       },
       "geometry": {
         "coordinates": [
@@ -10687,9 +10687,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 196,
+        "floor1": "196",
         "bat": "100-200",
-        "floor2": 296
+        "floor2": "296"
       },
       "geometry": {
         "coordinates": [
@@ -10722,9 +10722,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 199,
+        "floor1": "199",
         "bat": "100-200",
-        "floor2": 299
+        "floor2": "299"
       },
       "geometry": {
         "coordinates": [
@@ -10757,9 +10757,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 195,
+        "floor1": "195",
         "bat": "100-200",
-        "floor2": 295
+        "floor2": "295"
       },
       "geometry": {
         "coordinates": [
@@ -10792,9 +10792,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 191,
+        "floor1": "191",
         "bat": "100-200",
-        "floor2": 291
+        "floor2": "291"
       },
       "geometry": {
         "coordinates": [
@@ -10827,9 +10827,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 187,
+        "floor1": "187",
         "bat": "100-200",
-        "floor2": 287
+        "floor2": "287"
       },
       "geometry": {
         "coordinates": [
@@ -10862,9 +10862,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 183,
+        "floor1": "183",
         "bat": "100-200",
-        "floor2": 283
+        "floor2": "283"
       },
       "geometry": {
         "coordinates": [
@@ -10897,9 +10897,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 179,
+        "floor1": "179",
         "bat": "100-200",
-        "floor2": 279
+        "floor2": "279"
       },
       "geometry": {
         "coordinates": [
@@ -10932,9 +10932,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 175,
+        "floor1": "175",
         "bat": "100-200",
-        "floor2": 275
+        "floor2": "275"
       },
       "geometry": {
         "coordinates": [
@@ -10967,9 +10967,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 171,
+        "floor1": "171",
         "bat": "100-200",
-        "floor2": 271
+        "floor2": "271"
       },
       "geometry": {
         "coordinates": [
@@ -11002,9 +11002,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 167,
+        "floor1": "167",
         "bat": "100-200",
-        "floor2": 267
+        "floor2": "267"
       },
       "geometry": {
         "coordinates": [
@@ -11037,9 +11037,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 163,
+        "floor1": "163",
         "bat": "100-200",
-        "floor2": 263
+        "floor2": "263"
       },
       "geometry": {
         "coordinates": [
@@ -11072,9 +11072,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 159,
+        "floor1": "159",
         "bat": "100-200",
-        "floor2": 259
+        "floor2": "259"
       },
       "geometry": {
         "coordinates": [
@@ -11107,9 +11107,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 155,
+        "floor1": "155",
         "bat": "100-200",
-        "floor2": 255
+        "floor2": "255"
       },
       "geometry": {
         "coordinates": [
@@ -11142,9 +11142,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 151,
+        "floor1": "151",
         "bat": "100-200",
-        "floor2": 251
+        "floor2": "251"
       },
       "geometry": {
         "coordinates": [
@@ -11177,9 +11177,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 147,
+        "floor1": "147",
         "bat": "100-200",
-        "floor2": 247
+        "floor2": "247"
       },
       "geometry": {
         "coordinates": [
@@ -11212,9 +11212,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 143,
+        "floor1": "143",
         "bat": "100-200",
-        "floor2": 243
+        "floor2": "243"
       },
       "geometry": {
         "coordinates": [
@@ -11247,9 +11247,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 139,
+        "floor1": "139",
         "bat": "100-200",
-        "floor2": 239
+        "floor2": "239"
       },
       "geometry": {
         "coordinates": [
@@ -11282,9 +11282,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 135,
+        "floor1": "135",
         "bat": "100-200",
-        "floor2": 235
+        "floor2": "235"
       },
       "geometry": {
         "coordinates": [
@@ -11317,9 +11317,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 131,
+        "floor1": "131",
         "bat": "100-200",
-        "floor2": 231
+        "floor2": "231"
       },
       "geometry": {
         "coordinates": [
@@ -11352,9 +11352,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 127,
+        "floor1": "127",
         "bat": "100-200",
-        "floor2": 227
+        "floor2": "227"
       },
       "geometry": {
         "coordinates": [
@@ -11387,9 +11387,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 123,
+        "floor1": "123",
         "bat": "100-200",
-        "floor2": 223
+        "floor2": "223"
       },
       "geometry": {
         "coordinates": [
@@ -11422,9 +11422,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 119,
+        "floor1": "119",
         "bat": "100-200",
-        "floor2": 219
+        "floor2": "219"
       },
       "geometry": {
         "coordinates": [
@@ -11457,9 +11457,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 115,
+        "floor1": "115",
         "bat": "100-200",
-        "floor2": 215
+        "floor2": "215"
       },
       "geometry": {
         "coordinates": [
@@ -11492,9 +11492,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 111,
+        "floor1": "111",
         "bat": "100-200",
-        "floor2": 211
+        "floor2": "211"
       },
       "geometry": {
         "coordinates": [
@@ -11527,9 +11527,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 107,
+        "floor1": "107",
         "bat": "100-200",
-        "floor2": 207
+        "floor2": "207"
       },
       "geometry": {
         "coordinates": [
@@ -11562,9 +11562,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 103,
+        "floor1": "103",
         "bat": "100-200",
-        "floor2": 203
+        "floor2": "203"
       },
       "geometry": {
         "coordinates": [
@@ -11597,9 +11597,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 197,
+        "floor1": "197",
         "bat": "100-200",
-        "floor2": 297
+        "floor2": "297"
       },
       "geometry": {
         "coordinates": [
@@ -11632,9 +11632,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 193,
+        "floor1": "193",
         "bat": "100-200",
-        "floor2": 293
+        "floor2": "293"
       },
       "geometry": {
         "coordinates": [
@@ -11667,9 +11667,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 189,
+        "floor1": "189",
         "bat": "100-200",
-        "floor2": 289
+        "floor2": "289"
       },
       "geometry": {
         "coordinates": [
@@ -11702,9 +11702,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 185,
+        "floor1": "185",
         "bat": "100-200",
-        "floor2": 285
+        "floor2": "285"
       },
       "geometry": {
         "coordinates": [
@@ -11737,9 +11737,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 181,
+        "floor1": "181",
         "bat": "100-200",
-        "floor2": 281
+        "floor2": "281"
       },
       "geometry": {
         "coordinates": [
@@ -11772,9 +11772,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 177,
+        "floor1": "177",
         "bat": "100-200",
-        "floor2": 277
+        "floor2": "277"
       },
       "geometry": {
         "coordinates": [
@@ -11807,9 +11807,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 173,
+        "floor1": "173",
         "bat": "100-200",
-        "floor2": 273
+        "floor2": "273"
       },
       "geometry": {
         "coordinates": [
@@ -11842,9 +11842,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 169,
+        "floor1": "169",
         "bat": "100-200",
-        "floor2": 269
+        "floor2": "269"
       },
       "geometry": {
         "coordinates": [
@@ -11877,9 +11877,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 165,
+        "floor1": "165",
         "bat": "100-200",
-        "floor2": 265
+        "floor2": "265"
       },
       "geometry": {
         "coordinates": [
@@ -11912,9 +11912,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 161,
+        "floor1": "161",
         "bat": "100-200",
-        "floor2": 261
+        "floor2": "261"
       },
       "geometry": {
         "coordinates": [
@@ -11947,9 +11947,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 157,
+        "floor1": "157",
         "bat": "100-200",
-        "floor2": 257
+        "floor2": "257"
       },
       "geometry": {
         "coordinates": [
@@ -11982,9 +11982,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 153,
+        "floor1": "153",
         "bat": "100-200",
-        "floor2": 253
+        "floor2": "253"
       },
       "geometry": {
         "coordinates": [
@@ -12017,9 +12017,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 149,
+        "floor1": "149",
         "bat": "100-200",
-        "floor2": 249
+        "floor2": "249"
       },
       "geometry": {
         "coordinates": [
@@ -12052,9 +12052,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 145,
+        "floor1": "145",
         "bat": "100-200",
-        "floor2": 245
+        "floor2": "245"
       },
       "geometry": {
         "coordinates": [
@@ -12087,9 +12087,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 141,
+        "floor1": "141",
         "bat": "100-200",
-        "floor2": 241
+        "floor2": "241"
       },
       "geometry": {
         "coordinates": [
@@ -12122,9 +12122,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 137,
+        "floor1": "137",
         "bat": "100-200",
-        "floor2": 237
+        "floor2": "237"
       },
       "geometry": {
         "coordinates": [
@@ -12157,9 +12157,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 133,
+        "floor1": "133",
         "bat": "100-200",
-        "floor2": 233
+        "floor2": "233"
       },
       "geometry": {
         "coordinates": [
@@ -12192,9 +12192,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 129,
+        "floor1": "129",
         "bat": "100-200",
-        "floor2": 229
+        "floor2": "229"
       },
       "geometry": {
         "coordinates": [
@@ -12227,9 +12227,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 125,
+        "floor1": "125",
         "bat": "100-200",
-        "floor2": 225
+        "floor2": "225"
       },
       "geometry": {
         "coordinates": [
@@ -12262,9 +12262,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 121,
+        "floor1": "121",
         "bat": "100-200",
-        "floor2": 221
+        "floor2": "221"
       },
       "geometry": {
         "coordinates": [
@@ -12297,9 +12297,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 117,
+        "floor1": "117",
         "bat": "100-200",
-        "floor2": 217
+        "floor2": "217"
       },
       "geometry": {
         "coordinates": [
@@ -12332,9 +12332,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 113,
+        "floor1": "113",
         "bat": "100-200",
-        "floor2": 213
+        "floor2": "213"
       },
       "geometry": {
         "coordinates": [
@@ -12367,9 +12367,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 109,
+        "floor1": "109",
         "bat": "100-200",
-        "floor2": 209
+        "floor2": "209"
       },
       "geometry": {
         "coordinates": [
@@ -12402,9 +12402,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 105,
+        "floor1": "105",
         "bat": "100-200",
-        "floor2": 205
+        "floor2": "205"
       },
       "geometry": {
         "coordinates": [
@@ -12437,9 +12437,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 101,
+        "floor1": "101",
         "bat": "100-200",
-        "floor2": 201
+        "floor2": "201"
       },
       "geometry": {
         "coordinates": [
@@ -12472,9 +12472,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 399,
+        "floor1": "399",
         "bat": "300-400",
-        "floor2": 499
+        "floor2": "499"
       },
       "geometry": {
         "coordinates": [
@@ -12507,9 +12507,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 395,
+        "floor1": "395",
         "bat": "300-400",
-        "floor2": 495
+        "floor2": "495"
       },
       "geometry": {
         "coordinates": [
@@ -12542,9 +12542,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 391,
+        "floor1": "391",
         "bat": "300-400",
-        "floor2": 491
+        "floor2": "491"
       },
       "geometry": {
         "coordinates": [
@@ -12577,9 +12577,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 387,
+        "floor1": "387",
         "bat": "300-400",
-        "floor2": 487
+        "floor2": "487"
       },
       "geometry": {
         "coordinates": [
@@ -12612,9 +12612,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 383,
+        "floor1": "383",
         "bat": "300-400",
-        "floor2": 483
+        "floor2": "483"
       },
       "geometry": {
         "coordinates": [
@@ -12647,9 +12647,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 379,
+        "floor1": "379",
         "bat": "300-400",
-        "floor2": 479
+        "floor2": "479"
       },
       "geometry": {
         "coordinates": [
@@ -12682,9 +12682,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 375,
+        "floor1": "375",
         "bat": "300-400",
-        "floor2": 475
+        "floor2": "475"
       },
       "geometry": {
         "coordinates": [
@@ -12717,9 +12717,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 371,
+        "floor1": "371",
         "bat": "300-400",
-        "floor2": 471
+        "floor2": "471"
       },
       "geometry": {
         "coordinates": [
@@ -12752,9 +12752,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 367,
+        "floor1": "367",
         "bat": "300-400",
-        "floor2": 467
+        "floor2": "467"
       },
       "geometry": {
         "coordinates": [
@@ -12787,9 +12787,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 363,
+        "floor1": "363",
         "bat": "300-400",
-        "floor2": 463
+        "floor2": "463"
       },
       "geometry": {
         "coordinates": [
@@ -12822,9 +12822,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 359,
+        "floor1": "359",
         "bat": "300-400",
-        "floor2": 459
+        "floor2": "459"
       },
       "geometry": {
         "coordinates": [
@@ -12857,9 +12857,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 355,
+        "floor1": "355",
         "bat": "300-400",
-        "floor2": 455
+        "floor2": "455"
       },
       "geometry": {
         "coordinates": [
@@ -12892,9 +12892,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 351,
+        "floor1": "351",
         "bat": "300-400",
-        "floor2": 451
+        "floor2": "451"
       },
       "geometry": {
         "coordinates": [
@@ -12927,9 +12927,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 347,
+        "floor1": "347",
         "bat": "300-400",
-        "floor2": 447
+        "floor2": "447"
       },
       "geometry": {
         "coordinates": [
@@ -12962,9 +12962,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 343,
+        "floor1": "343",
         "bat": "300-400",
-        "floor2": 443
+        "floor2": "443"
       },
       "geometry": {
         "coordinates": [
@@ -12997,9 +12997,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 339,
+        "floor1": "339",
         "bat": "300-400",
-        "floor2": 439
+        "floor2": "439"
       },
       "geometry": {
         "coordinates": [
@@ -13032,9 +13032,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 335,
+        "floor1": "335",
         "bat": "300-400",
-        "floor2": 435
+        "floor2": "435"
       },
       "geometry": {
         "coordinates": [
@@ -13067,9 +13067,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 331,
+        "floor1": "331",
         "bat": "300-400",
-        "floor2": 431
+        "floor2": "431"
       },
       "geometry": {
         "coordinates": [
@@ -13102,9 +13102,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 327,
+        "floor1": "327",
         "bat": "300-400",
-        "floor2": 427
+        "floor2": "427"
       },
       "geometry": {
         "coordinates": [
@@ -13137,9 +13137,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 323,
+        "floor1": "323",
         "bat": "300-400",
-        "floor2": 423
+        "floor2": "423"
       },
       "geometry": {
         "coordinates": [
@@ -13172,9 +13172,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 319,
+        "floor1": "319",
         "bat": "300-400",
-        "floor2": 419
+        "floor2": "419"
       },
       "geometry": {
         "coordinates": [
@@ -13207,9 +13207,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 315,
+        "floor1": "315",
         "bat": "300-400",
-        "floor2": 415
+        "floor2": "415"
       },
       "geometry": {
         "coordinates": [
@@ -13242,9 +13242,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 311,
+        "floor1": "311",
         "bat": "300-400",
-        "floor2": 411
+        "floor2": "411"
       },
       "geometry": {
         "coordinates": [
@@ -13277,9 +13277,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 307,
+        "floor1": "307",
         "bat": "300-400",
-        "floor2": 407
+        "floor2": "407"
       },
       "geometry": {
         "coordinates": [
@@ -13312,9 +13312,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 303,
+        "floor1": "303",
         "bat": "300-400",
-        "floor2": 403
+        "floor2": "403"
       },
       "geometry": {
         "coordinates": [
@@ -13347,9 +13347,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 397,
+        "floor1": "397",
         "bat": "300-400",
-        "floor2": 497
+        "floor2": "497"
       },
       "geometry": {
         "coordinates": [
@@ -13382,9 +13382,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 393,
+        "floor1": "393",
         "bat": "300-400",
-        "floor2": 493
+        "floor2": "493"
       },
       "geometry": {
         "coordinates": [
@@ -13417,9 +13417,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 389,
+        "floor1": "389",
         "bat": "300-400",
-        "floor2": 489
+        "floor2": "489"
       },
       "geometry": {
         "coordinates": [
@@ -13452,9 +13452,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 385,
+        "floor1": "385",
         "bat": "300-400",
-        "floor2": 485
+        "floor2": "485"
       },
       "geometry": {
         "coordinates": [
@@ -13487,9 +13487,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 381,
+        "floor1": "381",
         "bat": "300-400",
-        "floor2": 481
+        "floor2": "481"
       },
       "geometry": {
         "coordinates": [
@@ -13522,9 +13522,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 377,
+        "floor1": "377",
         "bat": "300-400",
-        "floor2": 477
+        "floor2": "477"
       },
       "geometry": {
         "coordinates": [
@@ -13557,9 +13557,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 373,
+        "floor1": "373",
         "bat": "300-400",
-        "floor2": 473
+        "floor2": "473"
       },
       "geometry": {
         "coordinates": [
@@ -13592,9 +13592,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 369,
+        "floor1": "369",
         "bat": "300-400",
-        "floor2": 469
+        "floor2": "469"
       },
       "geometry": {
         "coordinates": [
@@ -13627,9 +13627,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 365,
+        "floor1": "365",
         "bat": "300-400",
-        "floor2": 465
+        "floor2": "465"
       },
       "geometry": {
         "coordinates": [
@@ -13662,9 +13662,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 361,
+        "floor1": "361",
         "bat": "300-400",
-        "floor2": 461
+        "floor2": "461"
       },
       "geometry": {
         "coordinates": [
@@ -13697,9 +13697,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 357,
+        "floor1": "357",
         "bat": "300-400",
-        "floor2": 457
+        "floor2": "457"
       },
       "geometry": {
         "coordinates": [
@@ -13732,9 +13732,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 353,
+        "floor1": "353",
         "bat": "300-400",
-        "floor2": 453
+        "floor2": "453"
       },
       "geometry": {
         "coordinates": [
@@ -13767,9 +13767,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 349,
+        "floor1": "349",
         "bat": "300-400",
-        "floor2": 449
+        "floor2": "449"
       },
       "geometry": {
         "coordinates": [
@@ -13802,9 +13802,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 345,
+        "floor1": "345",
         "bat": "300-400",
-        "floor2": 445
+        "floor2": "445"
       },
       "geometry": {
         "coordinates": [
@@ -13837,9 +13837,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 341,
+        "floor1": "341",
         "bat": "300-400",
-        "floor2": 441
+        "floor2": "441"
       },
       "geometry": {
         "coordinates": [
@@ -13872,9 +13872,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 337,
+        "floor1": "337",
         "bat": "300-400",
-        "floor2": 437
+        "floor2": "437"
       },
       "geometry": {
         "coordinates": [
@@ -13907,9 +13907,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 333,
+        "floor1": "333",
         "bat": "300-400",
-        "floor2": 433
+        "floor2": "433"
       },
       "geometry": {
         "coordinates": [
@@ -13942,9 +13942,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 329,
+        "floor1": "329",
         "bat": "300-400",
-        "floor2": 429
+        "floor2": "429"
       },
       "geometry": {
         "coordinates": [
@@ -13977,9 +13977,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 325,
+        "floor1": "325",
         "bat": "300-400",
-        "floor2": 425
+        "floor2": "425"
       },
       "geometry": {
         "coordinates": [
@@ -14012,9 +14012,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 321,
+        "floor1": "321",
         "bat": "300-400",
-        "floor2": 421
+        "floor2": "421"
       },
       "geometry": {
         "coordinates": [
@@ -14047,9 +14047,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 317,
+        "floor1": "317",
         "bat": "300-400",
-        "floor2": 417
+        "floor2": "417"
       },
       "geometry": {
         "coordinates": [
@@ -14082,9 +14082,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 313,
+        "floor1": "313",
         "bat": "300-400",
-        "floor2": 413
+        "floor2": "413"
       },
       "geometry": {
         "coordinates": [
@@ -14117,9 +14117,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 309,
+        "floor1": "309",
         "bat": "300-400",
-        "floor2": 409
+        "floor2": "409"
       },
       "geometry": {
         "coordinates": [
@@ -14152,9 +14152,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 305,
+        "floor1": "305",
         "bat": "300-400",
-        "floor2": 405
+        "floor2": "405"
       },
       "geometry": {
         "coordinates": [
@@ -14187,9 +14187,9 @@
     {
       "type": "Feature",
       "properties": {
-        "floor1": 301,
+        "floor1": "301",
         "bat": "300-400",
-        "floor2": 401
+        "floor2": "401"
       },
       "geometry": {
         "coordinates": [
@@ -14223,7 +14223,8 @@
       "type": "Feature",
       "properties": {
         "bat": "LABO LANG",
-        "floor1": 1
+        "floor1": "1",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14257,7 +14258,8 @@
       "type": "Feature",
       "properties": {
         "bat": "LABO LANG",
-        "floor1": 2
+        "floor1": "2",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14291,7 +14293,8 @@
       "type": "Feature",
       "properties": {
         "bat": "LABO LANG",
-        "floor1": 3
+        "floor1": "3",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14325,7 +14328,8 @@
       "type": "Feature",
       "properties": {
         "bat": "LABO LANG",
-        "floor1": 4
+        "floor1": "4",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14359,7 +14363,8 @@
       "type": "Feature",
       "properties": {
         "bat": "LABO LANG",
-        "floor1": 5
+        "floor1": "5",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14393,7 +14398,8 @@
       "type": "Feature",
       "properties": {
         "bat": "LABO LANG",
-        "floor1": 6
+        "floor1": "6",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14427,7 +14433,8 @@
       "type": "Feature",
       "properties": {
         "bat": "LABO LANG",
-        "floor1": 7
+        "floor1": "7",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14461,7 +14468,8 @@
       "type": "Feature",
       "properties": {
         "bat": "LABO LANG",
-        "floor1": 8
+        "floor1": "8",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14499,7 +14507,8 @@
       "type": "Feature",
       "properties": {
         "bat": "LABO LANG",
-        "floor1": 9
+        "floor1": "9",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14533,7 +14542,8 @@
       "type": "Feature",
       "properties": {
         "bat": "LABO LANG",
-        "floor1": 10
+        "floor1": "10",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14567,7 +14577,8 @@
       "type": "Feature",
       "properties": {
         "bat": "LABO LANG",
-        "floor1": 11
+        "floor1": "11",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14601,7 +14612,8 @@
       "type": "Feature",
       "properties": {
         "bat": "LABO LANG",
-        "floor1": 12
+        "floor1": "12",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14635,7 +14647,8 @@
       "type": "Feature",
       "properties": {
         "bat": "LABO LANG",
-        "floor1": 13
+        "floor1": "13",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14669,7 +14682,8 @@
       "type": "Feature",
       "properties": {
         "bat": "LABO LANG",
-        "floor1": 14
+        "floor1": "14",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14703,7 +14717,8 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte info",
-        "floor1": 120
+        "floor1": "120",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14737,7 +14752,8 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte info",
-        "floor1": 121
+        "floor1": "121",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14771,7 +14787,8 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte info",
-        "floor1": 122
+        "floor1": "122",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14805,7 +14822,8 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte info",
-        "floor1": 123
+        "floor1": "123",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14839,7 +14857,8 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte info",
-        "floor1": 124
+        "floor1": "124",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14873,7 +14892,8 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte info",
-        "floor1": 125
+        "floor1": "125",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14907,7 +14927,8 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte info",
-        "floor1": 126
+        "floor1": "126",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14941,7 +14962,8 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte info",
-        "floor1": 127
+        "floor1": "127",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -14975,7 +14997,8 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte info",
-        "floor1": 128
+        "floor1": "128",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -15009,7 +15032,8 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte info",
-        "floor1": 129
+        "floor1": "129",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -15043,7 +15067,8 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte info",
-        "floor1": 130
+        "floor1": "130",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -15077,7 +15102,8 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte info",
-        "floor1": 131
+        "floor1": "131",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
@@ -15111,7 +15137,8 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte info",
-        "floor1": 132
+        "floor1": "132",
+        "layer": 1
       },
       "geometry": {
         "coordinates": [
