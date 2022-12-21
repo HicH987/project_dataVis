@@ -22,6 +22,7 @@ export default function App() {
   });
   const [courData, setCourData] = React.useState(null);
   const [groupsData, setGroupsData] = React.useState(null);
+  const [dayData, setDayData] = React.useState(null);
 
   React.useEffect(() => {
     if (formData.full) {
@@ -29,7 +30,7 @@ export default function App() {
         let week = json[formData.spec][formData.lvl][formData.sem];
         let day = week[formData.day];
 
-        // console.log("day", day);
+        console.log("day", day);
 
         var currentEvent = day.filter(
           (d) =>
@@ -44,7 +45,17 @@ export default function App() {
             (!isEmpty(d.groups.G4) &&
               formData.time === d.groups.G4.time.substring(0, 5))
         )[0];
+        let d= day.map(e => {
+          if(!isEmpty(e.cours)){
+            let i = {...e.cours, day: formData.day}
+            return {...e, cours:i}
+          }
+          else return e
+        });
+        // console.log("dddd", d);
         if (currentEvent) {
+          setDayData((p) => d);
+
           if (!isEmpty(currentEvent.cours)) {
             let tmp = { ...currentEvent.cours, day: formData.day };
             setCourData((p) => tmp);
@@ -74,7 +85,7 @@ export default function App() {
 
   return (
     <div className="main-app">
-      <Map groupsData={groupsData} courData={courData} />
+      <Map dayData={dayData} groupsData={groupsData} courData={courData} />
       <Form passData={passData} />
     </div>
   );

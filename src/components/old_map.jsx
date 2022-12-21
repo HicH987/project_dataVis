@@ -1,3 +1,4 @@
+
 import "./map.scss";
 import * as d3 from "d3";
 import React from "react";
@@ -199,11 +200,17 @@ const renderSchedule = (refG, mapData, courData, groupsData, from) => {
 
   if (!mapData.loading) {
     if (courData && !isEqual(courData, oldCourData)) {
-      // if (!from || !from.isClicked) g.selectAll(".toDlt").remove();
-      if (!from) g.selectAll(".toDlt").remove();
-
+      // console.log("courDatacourData", courData);
+      console.log("from", from);
+      if (!from.component || !from.isClicked)
+        g.selectAll(".toDlt").remove();
+      // if (!from.component) g.selectAll(".toDlt").remove();
+      // else if (!from.isClicked) {
+      //   g.selectAll(".toDlt").remove();
+      //   return;
+      // }
       var crMapData = courMapData(mapData, courData);
-      console.log("crMapDatadddd", crMapData);
+
       g.append("g")
         .selectAll("path")
         .data(crMapData)
@@ -271,8 +278,12 @@ const renderSchedule = (refG, mapData, courData, groupsData, from) => {
       oldCourData = courData;
     }
     if (groupsData && !isEqual(groupsData, oldGroupsData)) {
-      // if (!from || !from.isClicked) g.selectAll(".toDlt").remove();
-      if (!from) g.selectAll(".toDlt").remove();
+      if (!from.component || !from.isClicked) g.selectAll(".toDlt").remove();
+      // if (!from.component) g.selectAll(".toDlt").remove();
+      // else if (!from.isClicked) {
+      //   g.selectAll(".toDlt").remove();
+      //   return;
+      // }
       var grMapData = groupsMapData(mapData, groupsData);
 
       g.append("g")
@@ -349,31 +360,33 @@ const renderSchedule = (refG, mapData, courData, groupsData, from) => {
     }
   }
 };
-
-const onZoomResult = (mapData, courData) => {
-  let path = pathMap(mapData);
-  let d = courMapData(mapData, courData)[0];
-  var centroid = path.centroid(d);
-
-  let k = 8;
-  let x = innerWidth / 2 - centroid[0] * k;
-  let y = innerHeight / 2 - centroid[1] * k;
-
-  let transform = d3.zoomIdentity.translate(x, y).scale(k);
-
-  d3.select(".main-svg")
-    .transition()
-    .duration(700)
-    .call(zoom.transform, transform)
-    .style("stroke-width", 1.5 / k + "px");
-};
 function CourEvent(props) {
+  let [isClicked, setIsClicked] = React.useState(false);
+  const isClicked_style = {
+    color: "#fff",
+    backgroundColor: "#000",
+  };
+  useEffect(
+    () => {
+      let iClick = isClicked ? true : false;
+      console.log(iClick);
+      renderSchedule(props.refG, props.mapData, props.c, null, {
+        component: true,
+        isClicked: iClick,
+      });
+    },
+    [isClicked]
+  );
   return (
     <div
       className="CourEvent btn"
+      style={isClicked ? isClicked_style : {}}
       onClick={() => {
-        renderSchedule(props.refG, props.mapData, props.c, null, true);
-        onZoomResult(props.mapData, props.c);
+        // renderSchedule(props.refG, props.mapData, props.c, null, {
+        //   component: true,
+        //   isClicked: isClicked,
+        // });
+        return setIsClicked((prevIsClicked) => !prevIsClicked);
       }}
     >
       <li>Course: {props.c.sub}</li>
@@ -384,19 +397,26 @@ function CourEvent(props) {
   );
 }
 function GroupEvent(props) {
+  let [isClicked, setIsClicked] = React.useState(false);
+  const isClicked_style = {
+    color: "#fff",
+    backgroundColor: "#000",
+  };
+
   const group = `G${props.gIdx}`;
   return (
     <div
       className="GroupEvent btn"
+      style={isClicked ? isClicked_style : {}}
       onClick={() => {
         renderSchedule(
           props.refG,
           props.mapData,
           null,
           { [group]: props.g },
-          true
+          { component: true, isClicked: isClicked }
         );
-        onZoomResult(props.mapData, props.g);
+        setIsClicked((prevIsClicked) => !prevIsClicked);
       }}
     >
       <span>{group}</span>
