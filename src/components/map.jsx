@@ -14,7 +14,6 @@ import { glob } from "../global/var";
 import "./map.scss";
 // ---------------------------------------------------------
 
-
 export default function Map(props) {
   const mapData = useGetDataFrom("../../data/usthb-3.geojson");
   const refSvg = useRef();
