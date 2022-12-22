@@ -5,7 +5,6 @@ import { IoToday, IoTime } from "react-icons/io5";
 import "./form.scss";
 
 export default function Form({ passData }) {
-  //*---------------------STATES---------------------------------
   const [data, setData] = React.useState({
     specialty: "IV",
     lvl: "M1",
@@ -14,7 +13,6 @@ export default function Form({ passData }) {
     time: "08:00",
   });
 
-  //*---------------------FUNCTIONS---------------------------------
   function handleChange(event) {
     const { name, value, type, checked } = event.target;
 
@@ -25,8 +23,6 @@ export default function Form({ passData }) {
       };
     });
   }
-
-  // React.useEffect(() => {console.log(data.time); }, [data.time]);
 
   function setDay(day) {
     setData((prevData) => {

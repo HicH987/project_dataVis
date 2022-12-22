@@ -1,0 +1,49 @@
+.EventsDay {
+    // background-color: #ddd;
+    position: absolute;
+    // bottom: 265px;
+    z-index: 100;
+    width: 200px;
+    margin-inline: 5px;
+    margin-block: 5px;
+  }
+  
+  .CourEvent,
+  .GroupEvent {
+    user-select: none;
+    // margin: 2px;
+    margin-bottom: 3px;
+    margin-inline: 2px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .CourEvent,
+  .GroupEvent {
+    padding-inline: 5px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+  }
+  
+  .CourEvent > li,
+  .GroupEvent > li {
+    list-style: none;
+  }
+  // .eventExit{
+  //   position: absolute;
+  //   // bottom: 265px;
+  //   z-index: 100;
+  // }
+  
+  .btn {
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    color: #fff;
+    background-color: rgb(87, 87, 87);
+  }
+  .btn:active {
+    color: #000;
+    background-color: #ffffff;
+  }
