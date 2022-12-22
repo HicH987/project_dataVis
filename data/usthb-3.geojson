@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "id": "Fac",
-        "fill": "#fff799"
+        "fill": "#B8C6DB"
       },
       "geometry": {
         "coordinates": [
@@ -183,7 +183,7 @@
       "type": "Feature",
       "properties": {
         "name": "faculte de math",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -241,7 +241,7 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte de math",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -275,7 +275,7 @@
       "type": "Feature",
       "properties": {
         "name": "faculte de math",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -333,7 +333,7 @@
       "type": "Feature",
       "properties": {
         "name": "faculte de math",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -375,7 +375,7 @@
       "type": "Feature",
       "properties": {
         "name": "faculte de math",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -417,7 +417,7 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte info",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -563,7 +563,7 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte info",
-        "fill": "#c5bea0",
+        "fill": "#A2B6D2",
         "floor1": "SC"
       },
       "geometry": {
@@ -634,7 +634,7 @@
       "type": "Feature",
       "properties": {
         "id": "espInt",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -764,7 +764,7 @@
       "type": "Feature",
       "properties": {
         "bat": "BLOC",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -802,7 +802,7 @@
       "type": "Feature",
       "properties": {
         "bat": "BLOC",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -836,7 +836,7 @@
       "type": "Feature",
       "properties": {
         "bat": "BLOC ER",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1051,7 +1051,7 @@
       "type": "Feature",
       "properties": {
         "bat": "BLOC",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1109,7 +1109,7 @@
       "type": "Feature",
       "properties": {
         "bat": "BLOC C",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1159,7 +1159,7 @@
       "type": "Feature",
       "properties": {
         "bat": "BLOC D",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1229,7 +1229,7 @@
       "type": "Feature",
       "properties": {
         "bat": "labo langues",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1263,7 +1263,7 @@
       "type": "Feature",
       "properties": {
         "id": "eng",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1329,7 +1329,7 @@
       "type": "Feature",
       "properties": {
         "id": "eng",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1363,7 +1363,7 @@
       "type": "Feature",
       "properties": {
         "id": "eng",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1417,7 +1417,7 @@
       "type": "Feature",
       "properties": {
         "id": "audit",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1451,7 +1451,7 @@
       "type": "Feature",
       "properties": {
         "id": "audit",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1501,7 +1501,7 @@
       "type": "Feature",
       "properties": {
         "bat": "rectorat",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1535,7 +1535,7 @@
       "type": "Feature",
       "properties": {
         "bat": "rectorat",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1569,7 +1569,7 @@
       "type": "Feature",
       "properties": {
         "id": "maisSc",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1711,7 +1711,7 @@
       "type": "Feature",
       "properties": {
         "id": "salleSport",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1745,7 +1745,7 @@
       "type": "Feature",
       "properties": {
         "bat": "village",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1783,7 +1783,7 @@
       "type": "Feature",
       "properties": {
         "bat": "bibliotheque central",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1821,7 +1821,7 @@
       "type": "Feature",
       "properties": {
         "bat": "300-400",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1855,7 +1855,7 @@
       "type": "Feature",
       "properties": {
         "bat": "100-200",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1889,7 +1889,7 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte GC",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -1999,7 +1999,7 @@
       "type": "Feature",
       "properties": {
         "id": "hall",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2033,7 +2033,7 @@
       "type": "Feature",
       "properties": {
         "id": "hall",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2067,7 +2067,7 @@
       "type": "Feature",
       "properties": {
         "id": "hall",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2101,7 +2101,7 @@
       "type": "Feature",
       "properties": {
         "id": "hall",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2135,7 +2135,7 @@
       "type": "Feature",
       "properties": {
         "id": "anim",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2169,7 +2169,7 @@
       "type": "Feature",
       "properties": {
         "bat": "labo",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2267,7 +2267,7 @@
       "type": "Feature",
       "properties": {
         "id": "labo",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2301,7 +2301,7 @@
       "type": "Feature",
       "properties": {
         "id": "labo",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2335,7 +2335,7 @@
       "type": "Feature",
       "properties": {
         "id": "magBio",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2369,7 +2369,7 @@
       "type": "Feature",
       "properties": {
         "id": "challet",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2451,7 +2451,7 @@
       "type": "Feature",
       "properties": {
         "id": "challet",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2485,7 +2485,7 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte Electro",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2595,7 +2595,7 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte Geo",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2701,7 +2701,7 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte GP",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2851,7 +2851,7 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte Phy",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2905,7 +2905,7 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte Chim",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -2955,7 +2955,7 @@
       "type": "Feature",
       "properties": {
         "bat": "faculte Bio",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3005,7 +3005,7 @@
       "type": "Feature",
       "properties": {
         "name": "facTnl",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3055,7 +3055,7 @@
       "type": "Feature",
       "properties": {
         "name": "serpent",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3141,7 +3141,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphimx",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3383,7 +3383,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphim",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3417,7 +3417,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphin",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3451,7 +3451,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphio",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3485,7 +3485,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphip",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3519,7 +3519,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphiz",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3553,7 +3553,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphir",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3587,7 +3587,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphis",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3621,7 +3621,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphit",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3655,7 +3655,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphiu",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3689,7 +3689,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphiv",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3723,7 +3723,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphiw",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3757,7 +3757,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphix",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -3791,7 +3791,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphicl",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4033,7 +4033,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphic",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4075,7 +4075,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphid",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4117,7 +4117,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphib",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4159,7 +4159,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphie",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4201,7 +4201,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphia",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4243,7 +4243,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphij",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4285,7 +4285,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphif",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4323,7 +4323,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphii",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4365,7 +4365,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphig",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4407,7 +4407,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphih",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4449,7 +4449,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphik",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4491,7 +4491,7 @@
       "type": "Feature",
       "properties": {
         "id": "amphil",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4533,7 +4533,7 @@
       "type": "Feature",
       "properties": {
         "bat": "bibliotheque fstgat",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4567,7 +4567,7 @@
       "type": "Feature",
       "properties": {
         "bat": "centrecal",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4661,7 +4661,7 @@
       "type": "Feature",
       "properties": {
         "bat": "buvette",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4743,7 +4743,7 @@
       "type": "Feature",
       "properties": {
         "bat": "mosque",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [
@@ -4801,7 +4801,7 @@
       "type": "Feature",
       "properties": {
         "id": "buv1",
-        "fill": "#c5bea0"
+        "fill": "#A2B6D2"
       },
       "geometry": {
         "coordinates": [

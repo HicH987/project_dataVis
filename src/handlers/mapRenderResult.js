@@ -24,13 +24,11 @@ export function renderSchedule(mapData, courData, groupsData, from) {
         .append("path")
         .attr("class", "toDlt")
         .attr("d", glob.path)
-        .style("fill", "#B75564")
+        .style("fill", "#4694DD")
         .style("stroke-width", "0.1")
         .style("stroke", "black")
         .on("mouseover", function (_, d) {
           if (glob.zoomScale > 3) {
-            console.log("courrr", courData);
-            console.log("courrr", courData.day);
             d3
               .select(".classtip")
               .style("visibility", "visible")
@@ -94,7 +92,7 @@ export function renderSchedule(mapData, courData, groupsData, from) {
         .append("path")
         .attr("class", "toDlt")
         .attr("d", glob.path)
-        .style("fill", "#B75564")
+        .style("fill", "#4694DD")
         .style("stroke-width", "0.1")
         .style("stroke", "black")
         .on("mouseover", function (_, d) {

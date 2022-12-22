@@ -24,14 +24,19 @@ export const renderMap = (mapData) => {
     .append("path")
     .attr("class", "map")
     .attr("d", glob.path)
-    .style("fill", (d) =>
-      isEmpty(d.properties.fill) ? "#B5B09A" : d.properties.fill
-    )
+    .style("fill", (d) => {
+      //--FAC
+      if (d.properties.id == "Fac") return "#C6C6C6";
+      //--BAT
+      if (!isEmpty(d.properties.fill)) return "#AAAAAA";
+      //--SALLE
+      else return "#8E8E8E";
+    })
     .style("stroke-width", "0.3")
     .style("stroke", "black")
     .style("vector-effect", "non-scaling-stroke")
 
-    .on("mouseover", (_, d) =>{
+    .on("mouseover", (_, d) => {
       if (size(d.properties) > 2 && glob.zoomScale > 3) {
         let obj = Object.fromEntries(Object.entries(d.properties).sort());
         let arr = Object.keys(obj).map((k) => ({
@@ -54,12 +59,12 @@ export const renderMap = (mapData) => {
           });
       }
     })
-    .on("mousemove", () =>{
+    .on("mousemove", () => {
       d3.select(".tooltip")
         .style("top", event.pageY - 80 + "px")
         .style("left", event.pageX + 80 + "px");
     })
-    .on("mouseout", () =>{
+    .on("mouseout", () => {
       d3.select(".tooltip").selectAll(".item").remove();
       d3.select(".tooltip").style("visibility", "hidden");
     });
