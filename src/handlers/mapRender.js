@@ -37,35 +37,36 @@ export const renderMap = (mapData) => {
     .style("vector-effect", "non-scaling-stroke")
 
     .on("mouseover", (_, d) => {
-      if (size(d.properties) > 2 && glob.zoomScale > 3) {
-        let obj = Object.fromEntries(Object.entries(d.properties).sort());
-        let arr = Object.keys(obj).map((k) => ({
-          [k]: obj[k],
-        }));
+      if (!(size(d.properties) > 2 && glob.zoomScale > 3)) return;
 
-        d3.select(".tooltip")
-          .style("visibility", "visible")
-          .selectAll("li")
-          .data(arr)
-          .enter()
-          .append("li")
-          .attr("class", "item")
-          .html((d) => {
-            if (d.floor1)
-              return "↘️ Floor 1: <strong>" + d.floor1 + "</strong>";
-            if (d.floor2)
-              return "↖️ Floor 2: <strong>" + d.floor2 + "</strong>";
-            if (d.bat) return "🏢 Building: " + d.bat;
-          });
-      }
+      var dd = d.properties;
+      d3
+        .select(".tooltip")
+        .style("visibility", "visible")
+        .append("ul")
+        .attr("class", "class-info").html(`
+            <li class="class-info-header">
+            <div><strong> Building </strong> </div> 
+            <div>${dd.bat} </div> 
+            </li>
+            <li>
+            <div><strong> Floor 1</strong></div> 
+            <div>${dd.floor1}</div> 
+            </li>
+            ${
+              !isEmpty(dd.floor2)
+                ? `<li> <div><strong> Floor 2</strong> </div> <div>${dd.floor2}</div></li>`
+                : ""
+            }
+          `);
     })
     .on("mousemove", () => {
       d3.select(".tooltip")
         .style("top", event.pageY - 80 + "px")
-        .style("left", event.pageX + 80 + "px");
+        .style("left", event.pageX + 120 + "px");
     })
     .on("mouseout", () => {
-      d3.select(".tooltip").selectAll(".item").remove();
+      d3.select(".tooltip").selectAll(".class-info").remove();
       d3.select(".tooltip").style("visibility", "hidden");
     });
 
@@ -82,7 +83,8 @@ export const renderMap = (mapData) => {
     })
     .attr("x", (d) => glob.path.centroid(d)[0])
     .attr("y", (d) => glob.path.centroid(d)[1])
-    .attr("fill", "#fff")
+    .attr("fill", "#CCCCCC")
     .attr("text-anchor", "middle")
-    .attr("font-size", `${maxFontSize}px`);
+    .attr("font-size", `${maxFontSize}px`)
+    .style("visibility", "hidden");
 };

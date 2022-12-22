@@ -9,11 +9,18 @@ export const zoomed = (event) => {
 
   glob.zoomScale = event.transform.k;
 
-  let fSize = maxFontSize / (glob.zoomScale * 0.6);
+  if (glob.zoomScale >= 3.8) {
+    let fSize = maxFontSize / (glob.zoomScale * 0.5);
 
-  d3.select(`.${gClass}`)
-    .selectAll("text")
-    .attr("font-size", fSize > maxFontSize ? `${maxFontSize}pt` : `${fSize}pt`);
+    d3.select(`.${gClass}`)
+      .selectAll("text")
+      .attr(
+        "font-size",
+        fSize > maxFontSize ? `${maxFontSize}pt` : `${fSize}pt`
+      )
+      .style("visibility", "visible");
+  } else
+    d3.select(`.${gClass}`).selectAll("text").style("visibility", "hidden");
 };
 
 // -------------------BUTTON-HANDLERS---------------------------------
