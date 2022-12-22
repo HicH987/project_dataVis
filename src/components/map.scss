@@ -1,62 +1,80 @@
+.map-day {
+  // border: #000 solid 1px;
+  height: 450px;
+
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-areas:
+    "map map map"
+    "zoom-move c event";
+}
 .main-svg {
+  grid-area: map-start / map-start / map-end / map-end;
   width: 100%;
   height: 450px;
   border-radius: 10px;
   background-color: rgb(137, 137, 137);
-  // overflow: scroll;
   margin-bottom: 10px;
 }
-
+.EventsDay {
+  grid-area: map-start/ event-start/ map-end/  event-end ;
+  width: 200px;
+  margin-inline: 5px;
+  margin-block: 5px;
+}
 .bat-txt {
   font-weight: bold;
-
   text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
 
 .btns {
-  position: absolute;
-  top: 80px;
-  left: 8px;
-}
-.btn-plus {
+  grid-area: map-start / zoom-move-start / footer-end / zoom-move-end;
+  width: 120px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   position: relative;
-  top: 280px;
-}
-.btn-minus {
-  position: relative;
-  top: 315px;
-  right: 40px;
+  top: 8px;
+  right: 22px;
 }
 
-.btn-left {
-  position: relative;
-  top: 30px;
-  right: 80px;
-}
-.btn-right {
-  position: relative;
-  top: 30px;
-  right: 80px;
-}
-
-.btn-up {
-  position: relative;
-  bottom: 5px;
-  right: 140px;
-}
-.btn-down {
-  position: relative;
-  top: 65px;
-  right: 180px;
-}
-
-button {
+.btn-z {
+  width: 40px;
   font-size: 1.5em;
-  font-weight: bolder;
-  color: #000;
-  background-color: #ddd;
-  // border-radius: 50px;
-  // border: none;
+  background-color: #e7e7e7;
+  color: rgb(39, 39, 39);
+  cursor: pointer;
+}
+.zoom-btn {
+  display: flex;
+  flex-direction: column;
+}
+.move-btn {
+  display: grid;
+
+  grid-template-columns: 40px 40px 40px;
+  grid-template-areas:
+    ". u ."
+    "l c r"
+    ". d .";
+}
+.up {
+  grid-area: u;
+}
+.left {
+  grid-area: l;
+}
+.center {
+  grid-area: c;
+}
+.right {
+  grid-area: r;
+}
+.down {
+  grid-area: d;
 }
 
 .tooltip {
@@ -81,39 +99,9 @@ button {
   color: #fff;
 }
 
-//.classtip{
-// background-color: rgb(251, 251, 251);
-// width: 200px;
-// height: 70px;
-// border-radius: 10px;
-
-// text-align: center;
-//}
 .classtip > li {
   padding: 2px;
 }
-
-// .tab{
-// border-radius: 10px;
-// text-align: center;
-// padding: 2px;
-// width: 100%;
-// background-color: #ffffff;
-//   border-collapse: collapse;
-//   // border-width: 2px;
-//   // border-color: #0ebeff;
-//   // border-style: solid;
-//   color: #000000;
-// }
-
-// .tab, td
-// {
-//   border-radius: 10px;
-//   border-width: 2px;
-//   border-color: #0ebeff;
-//   border-style: solid;
-//   padding: 3px;
-// }
 
 table {
   /*add border-spacing: 0     instead of     border-collapse: collapse*/
@@ -186,14 +174,6 @@ table td {
 
 table td:first-of-type {
   font-weight: 600;
-}
-
-.map-day {
-  // border: #000 5px solid;
-  display: flex;
-  justify-content: flex-end;
-  // overflow: scroll;
-  height: 450px;
 }
 
 .toDlt {

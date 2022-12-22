@@ -29,9 +29,11 @@ export function btnResetZoom(zoom) {
 }
 
 export function btnCenter(zoom) {
+  const w = parseFloat(d3.select("svg").style("width"));
+  const h = parseFloat(d3.select("svg").style("height"));
   d3.select("svg")
     .transition()
-    .call(zoom.translateTo, 0.5 * innerWidth, 0.5 * innerHeight);
+    .call(zoom.translateTo, 0.5 * w, 0.5 * h);
 }
 
 export function btnRight(zoom) {
@@ -49,5 +51,3 @@ export function btnDown(zoom) {
 export function btnUp(zoom) {
   d3.select("svg").transition().call(zoom.translateBy, 0, 50);
 }
-
-
