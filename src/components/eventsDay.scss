@@ -1,35 +1,59 @@
-  .CourEvent,
-  .GroupEvent {
-    user-select: none;
-    // margin: 2px;
-    margin-bottom: 3px;
-    margin-inline: 2px;
-    background-color: #000;
-    color: rgba(255, 255, 255, 0.692);
-    border-radius: 5px;
-  }
-  
-  .CourEvent,
-  .GroupEvent {
-    padding-inline: 5px;
-    padding-top: 3px;
-    padding-bottom: 2px;
-  }
-  
-  .CourEvent > li,
-  .GroupEvent > li {
-    list-style: none;
-  }
-  
-  .btn {
-    cursor: pointer;
-  }
-  
-  .btn:hover {
-    color: #fff;
-    background-color: rgb(87, 87, 87);
-  }
-  .btn:active {
-    color: #000;
-    background-color: #ffffff;
-  }
+.EventsDay {
+  border: #000 1px solid;
+  width: 200px;
+  margin-inline: 5px;
+  margin-block: 5px;
+}
+
+.CourEvent,
+.GroupsEvent {
+  user-select: none;
+  // margin: 2px;
+  margin-bottom: 3px;
+  margin-inline: 2px;
+  background-color: #000;
+  color: rgba(255, 255, 255, 0.692);
+  border-radius: 5px;
+}
+
+.CourEvent,
+.GroupsEvent {
+  padding-inline: 5px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+
+.CourEvent > li,
+.GroupsEvent > li,
+.GroupEvent > li {
+  list-style: none;
+  padding: 3px;
+}
+
+.btn {
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: rgb(87, 87, 87);
+}
+// .btn:active {
+//   color: #000;
+//   background-color: #ffffff;
+// }
+
+.time-label {
+  font-weight: bolder;
+  text-align: center;
+  color: #fff;
+}
+.event-label {
+  color: rgba(255, 255, 255, 0.692);
+}
+.event-label span {
+  color: rgb(208, 208, 208);
+  font-weight: bolder;
+}

@@ -17,11 +17,13 @@
   margin-bottom: 10px;
   box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.17);
 }
+
+.sidebar{
+  border: chocolate 1px solid;
+  grid-area: map-start/ event-start/ map-end/ event-end;
+}
 .EventsDay {
   grid-area: map-start/ event-start/ map-end/ event-end;
-  width: 200px;
-  margin-inline: 5px;
-  margin-block: 5px;
 }
 .bat-txt {
   font-weight: bold;
@@ -187,3 +189,5 @@ table td:first-of-type {
 .toDlt {
   cursor: pointer;
 }
+
+
