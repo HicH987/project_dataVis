@@ -34,10 +34,12 @@ export default function Map(props) {
     renderMap(mapData);
   }, [mapData]);
 
-  useEffect(
-    () => renderSchedule(mapData, props.courData, props.groupsData, false),
-    [props.courData, props.groupsData]
-  );
+  useEffect(() => {
+    if (props.courData) renderSchedule(mapData, props.courData, false);
+  }, [props.courData]);
+  useEffect(() => {
+    if (props.groupsData) renderSchedule(mapData, props.groupsData, false);
+  }, [props.groupsData]);
 
   return (
     <div className="map" id="wrapper">

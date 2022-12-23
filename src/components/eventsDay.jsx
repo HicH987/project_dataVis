@@ -51,7 +51,7 @@ function GroupEvent(props) {
     <div
       className="GroupEvent btn"
       onClick={() => {
-        renderSchedule(props.mapData, null, { [group]: props.g }, true);
+        renderSchedule(props.mapData, { [group]: props.g }, true);
         onZoomResult(props.mapData, props.g);
       }}
     >
@@ -70,7 +70,7 @@ function CourEvent(props) {
     <div
       className="CourEvent btn"
       onClick={() => {
-        renderSchedule(props.mapData, props.c, null, true);
+        renderSchedule(props.mapData, props.c, true);
         onZoomResult(props.mapData, props.c);
       }}
     >

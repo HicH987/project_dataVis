@@ -49,10 +49,11 @@ export const renderMap = (mapData) => {
             <div><strong> Building </strong> </div> 
             <div>${dd.bat} </div> 
             </li>
-            <li>
-            <div><strong> Floor 1</strong></div> 
-            <div>${dd.floor1}</div> 
-            </li>
+            ${
+              !isEmpty(dd.floor1)
+                ? `<li> <div><strong> Floor 1</strong> </div> <div>${dd.floor1}</div></li>`
+                : ""
+            }
             ${
               !isEmpty(dd.floor2)
                 ? `<li> <div><strong> Floor 2</strong> </div> <div>${dd.floor2}</div></li>`
