@@ -6,14 +6,16 @@ import { gClass } from "../global/const";
 import { glob } from "../global/var";
 
 let oldEventData = {};
+var toDltClass
+var toDltID 
 
 export function renderSchedule(mapData, eventData, from) {
   if (mapData.loading) return;
 
   const g = d3.select(`.${gClass}`);
   if (from || !isEqual(eventData, oldEventData)) {
-    var toDltClass = "toDlt";
-    var toDltID = `ID--${uuidv4()}`;
+    toDltClass = "toDlt";
+    toDltID = `ID--${uuidv4()}`;
 
     if (!from) g.selectAll(`.${toDltClass}`).remove();
 
@@ -50,7 +52,37 @@ export function renderSchedule(mapData, eventData, from) {
   }
 }
 
+export function deleteAllResult() {
+  try {
+    d3.select(`.${gClass}`).selectAll(`.${toDltClass}`).remove();
+    d3.select(`.${gClass}`).selectAll(`.${toDltID}`).remove();
+  } catch (error) {
+    
+  }
+}
 
+export const onZoomResult = (mapData, courData) => {
+  let d = filtreMapDataBy.cour(mapData, courData)[0];
+  var centroid = glob.path.centroid(d);
+
+  const width = parseFloat(d3.select(`svg`).style("width"));
+  const height = parseFloat(d3.select(`svg`).style("height"));
+
+  let k = 8;
+  let x = width / 2 - centroid[0] * k;
+  let y = height / 2 - centroid[1] * k;
+
+  let transform = d3.zoomIdentity.translate(x, y).scale(k);
+
+  d3.select(`svg`)
+    .transition()
+    .duration(700)
+    .call(glob.zoom.transform, transform);
+};
+
+
+// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 const isCourData = (data) => (data.time ? true : false);
 const filtreMapByGResult = (currentMapData, groupsData) => {
   return Object.values(groupsData).filter(

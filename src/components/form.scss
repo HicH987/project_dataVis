@@ -1,22 +1,33 @@
 //to make the submit button in centre
 .form {
+  border-radius: 10px;
+  border: 5px solid #000;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 10px;
+  padding: 0;
+  padding-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  // padding-top: 10px;
 }
-
+.from-title{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-inline: 5px;
+}
 .inputs {
-  border-radius: 10px;
-  border: 3px solid #000;
+  // border-radius: 10px;
+  // border: 3px solid #000;
 
   padding: 20px;
   display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, 200px);
+  // justify-content: center;
+  grid-template-columns: repeat(auto-fit, 200px) ;
   grid-template-rows: repeat(auto-fill, 60px);
-  grid-column-gap: 5rem;
-  grid-row-gap: 1rem;
+  grid-column-gap: 3rem;
+  grid-row-gap: 5px;
 }
 
 .radio-field {
@@ -25,6 +36,11 @@
   height: 45px;
   border-radius: 5px;
   border: 1px solid rgb(173, 171, 171);
+  // padding-top:3px;
+  // padding-inline: 3px;
+  padding: 0px;
+  padding-top: 2px;
+  padding-left: 10px;
 }
 .radio-field:hover {
   border: 1px solid black;
@@ -68,15 +84,15 @@ input[type="radio"] {
 }
 
 .btn-submit:active {
-  // color: #1565c0;
+  // color: #1565c0;radio-field
   // border: #1565c0 solid 3px;
   color: #000;
   border: #000 solid 3px;
   background-color: #ffffff;
 }
 
-.date-fieldset {
-  display: flex;
-  justify-content: space-between;
+.forms{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-column-gap: 1rem;
 }
-

@@ -11,37 +11,39 @@ export default function App() {
   const scheduleData  = useGetDataFrom("../../data/schedule.json");
 
   const [formData, setFormData] = React.useState({});
-  const [courData, setCourData] = React.useState(null);
-  const [groupsData, setGroupsData] = React.useState(null);
+  const [firstDay, setFirstDay] = React.useState("");
+
+  const [freeDays, setFreeDays] = React.useState([]);
+
   const [dayData, setDayData] = React.useState(null);
 
   React.useEffect(() => {
     updateDataStates(
       scheduleData,
       formData,
+
       setDayData,
-      setCourData,
-      setGroupsData
+      setFreeDays,
     );
   }, [formData]);
 
+
+  
   function passData(data) {
+
     setFormData((prevFormData) => {
       return {
         ...prevFormData,
-        spec: data.specialty,
-        lvl: data.lvl,
-        sem: data.semester,
-        day: data.day,
-        time: data.time,
+        [data[0]]: data[1],
       };
     });
+    console.log(formData);
   }
 
   return (
     <div className="main-app">
-      <Map dayData={dayData} groupsData={groupsData} courData={courData} />
-      <Form passData={passData} />
+      <Map dayData={dayData} day = {formData.day}/>
+      <Form passData={passData} freeDays={freeDays} scheduleData={scheduleData} />
     </div>
   );
 }

@@ -1,30 +1,9 @@
 import * as d3 from "d3";
 import React from "react";
 import { isEmpty } from "lodash";
-import { glob } from "../global/var";
 import { gClass } from "../global/const";
-import { filtreMapDataBy } from "../handlers/filtreHandlers";
-import { renderSchedule } from "../handlers/mapRenderResult.js";
+import { renderSchedule, onZoomResult } from "../handlers/mapRenderResult.js";
 import "./eventsDay.scss";
-
-const onZoomResult = (mapData, courData) => {
-  let d = filtreMapDataBy.cour(mapData, courData)[0];
-  var centroid = glob.path.centroid(d);
-
-  const width = parseFloat(d3.select(`svg`).style("width"));
-  const height = parseFloat(d3.select(`svg`).style("height"));
-
-  let k = 8;
-  let x = width / 2 - centroid[0] * k;
-  let y = height / 2 - centroid[1] * k;
-
-  let transform = d3.zoomIdentity.translate(x, y).scale(k);
-
-  d3.select(`svg`)
-    .transition()
-    .duration(700)
-    .call(glob.zoom.transform, transform);
-};
 
 export default function EventsDay(props) {
   const el = props.day.map((d, idx) => {
@@ -55,9 +34,11 @@ function GroupsEvent(props) {
   );
 }
 
+
+
 const onClickStyle = {
   color: "#000",
-  backgroundColor: "#fff",
+  backgroundColor: "#4694DD",
 };
 
 function GroupEvent(props) {
@@ -76,12 +57,8 @@ function GroupEvent(props) {
   const group = `G${props.gIdx}`;
 
   return (
-    <div
-      className="GroupEvent btn"
-      style={!isClicked ? onClickStyle : null}
-      onClick={clicked}
-    >
-      <li className="event-label">
+    <div className="GroupEvent " onClick={clicked}>
+      <li className="event-label btn" style={!isClicked ? onClickStyle : null}>
         <span style={!isClicked ? onClickStyle : null}>
           {group}:&nbsp;&nbsp;{" "}
         </span>{" "}

@@ -1,5 +1,6 @@
 import React from "react";
 import * as ai from "react-icons/ai";
+import { GoThreeBars } from "react-icons/go";
 import { MdFilterCenterFocus } from "react-icons/md";
 import { useRef, useEffect } from "react";
 import EventsDay from "./eventsDay";
@@ -8,7 +9,7 @@ import { useGetDataFrom } from "../hooks/useGetDataFrom";
 import * as zoomHandlers from "../handlers/mapZoomHandler";
 import { renderMap } from "../handlers/mapRender";
 import { initCanvas } from "../handlers/mapInitCanvas";
-import { renderSchedule } from "../handlers/mapRenderResult.js";
+import { deleteAllResult } from "../handlers/mapRenderResult.js";
 
 import { glob } from "../global/var";
 
@@ -19,6 +20,7 @@ export default function Map(props) {
   const mapData = useGetDataFrom("../../data/usthb-3.geojson");
   const refSvg = useRef();
   const refG = useRef();
+  const [showSdBar, setShowSdBar] = React.useState(true);
 
   const tip_style = {
     visibility: "hidden",
@@ -35,11 +37,18 @@ export default function Map(props) {
   }, [mapData]);
 
   useEffect(() => {
+    deleteAllResult();
+    if (props.dayData) setShowSdBar(true);
+    console.log(props.dayData);
+  }, [props.dayData]);
+
+  /*useEffect(() => {
     if (props.courData) renderSchedule(mapData, props.courData, false);
   }, [props.courData]);
   useEffect(() => {
     if (props.groupsData) renderSchedule(mapData, props.groupsData, false);
   }, [props.groupsData]);
+*/
 
   return (
     <div className="map" id="wrapper">
@@ -100,14 +109,41 @@ export default function Map(props) {
           </div>
         </dir>
 
-        {props.dayData ? (
-          <EventsDay mapData={mapData} day={props.dayData} />
-        ) : (
-          <></>
-        )}
+        <div className={showSdBar ? "side-div" : "side-div-hide"}>
+          <div className="title-sidebtn">
+            <span className={showSdBar ? "sidebar-title" : "sidebar-hide"}>
+              {/* Day's Events */}
+              <span className="current-day">  {props.day} </span>Events
+            </span>
+            <button
+              className="side-btn"
+              onClick={() => setShowSdBar((prev) => !prev)}
+            >
+              <GoThreeBars />
+            </button>
+          </div>
+          <div className={showSdBar ? "sidebar" : "sidebar-hide"}>
+            {props.dayData ? (
+              <EventsDay mapData={mapData} day={props.dayData} />
+            ) : (
+              <EmptyList />
+            )}
+          </div>
+        </div>
       </div>
       <div className="tooltip" style={tip_style}></div>
       <div className="classtip" style={tip_style}></div>
+    </div>
+  );
+}
+function EmptyList() {
+  return (
+    <div className="empty-list">
+      <img src="../../assets/no-task.png" />
+      <div className="txt">
+        <p className="txt-1">Empty Events's List</p>
+        <p className="txt-2">Please Run a Search</p>
+      </div>
     </div>
   );
 }

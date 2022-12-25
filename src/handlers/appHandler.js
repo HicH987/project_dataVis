@@ -1,27 +1,29 @@
 import { each, isEmpty } from "lodash";
 
+
 // -------EXPORT---------
 export function updateDataStates(
   scheduleData,
   formData,
+  
   setDayData,
-  setCourData,
-  setGroupsData
+  setFreeDays,
+
+
 ) {
   if (isEmpty(formData) || scheduleData.loading) return;
+  if(!formData.spec || !formData.lvl || !formData.sem) return;
 
   const json = scheduleData.data;
+
   let week = json[formData.spec][formData.lvl][formData.sem];
+
+  setFreeDays(Object.keys(week).filter((k) => week[k].length == 0))
+
+  if(!formData.day)return;
   let day = week[formData.day].map((e) => addDayToEvent(e, formData.day));
-  var currentEvent = filtreDayBy(formData.time, day);
+  setDayData(day);
 
-  if (currentEvent) {
-    setDayData(day);
-
-    !isEmpty(currentEvent.cours)
-      ? setCourData(currentEvent.cours)
-      : setGroupsData(currentEvent.groups);
-  }
 }
 // ---------------------------
 const filtreDayBy = (time, dayEvent) =>

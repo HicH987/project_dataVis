@@ -1,0 +1,46 @@
+.day-el {
+  border:rgb(173, 171, 171) 1px solid;
+  cursor: pointer;
+
+  border-radius: 15px;
+  padding: 5px;
+
+  margin-inline: 5px;
+  text-align: center;
+  list-style: none;
+  user-select: none;
+  width: 35px;
+}
+
+.days-el {
+  // border: chocolate 1px solid;
+  // padding: 5px;
+
+
+  // width: 97%;
+  // margin-right: 6px;
+
+  padding-right: 5px;
+  // padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  // flex-wrap: wrap;
+}
+
+.days-el .day-el:hover {
+  background-color: #e5e5e5;
+}
+
+.disabled-day-el{
+  background-color: #858585;
+
+  border-radius: 15px;
+  padding: 5px;
+
+  margin-inline: 5px;
+  text-align: center;
+  list-style: none;
+  user-select: none;
+  width: 35px;
+
+}

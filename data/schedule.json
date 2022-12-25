@@ -395,7 +395,7 @@
                 "loc": "D5",
                 "e": "TD",
                 "floor": "floor1",
-                "prof": "PROF AD"
+                "prof": "LAAICHE"
               }
             }
           }
@@ -411,7 +411,7 @@
                 "loc": "C4",
                 "e": "TP",
                 "floor": "floor2",
-                "prof": "PROF AD"
+                "prof": "LAAICHE"
               },
               "G2": {
                 "time": "08:00 - 09:30",
@@ -420,7 +420,7 @@
                 "loc": "C5",
                 "e": "TP",
                 "floor": "floor2",
-                "prof": "PROF FD"
+                "prof": "NACIR"
               }
             }
           },
@@ -431,7 +431,7 @@
               "bat": "BLOC D",
               "loc": "D6",
               "floor": "floor1",
-              "prof": "PROF AD"
+              "prof": "LAAICHE"
             },
             "groups": {}
           },
@@ -454,7 +454,7 @@
                 "loc": "C3",
                 "e": "TP",
                 "floor": "floor2",
-                "prof": "PROF Jeu Video"
+                "prof": "OURAHMOUNE"
               }
             }
           },
@@ -468,7 +468,7 @@
                 "loc": "C8",
                 "e": "TP",
                 "floor": "floor2",
-                "prof": "PROF Jeu Video"
+                "prof": "OURAHMOUNE"
               },
               "G2": {
                 "time": "13:00 - 14:30",
@@ -501,7 +501,7 @@
               "bat": "BLOC ER",
               "loc": "E6",
               "floor": "floor1",
-              "prof": "PROF Jeu Video"
+              "prof": "OURAHMOUNE"
             },
             "groups": {}
           },
@@ -515,7 +515,7 @@
                 "loc": "122",
                 "e": "TP",
                 "floor": "floor1",
-                "prof": "PROF FD"
+                "prof": "NACIR"
               },
               "G2": {
                 "time": "11:20 - 12:50",
@@ -547,7 +547,7 @@
                 "loc": "C4",
                 "e": "TP",
                 "floor": "floor2",
-                "prof": "PROF Jeu Video"
+                "prof": "OURAHMOUNE"
               }
             }
           }
@@ -560,7 +560,7 @@
               "bat": "BLOC ER",
               "loc": "R4",
               "floor": "floor2",
-              "prof": "PROF FD"
+              "prof": "NACIR"
             },
             "groups": {}
           }
@@ -627,7 +627,7 @@
                 "loc": "128",
                 "e": "TP",
                 "floor": "floor1",
-                "prof": "PROF TP VD"
+                "prof": "LARABI"
               },
               "G2": {
                 "time": "13:00 - 14:30",
@@ -650,7 +650,7 @@
                 "loc": "130",
                 "e": "TP",
                 "floor": "floor1",
-                "prof": "PROF TP VD"
+                "prof": "LARABI"
               }
             }
           }
@@ -786,7 +786,7 @@
                 "loc": "C6",
                 "e": "TP",
                 "floor": "floor2",
-                "prof": "no name"
+                "prof": "PROF TP PR"
               }
             }
           },
@@ -809,7 +809,7 @@
                 "loc": "C6",
                 "e": "TP",
                 "floor": "floor2",
-                "prof": "no name"
+                "prof": "PROF TP PR"
               }
             }
           }
@@ -1270,12 +1270,12 @@
           {
             "cours": {
               "time": "09:40 - 11:10",
-              "sub": "COMPIL2",
+              "sub": "Compil",
               "bat": "100-200",
               "loc": "149",
               "e": "TD",
               "floor": "floor1",
-              "prof": "PROF COURS COMPIL2"
+              "prof": "PROF COURS Compil"
             },
             "groups": {}
           },
@@ -1293,12 +1293,12 @@
               },
               "G4": {
                 "time": "11:20 - 12:50",
-                "sub": "COMPIL2",
+                "sub": "Compil",
                 "bat": "faculte info",
                 "loc": "132",
                 "e": "TP",
                 "floor": "floor1",
-                "prof": "PROF TP COMPIL2"
+                "prof": "PROF TP Compil"
               }
             }
           },
@@ -1307,12 +1307,12 @@
             "groups": {
               "G2": {
                 "time": "13:00 - 14:30",
-                "sub": "COMPIL2",
+                "sub": "Compil",
                 "bat": "faculte info",
                 "loc": "132",
                 "e": "TP",
                 "floor": "floor1",
-                "prof": "PROF TP COMPIL2"
+                "prof": "PROF TP Compil"
               },
               "G3": {
                 "time": "13:00 - 14:30",
@@ -1348,12 +1348,12 @@
               },
               "G3": {
                 "time": "14:40 - 16:10",
-                "sub": "COMPIL2",
+                "sub": "Compil",
                 "bat": "faculte info",
                 "loc": "126",
                 "e": "TP",
                 "floor": "floor1",
-                "prof": "PROF TP COMPIL2"
+                "prof": "PROF TP Compil"
               }
             }
           }
@@ -1364,12 +1364,12 @@
             "groups": {
               "G1": {
                 "time": "08:00 - 09:30",
-                "sub": "COMPIL2",
+                "sub": "Compil",
                 "bat": "300-400",
                 "loc": "410",
                 "e": "TD",
                 "floor": "floor2",
-                "prof": "PROF TD COMPIL2"
+                "prof": "PROF TD Compil"
               }
             }
           },
@@ -1392,12 +1392,12 @@
             "groups": {
               "G1": {
                 "time": "11:20 - 12:50",
-                "sub": "COMPIL2",
+                "sub": "Compil",
                 "bat": "faculte info",
                 "loc": "130",
                 "e": "TP",
                 "floor": "floor1",
-                "prof": "PROF TP COMPIL2"
+                "prof": "PROF TP Compil"
               }
             }
           },
@@ -1498,12 +1498,12 @@
               },
               "G4": {
                 "time": "13:00 - 14:30",
-                "sub": "COMPIL2",
+                "sub": "Compil",
                 "bat": "faculte info",
                 "loc": "129",
                 "e": "TP",
                 "floor": "floor1",
-                "prof": "PROF TD COMPIL2"
+                "prof": "PROF TD Compil"
               }
             }
           },
@@ -1521,12 +1521,12 @@
               },
               "G3": {
                 "time": "14:40 - 16:10",
-                "sub": "COMPIL2",
+                "sub": "Compil",
                 "bat": "BLOC C",
                 "loc": "C4",
                 "e": "TP",
                 "floor": "floor2",
-                "prof": "PROF TD COMPIL2"
+                "prof": "PROF TD Compil"
               },
               "G4": {
                 "time": "14:40 - 16:10",
@@ -1591,12 +1591,12 @@
             "groups": {
               "G2": {
                 "time": "13:00 - 14:30",
-                "sub": "COMPIL2",
+                "sub": "Compil",
                 "bat": "300-400",
                 "loc": "406",
                 "e": "TD",
                 "floor": "floor2",
-                "prof": "PROF TD COMPIL2"
+                "prof": "PROF TD Compil"
               }
             }
           }

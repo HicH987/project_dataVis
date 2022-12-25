@@ -1,0 +1,29 @@
+.picker{
+    // border: 3px solid #000;
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.picker fieldset{
+    // border: 3px solid #000;
+    position: relative;
+    bottom: 20px;
+
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 171, 171);
+    padding-bottom: 7px;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
