@@ -10,6 +10,7 @@ export default function Days(props) {
       setDay={props.setDay}
       freeDays={props.freeDays}
       setShowPicker={props.setShowPicker}
+      // setShowSdBar={props.setShowSdBar}
     />
   ));
   return <div className="days-el">{datesEl}</div>;
@@ -17,9 +18,12 @@ export default function Days(props) {
 
 const Day = ({ currentDay, day, setDay, freeDays, setShowPicker }) => {
   const selectedStyle = { color: "#fff", backgroundColor: "#1565c0" };
+  
   const click = () => {
     if (!freeDays.includes(currentDay)) {
-      setShowPicker(false);
+      // setShowPicker(false);
+      setShowPicker(p=>!p);
+
       return setDay(currentDay);
     }
   };

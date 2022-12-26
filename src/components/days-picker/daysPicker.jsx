@@ -7,6 +7,9 @@ const days = ["Dim", "Lun", "Mar", "Mer", "Jeu", "Sam"];
 export default function DaysPicker(props) {
   const [showDate, setShowPicker] = React.useState(false);
 
+  React.useEffect(()=>{
+    props.setShowSdBar(showDate)
+  },[showDate])
   //----------------------------------------------------------------
   return (
     <div className="picker">
@@ -20,6 +23,7 @@ export default function DaysPicker(props) {
             
             days={days}
             setShowPicker={setShowPicker}
+            // setShowSdBar={props.setShowSdBar}
           />
         </div>
       </fieldset>

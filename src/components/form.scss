@@ -12,7 +12,7 @@
   margin-bottom: 5px;
   // padding-top: 10px;
 }
-.from-title{
+.from-title {
   font-size: 1.5em;
   font-weight: bold;
   padding-inline: 5px;
@@ -24,7 +24,7 @@
   padding: 20px;
   display: grid;
   // justify-content: center;
-  grid-template-columns: repeat(auto-fit, 200px) ;
+  grid-template-columns: repeat(auto-fit, 200px);
   grid-template-rows: repeat(auto-fill, 60px);
   grid-column-gap: 3rem;
   grid-row-gap: 5px;
@@ -91,8 +91,105 @@ input[type="radio"] {
   background-color: #ffffff;
 }
 
-.forms{
+.forms {
+  // border: 1px solid #000;
+  // display: flex;
+  // flex-direction: row;
+
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-column-gap: 1rem;
+  // grid-template-rows: 200px;
+}
+
+select {
+  /* Reset Select */
+  appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  /* Personalize */
+  flex: 1;
+  padding: 0 1em;
+
+  color: #000;
+  background-color: #ffffff;
+  border: 1px solid rgb(173, 171, 171);
+  border-radius: 5px;
+
+  background-image: none;
+  cursor: pointer;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+select:hover {
+  border: 1px solid black;
+}
+/* Custom Select wrapper */
+.select {
+  // border: #000 1px solid;
+
+  padding-top: 10px;
+  position: relative;
+  bottom: 15px;
+  display: flex;
+  width: 15em;
+  // height: 3em;
+  border-radius: 0.25em;
+  overflow: hidden;
+}
+/* Arrow */
+.select::after {
+  content: "\25B2";
+  position: absolute;
+  top: 5px;
+  right: 0;
+  padding: 1em;
+  // background-color: #0080ff;
+  transition: 0.25s all ease;
+  pointer-events: none;
+}
+/* Transition */
+.select:hover::after {
+  color: #4694dd;
+}
+
+option {
+  font-weight: 400;
+}
+.select-label {
+  font-size: 0.85em;
+  color: rgb(105, 105, 105);
+  position: absolute;
+  top: 1px;
+  left: 10px;
+  padding-inline: 5px;
+  background-color: #fff;
+}
+
+.search-btn {
+  position: relative;
+  bottom: 10px;
+
+  // width: 80px;
+
+  align-self: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 5px;
+
+  color: #fff;
+  background-color: #000;
+}
+
+.search-btn:hover {
+  background-color: #1565c0;
+}
+.search-btn:active {
+  transform: translateY(4px);
 }

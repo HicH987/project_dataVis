@@ -1,29 +1,24 @@
 import { each, isEmpty } from "lodash";
 
-
 // -------EXPORT---------
 export function updateDataStates(
   scheduleData,
   formData,
-  
   setDayData,
-  setFreeDays,
-
-
+  setFreeDays
 ) {
   if (isEmpty(formData) || scheduleData.loading) return;
-  if(!formData.spec || !formData.lvl || !formData.sem) return;
+  if (!formData.spec || !formData.lvl || !formData.sem) return;
 
   const json = scheduleData.data;
 
   let week = json[formData.spec][formData.lvl][formData.sem];
 
-  setFreeDays(Object.keys(week).filter((k) => week[k].length == 0))
+  setFreeDays(Object.keys(week).filter((k) => week[k].length == 0));
 
-  if(!formData.day)return;
+  if (!formData.day) return;
   let day = week[formData.day].map((e) => addDayToEvent(e, formData.day));
   setDayData(day);
-
 }
 // ---------------------------
 const filtreDayBy = (time, dayEvent) =>

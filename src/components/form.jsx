@@ -3,9 +3,17 @@ import React from "react";
 import DaysPicker from "./days-picker/daysPicker";
 import "./form.scss";
 
-let profArr = null;
+export default function Form({
+  passData,
+  freeDays,
+  setShowSdBar,
+  
+  teachersList,
+  selectedProf,
+  handleChangeSelect,
+}) {
 
-export default function Form({ passData, freeDays, scheduleData }) {
+
   const [data, setData] = React.useState({
     spec: "",
     lvl: "",
@@ -24,23 +32,16 @@ export default function Form({ passData, freeDays, scheduleData }) {
     });
 
     passData([name, value]);
-    console.log(data);
+    // console.log(data);
   }
 
   React.useEffect(() => {
     passData(["day", day]);
   }, [day]);
 
-  React.useEffect(() => {
-    if (scheduleData.loading) return;
-    const json = scheduleData.data;
-    profArr = [
-      ...new Set(JSON.stringify(json).match(/(?<="prof":")\w+\s*\w*/g)),
-    ];
-    profArr = profArr.filter((p) => !p.includes("PROF"));
 
-    console.log(profArr);
-  }, [scheduleData]);
+  // const [selectedProf, setSelectedProf] = React.useState("");
+
 
   //----------------------------------------------------------------
   return (
@@ -134,15 +135,38 @@ export default function Form({ passData, freeDays, scheduleData }) {
             day={day}
             setDay={setDay}
             freeDays={freeDays}
+            setShowSdBar={setShowSdBar}
           />
         ) : (
           <></>
         )}
       </fieldset>
+
       <fieldset className="form">
-        <legend className="from-title">Prof Filtres</legend>
+        <legend className="from-title">Teachers Filtres</legend>
         <div className="inputs">
-          
+          <div className="select ">
+            <label className="select-label">Select Teacher</label>
+            <select
+              id="selectedProf"
+              value={selectedProf}
+              onChange={(e)=>{handleChangeSelect(e); setShowSdBar(true)}}
+              name="selectedProf"
+            >
+              <option value="" disabled hidden>
+                Teacher...
+              </option>
+              {teachersList.map((prof, i) => (
+                <option key={i} value={prof}>
+                  {prof}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          {/* <button className="search-btn" onClick={() => selectedProf}>
+            Search
+          </button> */}
         </div>
       </fieldset>
     </div>

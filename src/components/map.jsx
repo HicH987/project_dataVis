@@ -1,8 +1,10 @@
 import React from "react";
+import { useRef, useEffect } from "react";
+
 import * as ai from "react-icons/ai";
 import { GoThreeBars } from "react-icons/go";
 import { MdFilterCenterFocus } from "react-icons/md";
-import { useRef, useEffect } from "react";
+
 import EventsDay from "./eventsDay";
 import { useGetDataFrom } from "../hooks/useGetDataFrom";
 
@@ -14,13 +16,16 @@ import { deleteAllResult } from "../handlers/mapRenderResult.js";
 import { glob } from "../global/var";
 
 import "./map.scss";
+import { isEmpty } from "lodash";
 // ---------------------------------------------------------
 
 export default function Map(props) {
   const mapData = useGetDataFrom("../../data/usthb-3.geojson");
   const refSvg = useRef();
   const refG = useRef();
-  const [showSdBar, setShowSdBar] = React.useState(true);
+  // const [props.showSdBar, props.setShowSdBar] = React.useState(true);
+  const [displayEventsList, setDisplayEventsList] = React.useState(true);
+  const [displayProfEvntList, setDisplayProfEvntList] = React.useState(true);
 
   const tip_style = {
     visibility: "hidden",
@@ -38,17 +43,22 @@ export default function Map(props) {
 
   useEffect(() => {
     deleteAllResult();
-    if (props.dayData) setShowSdBar(true);
-    console.log(props.dayData);
+    if (props.dayData) {
+      props.setShowSdBar(true);
+      setDisplayEventsList(true);
+    } else 
+    setDisplayEventsList(false);
+    // console.log(props.dayData);
   }, [props.dayData]);
 
-  /*useEffect(() => {
-    if (props.courData) renderSchedule(mapData, props.courData, false);
-  }, [props.courData]);
   useEffect(() => {
-    if (props.groupsData) renderSchedule(mapData, props.groupsData, false);
-  }, [props.groupsData]);
-*/
+    deleteAllResult();
+    if (!isEmpty(props.teacherEvents)) {
+      setDisplayProfEvntList(true);
+    }else
+    setDisplayProfEvntList(false);
+    // console.log(props.dayData);
+  }, [props.teacherEvents]);
 
   return (
     <div className="map" id="wrapper">
@@ -109,25 +119,60 @@ export default function Map(props) {
           </div>
         </dir>
 
-        <div className={showSdBar ? "side-div" : "side-div-hide"}>
-          <div className="title-sidebtn">
-            <span className={showSdBar ? "sidebar-title" : "sidebar-hide"}>
-              {/* Day's Events */}
-              <span className="current-day">  {props.day} </span>Events
-            </span>
-            <button
-              className="side-btn"
-              onClick={() => setShowSdBar((prev) => !prev)}
-            >
-              <GoThreeBars />
-            </button>
-          </div>
-          <div className={showSdBar ? "sidebar" : "sidebar-hide"}>
-            {props.dayData ? (
-              <EventsDay mapData={mapData} day={props.dayData} />
-            ) : (
-              <EmptyList />
-            )}
+        <div className={props.showSdBar ? "side-div" : "side-div-hide"}>
+          <button
+            className="side-btn"
+            onClick={() => props.setShowSdBar((prev) => !prev)}
+          >
+            <GoThreeBars />
+          </button>
+
+          <div className={props.showSdBar ? "sidebar" : "sidebar-hide"}>
+            <div>
+              <div>
+                <div
+                  className="sidebar-title"
+                  onClick={() => setDisplayEventsList((prev) => !prev)}
+                >
+                  <span className="current-day">
+                    {" "}
+                    {!props.day ? "Day's" : props.day}{" "}
+                  </span>
+                  Events
+                </div>
+                <div className="list-event" style={displayEventsList ? {} : { display: "none" }}>
+                  {!props.dayData ? (
+                    <EmptyList />
+                  ) : (
+                    <EventsDay
+                      mapData={mapData}
+                      day={props.dayData}
+                      teacherEvents={null}
+                    />
+                  )}
+                </div>
+              </div>
+
+              <div>
+                <div
+                  className="sidebar-title"
+                  onClick={() => setDisplayProfEvntList((prev) => !prev)}
+                >
+                  <span className="current-day"> Teacher </span>Events
+                </div>
+                <div className="list-event" style={displayProfEvntList ? {} : { display: "none" }}>
+                  {isEmpty(props.teacherEvents) ? (
+                    <EmptyList />
+                  ) : (
+                    <EventsDay
+                      mapData={mapData}
+                      day={null}
+                      teacherEvents={props.teacherEvents}
+                    />
+                  )}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

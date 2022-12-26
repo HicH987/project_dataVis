@@ -1,28 +1,49 @@
 import * as d3 from "d3";
-import { isEqual } from "lodash";
+import { isEmpty, isEqual } from "lodash";
 import { v4 as uuidv4 } from "uuid";
 import { filtreMapDataBy } from "../handlers/filtreHandlers";
 import { gClass } from "../global/const";
 import { glob } from "../global/var";
 
 let oldEventData = {};
-var toDltClass
-var toDltID 
+let tmpD;
+let old = [];
+let lstidx = []
+
+
+var toDltClass;
+var toDltID;
+const isSameClass = (old, data, mapD) => {
+  return (
+    isEqual (glob.path.centroid(mapD), glob.path.centroid(old.d)) &&
+    (old.data.time !== data.time || old.data.day !== data.day)
+  );
+};
 
 export function renderSchedule(mapData, eventData, from) {
   if (mapData.loading) return;
 
   const g = d3.select(`.${gClass}`);
+
   if (from || !isEqual(eventData, oldEventData)) {
     toDltClass = "toDlt";
     toDltID = `ID--${uuidv4()}`;
 
     if (!from) g.selectAll(`.${toDltClass}`).remove();
 
-
     var eventMapData = !isCourData(eventData)
-      ? filtreMapDataBy.groups(mapData, eventData)
-      : filtreMapDataBy.cour(mapData, eventData);
+    ? filtreMapDataBy.groups(mapData, eventData)
+    : filtreMapDataBy.cour(mapData, eventData);
+    
+    // lstidx=[]
+    // if (!isEmpty(old))
+    // old.forEach((o,i) => {
+    //   if(isSameClass(o, eventData, eventMapData)){
+    //     console.log('yeahhhh');
+    //     lstidx.push(i)
+    //   }
+    // })
+
 
     g.append("g")
       .selectAll("path")
@@ -30,12 +51,31 @@ export function renderSchedule(mapData, eventData, from) {
       .enter()
       .append("path")
       .attr("class", toDltClass)
-      .attr("id", from? toDltID: "")
+      .attr("id", from ? toDltID : "")
       .attr("d", glob.path)
-      .style("fill", "#4694DD")
+      .style("fill", (d) => {
+        tmpD = d;
+        return "#4694DD";
+      })
       .style("stroke-width", "0.1")
       .style("stroke", "black")
-      .on("mouseover", (_, d) => renderInfoBubble(d, eventData))
+      .on("mouseover", (_, d) => {
+
+        let lstidx=[]
+        if (!isEmpty(old))
+        old.forEach((o,i) => {
+          if(isSameClass(o, eventData, d))
+            lstidx.push(i)
+          
+        })
+
+        if(!isEmpty(lstidx))
+        lstidx.forEach(i=>{
+          renderInfoBubble(old[i].d, old[i].data
+            )
+        })
+        renderInfoBubble(d, eventData
+          )})
       .on("mousemove", () => {
         d3.select(".classtip")
           .style("top", event.pageY - 10 + "px")
@@ -44,11 +84,12 @@ export function renderSchedule(mapData, eventData, from) {
       .on("mouseout", () => {
         d3.select(".classtip").selectAll(".tip").remove();
         d3.select(".classtip").style("visibility", "hidden");
-      });
+      }).attr("width", "10px")
 
+    old.push({ data: eventData, d: tmpD, id: toDltID });
     oldEventData = eventData;
 
-    return toDltID
+    return toDltID;
   }
 }
 
@@ -56,9 +97,7 @@ export function deleteAllResult() {
   try {
     d3.select(`.${gClass}`).selectAll(`.${toDltClass}`).remove();
     d3.select(`.${gClass}`).selectAll(`.${toDltID}`).remove();
-  } catch (error) {
-    
-  }
+  } catch (error) {}
 }
 
 export const onZoomResult = (mapData, courData) => {
@@ -80,7 +119,6 @@ export const onZoomResult = (mapData, courData) => {
     .call(glob.zoom.transform, transform);
 };
 
-
 // -----------------------------------------------------------------------
 // -----------------------------------------------------------------------
 const isCourData = (data) => (data.time ? true : false);
@@ -93,7 +131,7 @@ const filtreMapByGResult = (currentMapData, groupsData) => {
 };
 const renderInfoBubble = (currentData, eventData) => {
   if (glob.zoomScale <= 3) return;
-
+// console.log('currentData',currentData);
   let data = eventData;
   let evnt = "Course";
 
