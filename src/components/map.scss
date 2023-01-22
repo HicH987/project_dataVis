@@ -113,9 +113,11 @@
   // overflow-y: overlay;
   // overflow-x: none;
   // height: 330px;
-  min-height: 100px;
-  margin-inline: 5px;
-  margin-bottom: 10px;
+  // min-height: 100px;
+  background-color: rgb(159, 159, 159);
+  margin: 0;
+  // margin-inline: 5px;
+  // margin-bottom: 10px;
 }
 
 .current-day {
@@ -286,7 +288,7 @@ table td:first-of-type {
 }
 
 .empty-list {
-  margin-top: 30px;
+  // margin-top: 30px;
   // border: #000 1px solid;
   display: grid;
   justify-content: center;

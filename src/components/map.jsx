@@ -26,6 +26,7 @@ export default function Map(props) {
   // const [props.showSdBar, props.setShowSdBar] = React.useState(true);
   const [displayEventsList, setDisplayEventsList] = React.useState(true);
   const [displayProfEvntList, setDisplayProfEvntList] = React.useState(true);
+  const [displaySpecList, setDisplaySpecList] = React.useState(true);
 
   const tip_style = {
     visibility: "hidden",
@@ -46,8 +47,7 @@ export default function Map(props) {
     if (props.dayData) {
       props.setShowSdBar(true);
       setDisplayEventsList(true);
-    } else 
-    setDisplayEventsList(false);
+    } else setDisplayEventsList(false);
     // console.log(props.dayData);
   }, [props.dayData]);
 
@@ -55,10 +55,16 @@ export default function Map(props) {
     deleteAllResult();
     if (!isEmpty(props.teacherEvents)) {
       setDisplayProfEvntList(true);
-    }else
-    setDisplayProfEvntList(false);
+    } else setDisplayProfEvntList(false);
     // console.log(props.dayData);
   }, [props.teacherEvents]);
+
+  useEffect(() => {
+    deleteAllResult();
+    if (!isEmpty(props.specEvents)) {
+      setDisplaySpecList(true);
+    } else setDisplaySpecList(false);
+  }, [props.specEvents]);
 
   return (
     <div className="map" id="wrapper">
@@ -140,7 +146,10 @@ export default function Map(props) {
                   </span>
                   Events
                 </div>
-                <div className="list-event" style={displayEventsList ? {} : { display: "none" }}>
+                <div
+                  className="list-event"
+                  style={displayEventsList ? {} : { display: "none" }}
+                >
                   {!props.dayData ? (
                     <EmptyList />
                   ) : (
@@ -160,7 +169,10 @@ export default function Map(props) {
                 >
                   <span className="current-day"> Teacher </span>Events
                 </div>
-                <div className="list-event" style={displayProfEvntList ? {} : { display: "none" }}>
+                <div
+                  className="list-event"
+                  style={displayProfEvntList ? {} : { display: "none" }}
+                >
                   {isEmpty(props.teacherEvents) ? (
                     <EmptyList />
                   ) : (
@@ -168,6 +180,37 @@ export default function Map(props) {
                       mapData={mapData}
                       day={null}
                       teacherEvents={props.teacherEvents}
+                    />
+                  )}
+                </div>
+              </div>
+
+              <div>
+                <div
+                  className="sidebar-title"
+                  onClick={() => setDisplaySpecList((prev) => !prev)}
+                >
+                    &nbsp;&nbsp;All
+                  <span className="current-day">
+                    {" "}
+                    {!isEmpty(props.specEvents)
+                      ? `${props.specEvents[0].spc}-${props.specEvents[0].lvl}`
+                      : ""}
+                  </span>
+                  &nbsp;
+                  Events
+                </div>
+                <div
+                  className="list-event"
+                  style={displaySpecList ? {} : { display: "none" }}
+                >
+                  {isEmpty(props.specEvents) ? (
+                    <EmptyList />
+                  ) : (
+                    <EventsDay
+                      mapData={mapData}
+                      day={null}
+                      teacherEvents={props.specEvents}
                     />
                   )}
                 </div>

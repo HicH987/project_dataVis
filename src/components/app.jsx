@@ -13,7 +13,10 @@ export default function App() {
   const [selectedProf, setSelectedProf] = React.useState("");
   const [teachersList, setTeachersList] = React.useState([]);
   const [allEventsList, setAllEventsList] = React.useState([]);
+
   const [teacherEvents, setTeacherEvents] = React.useState([]);
+  
+  const [specEvents, setSpecEvents] = React.useState([]);
 
   React.useEffect(() => {
     if (scheduleData.loading) return;
@@ -32,6 +35,9 @@ export default function App() {
 
   React.useEffect(() => {
     updateDataStates(scheduleData, formData, setDayData, setFreeDays);
+  
+    setSpecEvents(allEventsList.filter((e) => e.spc === formData.spec && e.lvl === formData.lvl))
+  
   }, [formData]);
 
   function passData(data) {
@@ -63,6 +69,7 @@ export default function App() {
         showSdBar={showSdBar}
         setShowSdBar={setShowSdBar}
         teacherEvents={teacherEvents}
+        specEvents={specEvents}
       />
       <Form
         passData={passData}
