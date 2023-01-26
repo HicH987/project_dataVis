@@ -9,7 +9,9 @@ import { getAllEvents, getAllTeachers } from "../handlers/filtreHandlers";
 
 export default function App() {
   const scheduleData = useGetDataFrom("../../data/schedule.json");
-
+  const [listSpec, setListSpec] = React.useState([]);
+  const [isEmptySem, setEmptySem] = React.useState(false);
+  
   const [selectedProf, setSelectedProf] = React.useState("");
   const [teachersList, setTeachersList] = React.useState([]);
   const [allEventsList, setAllEventsList] = React.useState([]);
@@ -21,7 +23,7 @@ export default function App() {
   React.useEffect(() => {
     if (scheduleData.loading) return;
     const json = scheduleData.data;
-    // console.log(getAllEvents(json));
+    setListSpec(Object.keys(json)) 
     setAllEventsList(getAllEvents(json));
     setTeachersList(getAllTeachers(json));
   }, [scheduleData]);
@@ -34,10 +36,9 @@ export default function App() {
   const [dayData, setDayData] = React.useState(null);
 
   React.useEffect(() => {
-    updateDataStates(scheduleData, formData, setDayData, setFreeDays);
-  
+    let emptydata = updateDataStates(scheduleData, formData, setDayData, setFreeDays);
+    if(emptydata) setEmptySem(emptydata)
     setSpecEvents(allEventsList.filter((e) => e.spc === formData.spec && e.lvl === formData.lvl))
-  
   }, [formData]);
 
   function passData(data) {
@@ -47,7 +48,6 @@ export default function App() {
         [data[0]]: data[1],
       };
     });
-    // console.log(formData);
   }
 
   function handleChangeSelect(event) {
@@ -78,6 +78,8 @@ export default function App() {
         teachersList={teachersList}
         selectedProf={selectedProf}
         handleChangeSelect={handleChangeSelect}
+        listSpec = {listSpec}
+        isEmptySem = {isEmptySem}
       />
     </div>
   );

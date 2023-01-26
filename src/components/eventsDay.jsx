@@ -10,7 +10,14 @@ export default function EventsDay(props) {
   if (props.day) {
     el = props.day.map((d, idx) => {
       if (!isEmpty(d.cours))
-        return <CourEvent key={idx} mapData={props.mapData} c={d.cours} isProf={false}  />;
+        return (
+          <CourEvent
+            key={idx}
+            mapData={props.mapData}
+            c={d.cours}
+            isProf={false}
+          />
+        );
 
       if (!isEmpty(d.groups))
         return (
@@ -25,7 +32,6 @@ export default function EventsDay(props) {
         <CourEvent key={idx} mapData={props.mapData} c={d} isProf={true} />
       );
     });
-
   }
 
   return <div className="EventsDay">{el}</div>;
@@ -111,21 +117,18 @@ function CourEvent(props) {
     return (
       <div className="CourEvent ">
         <li className="time-label">
-        [{props.c.sem}] {props.c.day} : {props.c.time}{" "}
+          [{props.c.sem}] {props.c.day} : {props.c.time}{" "}
         </li>
-        {/* <li className="time-label">
-          {!props.c.e ? "Course" : props.c.e}: {props.c.sub}
-        </li> */}
         <li
           className="event-label btn"
           style={!isClicked ? onClickStyle : null}
           onClick={clicked}
         >
           <span style={!isClicked ? onClickStyle : null}>
-          {!props.c.e ? "Course" : props.c.e}:&nbsp;&nbsp;{props.c.sub}
+            {!props.c.e ? "Course" : props.c.e}:&nbsp;&nbsp;{props.c.sub}
             <br />
             Specialty:&nbsp;&nbsp;{props.c.lvl}-{props.c.spc}
-          </span>{" "}
+          </span>
         </li>
       </div>
     );

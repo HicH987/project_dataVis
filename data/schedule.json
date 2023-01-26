@@ -1954,5 +1954,553 @@
       },
       "S2": {}
     }
+  },
+
+  "BI": {
+    "M1": {
+      "S1": {
+        "Sam": [
+          {
+            "cours": {
+              "time": "08:00 - 09:30",
+              "sub": "Bio-Stat",
+              "bat": "SC",
+              "loc": "SC",
+              "floor": "floor1",
+              "prof": "SELMANE"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "09:40 - 11:10",
+                "sub": "Bio-Stat",
+                "bat": "SC",
+                "loc": "SC",
+                "e": "TD",
+                "floor": "floor1",
+                "prof": "SELMANE"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "11:20 - 12:50",
+                "sub": "Bio-Stat",
+                "loc": "C5",
+                "bat": "BLOC C",
+                "floor": "floor2",
+                "e": "TP",
+                "prof": "SELMANE"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "time": "13:00 - 14:30",
+                "sub": "Bio-Stat",
+                "loc": "C5",
+                "bat": "BLOC C",
+                "floor": "floor2",
+                "e": "TP",
+                "prof": "SELMANE"
+              }
+            }
+          }
+        ],
+        "Dim": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "08:00 - 09:30",
+                "sub": "Bio-Math",
+                "bat": "100-200",
+                "loc": "245",
+                "e": "TD",
+                "floor": "floor2",
+                "prof": "Benbaziz"
+              },
+              "G2": {
+                "time": "08:00 - 09:30",
+                "sub": "BIOGEN",
+                "loc": "444",
+                "prof": "",
+                "bat": "300-400",
+                "e": "TD",
+                "floor": "floor2"
+              }
+            }
+          },
+          {
+            "cours": {
+              "time": "09:40 - 11:10",
+              "sub": "Bio-Math",
+              "loc": "117",
+              "prof": "Benbaziz",
+              "bat": "100-200",
+              "floor": "floor1"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "11:20 - 12:50",
+                "sub": "SystProgScript",
+                "loc": "C5",
+                "prof": "BENZAID",
+                "bat": "BLOC C",
+                "e": "TP",
+                "floor": "floor2"
+              },
+              "G2": {
+                "time": "11:20 - 12:50",
+                "sub": "Bio-Math",
+                "loc": "437",
+                "prof": "Benbaziz",
+                "bat": "300-400",
+                "e": "TD",
+                "floor": "floor2"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "time": "13:00 - 14:30",
+                "sub": "SystProgScript",
+                "loc": "129",
+                "prof": "BENZAID",
+                "bat": "faculte info",
+                "e": "TP",
+                "floor": "floor1"
+              }
+            }
+          }
+        ],
+        "Lun": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "08:00 - 09:30",
+                "sub": "BIOGEN",
+                "loc": "C6",
+                "prof": "KHEDIM",
+                "bat": "BLOC C",
+                "e": "TP",
+                "floor": "floor2"
+              }
+            }
+          },
+          {
+            "cours": {
+              "time": "09:40 - 11:10",
+              "sub": "BIOGEN",
+              "loc": "113",
+              "prof": "KHEDIM",
+              "bat": "100-200",
+              "floor": "floor1"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {
+              "time": "11:20 - 12:50",
+              "sub": "GP",
+              "loc": "113",
+              "prof": "BOUCHAM",
+              "bat": "100-200",
+              "floor": "floor1"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {
+              "time": "13:00 - 14:30",
+              "sub": "SystProgScript",
+              "loc": "D6",
+              "prof": "BENZAID",
+              "bat": "BLOC D",
+              "floor": "floor1"
+            },
+            "groups": {}
+          }
+        ],
+        "Mar": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "08:00 - 09:30",
+                "sub": "SystProgScript",
+                "loc": "128",
+                "prof": "BENZAID",
+                "bat": "faculte info",
+                "e": "Tp",
+                "floor": "floor1"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "09:40 - 11:10",
+                "sub": "Anglais",
+                "prof": "",
+                "bat": "LABO LANG",
+                "loc": "6",
+                "e": "TD",
+                "floor": "floor1"
+              },
+              "G2": {
+                "time": "09:40 - 11:10",
+                "sub": "SystProgScript",
+                "loc": "C4",
+                "prof": "BENZAID",
+                "bat": "BLOC C",
+                "e": "TP",
+                "floor": "floor2"
+              }
+            }
+          },
+          {
+            "cours": {
+              "time": "11:20 - 12:50",
+              "sub": "Complexi",
+              "loc": "R5",
+              "prof": "BOUKHEDOUMA",
+              "bat": "BLOC ER",
+              "floor": "floor2"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "time": "14:40 -\r16:10",
+                "sub": "Anglais",
+                "floor": "floor1",
+                "prof": "ZENOUN",
+                "bat": "LABO LANG",
+                "loc": "6",
+                "e": "TD"
+              }
+            }
+          }
+        ],
+        "Mer": [
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "time": "09:40 - 11:10",
+                "sub": "Complexi",
+                "loc": "454",
+                "prof": "BOUKHEDOUMA",
+                "bat": "300-400",
+                "e": "TD",
+                "floor": "floor2"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "11:20 - 12:50",
+                "sub": "Complexi",
+                "loc": "C4",
+                "prof": "BOUKHEDOUMA",
+                "bat": "BLOC C",
+                "e": "TP",
+                "floor": "floor2"
+              }
+            }
+          }
+        ],
+        "Jeu": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "08:00 - 09:30",
+                "sub": "GP",
+                "loc": "130",
+                "prof": "BOUCHAM",
+                "bat": "faculte info",
+                "e": "Tp",
+                "floor": "floor1"
+              },
+              "G2": {
+                "time": "08:00 - 09:30",
+                "sub": "BIOGEN",
+                "loc": "C3",
+                "prof": "",
+                "bat": "BLOC C",
+                "e": "TP",
+                "floor": "floor2"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G2": {
+                "time": "09:40 - 11:10",
+                "sub": "GP",
+                "loc": "130",
+                "prof": "BOUCHAM",
+                "bat": "faculte info",
+                "e": "Tp",
+                "floor": "floor1"
+              }
+            }
+          },
+          {
+            "cours": {
+              "time": "11:20 - 12:50",
+              "sub": "GEE",
+              "prof": "CHETTA",
+              "bat": "SC",
+              "loc": "SC",
+              "floor": "floor1"
+            },
+            "groups": {}
+          }
+        ]
+      }
+    },
+    "M2": {
+      "S1": {
+        "Sam": [],
+        "Dim": [
+          {
+            "cours": {
+              "time": "08:00 - 09:30",
+              "sub": "MCA",
+              "loc": "C6",
+              "prof": "GHARBI",
+              "bat": "BLOC C",
+              "e": "TP",
+              "floor": "floor2"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "09:40 - 11:10",
+                "sub": "Anglais",
+                "prof": "ZENOUN",
+                "bat": "LABO LANG",
+                "loc": "6",
+                "e": "TD",
+                "floor": "floor1"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "11:20 - 12:50",
+                "sub": "MCA",
+                "loc": "R3",
+                "prof": "",
+                "bat": "BLOC ER",
+                "floor": "floor2"
+              }
+            }
+          }
+        ],
+        "Lun": [
+          {
+            "cours": {
+              "time": "08:00 - 09:30",
+              "sub": "SystEmb",
+              "loc": "113",
+              "prof": "GUEBLI",
+              "bat": "100-200",
+              "floor": "floor1"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "09:40 - 11:10",
+                "sub": "SystEmb",
+                "loc": "405",
+                "prof": "",
+                "bat": "300-400",
+                "e": "TD",
+                "floor": "floor2"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "11:20 - 12:50",
+                "sub": "CalPar-Arch",
+                "loc": "459",
+                "prof": "MEHDI",
+                "bat": "300-400",
+                "e": "TD",
+                "floor": "floor2"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "13:00 - 14:30",
+                "sub": "CalPar-Arch",
+                "loc": "C3",
+                "prof": "MEHDI",
+                "bat": "BLOC C",
+                "e": "TP",
+                "floor": "floor2"
+              }
+            }
+          }
+        ],
+        "Mar": [
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "08:00 - 09:30",
+                "sub": "RealiteVirt",
+                "loc": "C4",
+                "prof": "OURAHMOUNE",
+                "bat": "BLOC C",
+                "e": "TP",
+                "floor": "floor2"
+              }
+            }
+          },
+          {
+            "cours": {
+              "time": "09:40 - 11:10",
+              "sub": "RealiteVirt",
+              "loc": "D4",
+              "prof": "OURAHMOUNE",
+              "floor": "floor1",
+              "bat": "BLOC D"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {
+              "time": "11:20 - 12:50",
+              "sub": "FouilleDeDonnees",
+              "loc": "D4",
+              "prof": "Baba ali",
+              "floor": "floor1",
+              "bat": "BLOC D"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "13:00 - 14:30",
+                "sub": "FouilleDeDonnees",
+                "loc": "C3",
+                "prof": "Baba ali",
+                "bat": "BLOC C",
+                "e": "TP",
+                "floor": "floor2"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "14:40 - 16:10",
+                "sub": "FouilleDeDonnees",
+                "loc": "C3",
+                "prof": "Baba ali",
+                "bat": "BLOC C",
+                "e": "TP",
+                "floor": "floor2"
+              }
+            }
+          }
+        ],
+        "Mer": [
+          {
+            "cours": {
+              "time": "08:00 - 09:30",
+              "sub": "Bio",
+              "loc": "103",
+              "prof": "EL NAGGER",
+              "bat": "100-200",
+              "floor": "floor1"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {
+              "time": "09:40 - 11:10",
+              "sub": "CalPar-Arch",
+              "loc": "320",
+              "prof": "MEHDI",
+              "bat": "300-400",
+              "floor": "floor1"
+            },
+            "groups": {}
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "11:20 - 12:50",
+                "sub": "SystEmb",
+                "loc": "127",
+                "prof": "",
+                "bat": "faculte info",
+                "e": "Tp",
+                "floor": "floor1"
+              }
+            }
+          },
+          {
+            "cours": {},
+            "groups": {
+              "G1": {
+                "time": "13:00 - 14:30",
+                "sub": "Bio",
+                "loc": "132",
+                "prof": "EL NAGGER",
+                "bat": "faculte info",
+                "e": "Tp",
+                "floor": "floor1"
+              }
+            }
+          }
+        ],
+        "Jeu": []
+      }
+    }
   }
 }

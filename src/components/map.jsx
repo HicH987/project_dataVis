@@ -23,7 +23,6 @@ export default function Map(props) {
   const mapData = useGetDataFrom("../../data/usthb-3.geojson");
   const refSvg = useRef();
   const refG = useRef();
-  // const [props.showSdBar, props.setShowSdBar] = React.useState(true);
   const [displayEventsList, setDisplayEventsList] = React.useState(true);
   const [displayProfEvntList, setDisplayProfEvntList] = React.useState(true);
   const [displaySpecList, setDisplaySpecList] = React.useState(true);
@@ -48,7 +47,6 @@ export default function Map(props) {
       props.setShowSdBar(true);
       setDisplayEventsList(true);
     } else setDisplayEventsList(false);
-    // console.log(props.dayData);
   }, [props.dayData]);
 
   useEffect(() => {
@@ -56,7 +54,6 @@ export default function Map(props) {
     if (!isEmpty(props.teacherEvents)) {
       setDisplayProfEvntList(true);
     } else setDisplayProfEvntList(false);
-    // console.log(props.dayData);
   }, [props.teacherEvents]);
 
   useEffect(() => {
@@ -190,15 +187,14 @@ export default function Map(props) {
                   className="sidebar-title"
                   onClick={() => setDisplaySpecList((prev) => !prev)}
                 >
-                    &nbsp;&nbsp;All
+                  &nbsp;&nbsp;All
                   <span className="current-day">
                     {" "}
                     {!isEmpty(props.specEvents)
                       ? `${props.specEvents[0].spc}-${props.specEvents[0].lvl}`
                       : ""}
                   </span>
-                  &nbsp;
-                  Events
+                  &nbsp; Events
                 </div>
                 <div
                   className="list-event"

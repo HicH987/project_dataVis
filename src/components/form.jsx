@@ -1,3 +1,4 @@
+import { isEmpty } from "lodash";
 import React from "react";
 
 import DaysPicker from "./days-picker/daysPicker";
@@ -7,13 +8,13 @@ export default function Form({
   passData,
   freeDays,
   setShowSdBar,
-  
+
   teachersList,
   selectedProf,
   handleChangeSelect,
+  listSpec,
+  isEmptySem
 }) {
-
-
   const [data, setData] = React.useState({
     spec: "",
     lvl: "",
@@ -32,48 +33,28 @@ export default function Form({
     });
 
     passData([name, value]);
-    // console.log(data);
   }
 
   React.useEffect(() => {
     passData(["day", day]);
   }, [day]);
 
-
-  // const [selectedProf, setSelectedProf] = React.useState("");
-
-
   //----------------------------------------------------------------
   return (
     <div className="forms">
+      
       <fieldset className="form">
         <legend className="from-title">Event's Filtres</legend>
         <div className="inputs">
           <fieldset className="radio-field">
             <legend>Specialties</legend>
-            <div className="radio-input">
-              <input
-                id="IV"
-                type="radio"
-                name="spec"
-                value="IV"
-                checked={data.spec === "IV"}
-                onChange={handleChange}
-              />
-              <label htmlFor="IV">IV</label>
-            </div>
-            <div className="radio-input">
-              <input
-                id="IL"
-                type="radio"
-                name="spec"
-                value="IL"
-                checked={data.spec === "IL"}
-                onChange={handleChange}
-              />
-              <label htmlFor="IL">IL</label>
-            </div>
+            <SpecRadioList  
+              listSpec={listSpec}
+              data={data}
+              handleChange={handleChange}
+            />
           </fieldset>
+
           <fieldset className="radio-field">
             <legend>Level</legend>
             <div className="radio-input">
@@ -127,9 +108,10 @@ export default function Form({
             ) : (
               <></>
             )}
+            {/* {isEmptySem? <span className="empty-s-msg">not yet available !</span>: <></>} */}
           </fieldset>
         </div>
-        {!Object.values(data).includes("") ? (
+        {!Object.values(data).includes("") && !isEmptySem ? (
           <DaysPicker
             fieldsetLabel={"Day"}
             day={day}
@@ -150,7 +132,10 @@ export default function Form({
             <select
               id="selectedProf"
               value={selectedProf}
-              onChange={(e)=>{handleChangeSelect(e); setShowSdBar(true)}}
+              onChange={(e) => {
+                handleChangeSelect(e);
+                setShowSdBar(true);
+              }}
               name="selectedProf"
             >
               <option value="" disabled hidden>
@@ -163,12 +148,38 @@ export default function Form({
               ))}
             </select>
           </div>
-
-          {/* <button className="search-btn" onClick={() => selectedProf}>
-            Search
-          </button> */}
         </div>
       </fieldset>
     </div>
   );
+}
+
+const SpecialtiesRadio = (props) => {
+  return (
+    
+      <div className="radio-input spec-radio">
+        <input
+          id={props.specName}
+          type="radio"
+          name="spec"
+          value={props.specName}
+          checked={props.data.spec === props.specName}
+          onChange={props.handleChange}
+        />
+        <label htmlFor={props.specName}>{props.specName}</label>
+      </div>
+  
+  );
+};
+
+function SpecRadioList(props) {
+  const specRadioEl = props.listSpec.map((spec) => (
+    <SpecialtiesRadio
+      key={spec}
+      specName={spec}
+      data={props.data}
+      handleChange={props.handleChange}
+    />
+  ));
+  return <div className="spec-radio-list">{specRadioEl}</div>;
 }
